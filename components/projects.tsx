@@ -1,0 +1,536 @@
+"use client"
+
+import { useState } from "react"
+import Image from "next/image"
+import { X } from "lucide-react"
+import { TechDetailModal } from "./tech-detail-modal"
+
+const projects = [
+  {
+    title: "Secure Network Architecture Simulation",
+    description:
+      "Designed and implemented a comprehensive home lab environment simulating 2G/3G/4G/5G network architectures using OpenBTS, srsRAN, and Open5GS for security research.",
+    tags: ["OpenBTS", "srsRAN", "Open5GS", "Network Security", "Linux"],
+    period: "2024",
+    image: "/network-architecture-lab.jpg",
+    details: {
+      overview:
+        "A comprehensive home lab project focused on simulating cellular network architectures for security research and testing.",
+      objectives: [
+        "Simulate 2G/3G/4G/5G network protocols",
+        "Test network security vulnerabilities",
+        "Develop threat detection capabilities",
+        "Implement secure communication protocols",
+      ],
+      techStack: [
+        "OpenBTS - Open source cellular network implementation",
+        "srsRAN - Software radio access network",
+        "Open5GS - 5G core network solution",
+        "Wireshark - Network protocol analyzer",
+        "Linux (Ubuntu/CentOS) - Operating system",
+      ],
+      outcomes: [
+        "Successfully deployed multi-generation network simulation",
+        "Identified and documented 15+ network security vulnerabilities",
+        "Created testing framework for protocol validation",
+        "Produced comprehensive security analysis report",
+      ],
+      screenshots: ["/5g-network-topology.jpg", "/network-traffic-analysis.jpg"],
+    },
+  },
+  {
+    title: "SIEM & IDS/IPS Implementation",
+    description:
+      "Deployed and configured Splunk SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
+    tags: ["Splunk", "Snort", "Suricata", "SIEM", "Threat Detection"],
+    period: "2024",
+    image: "/siem-dashboard.jpg",
+    details: {
+      overview:
+        "Enterprise-grade security monitoring infrastructure with real-time threat detection and incident response capabilities.",
+      objectives: [
+        "Implement centralized security monitoring",
+        "Deploy multi-layer threat detection",
+        "Enable real-time alert correlation",
+        "Create automated response workflows",
+      ],
+      techStack: [
+        "Splunk Enterprise - SIEM platform",
+        "Snort IDS - Network intrusion detection",
+        "Suricata IPS - Network intrusion prevention",
+        "ELK Stack - Log aggregation",
+        "Python - Custom alert rules",
+      ],
+      outcomes: [
+        "Reduced MTTR from 4 hours to 15 minutes",
+        "Detected and blocked 500+ suspicious activities",
+        "Created 50+ custom correlation rules",
+        "Achieved 99.9% system uptime",
+      ],
+      screenshots: ["/splunk-dashboard.jpg", "/threat-alerts.jpg"],
+    },
+  },
+  {
+    title: "Automated Vulnerability Assessment Tool",
+    description:
+      "Developed Python-based automation scripts for comprehensive vulnerability scanning, compliance reporting, and security monitoring across enterprise environments.",
+    tags: ["Python", "Vulnerability Assessment", "Automation", "Compliance"],
+    period: "2023-2024",
+    image: "/vulnerability-scanner.jpg",
+    details: {
+      overview:
+        "Custom Python tool for automated vulnerability discovery, assessment, and reporting with compliance validation.",
+      objectives: [
+        "Automate vulnerability scanning",
+        "Generate compliance reports",
+        "Track remediation progress",
+        "Integrate with ticketing systems",
+      ],
+      techStack: [
+        "Python 3.9+ - Core development",
+        "Nessus API - Vulnerability scanning",
+        "OpenVAS - Open vulnerability assessment",
+        "Pandas - Data analysis",
+        "SQLAlchemy - Database ORM",
+      ],
+      outcomes: [
+        "Scanned 500+ systems monthly",
+        "Reduced assessment time by 70%",
+        "Generated automated compliance reports",
+        "Identified and tracked 2000+ vulnerabilities",
+      ],
+      screenshots: ["/vulnerability-report.jpg", "/compliance-dashboard.jpg"],
+    },
+  },
+  {
+    title: "Healthcare System Security Audit",
+    description:
+      "Conducted comprehensive security audit and hardening of Luna HealthCare System, implementing encryption protocols and access controls to meet HIPAA and GDPR requirements.",
+    tags: ["Healthcare Security", "HIPAA", "GDPR", "Penetration Testing"],
+    period: "2024",
+    image: "/healthcare-security.jpg",
+    details: {
+      overview:
+        "Complete security assessment and remediation of healthcare system with focus on regulatory compliance and patient data protection.",
+      objectives: [
+        "Ensure HIPAA compliance",
+        "Implement GDPR data protection",
+        "Conduct penetration testing",
+        "Harden system architecture",
+      ],
+      techStack: [
+        "Burp Suite - Web application testing",
+        "Metasploit - Penetration testing",
+        "OpenSSL - Encryption implementation",
+        "Active Directory - Access control",
+        "SQL Server - Database encryption",
+      ],
+      outcomes: [
+        "Achieved full HIPAA compliance",
+        "Zero critical vulnerabilities identified in retest",
+        "Implemented end-to-end encryption",
+        "Reduced security risk by 85%",
+      ],
+      screenshots: ["/security-audit-report.jpg", "/compliance-checklist.jpg"],
+    },
+  },
+  {
+    title: "Cloud Security Consulting",
+    description:
+      "Provided security consulting services to telecom and software development firms on cloud infrastructure hardening, network segmentation, and threat mitigation strategies.",
+    tags: ["Cloud Security", "Risk Management", "Network Security", "Consulting"],
+    period: "2021-2024",
+    image: "/cloud-security-consulting.jpg",
+    details: {
+      overview:
+        "Strategic security consulting across multiple organizations focusing on cloud infrastructure security and risk management.",
+      objectives: [
+        "Assess cloud security posture",
+        "Design secure architectures",
+        "Implement threat mitigation",
+        "Train security teams",
+      ],
+      techStack: [
+        "AWS - Cloud infrastructure",
+        "Azure - Cloud services",
+        "GCP - Cloud platform",
+        "Terraform - Infrastructure as code",
+        "Docker/Kubernetes - Container security",
+      ],
+      outcomes: [
+        "Consulted for 15+ organizations",
+        "Reduced cloud incidents by 60%",
+        "Implemented security best practices",
+        "Trained 100+ security professionals",
+      ],
+      screenshots: ["/cloud-architecture.jpg", "/security-framework.jpg"],
+    },
+  },
+  {
+    title: "RESTful API Security Implementation",
+    description:
+      "Designed and implemented secure RESTful APIs with authentication, access control, and data encryption using Node.js, Express.js, and MongoDB for web applications.",
+    tags: ["Node.js", "Express.js", "MongoDB", "API Security", "Authentication"],
+    period: "2020-2024",
+    image: "/api-security-implementation.jpg",
+    details: {
+      overview:
+        "Secure API development framework with comprehensive authentication, authorization, and encryption mechanisms. Implemented OAuth 2.0, JWT tokens, role-based access control, and request validation across multiple production applications.",
+      objectives: [
+        "Implement OAuth 2.0 authentication with refresh tokens",
+        "Add role-based access control (RBAC) for fine-grained permissions",
+        "Encrypt sensitive data at rest and in transit",
+        "Implement rate limiting and DDoS protection",
+        "Validate and sanitize all API inputs",
+      ],
+      techStack: [
+        "Node.js - JavaScript runtime environment",
+        "Express.js - Web application framework",
+        "MongoDB - NoSQL database",
+        "JWT (jsonwebtoken) - Token authentication",
+        "bcryptjs - Password hashing and comparison",
+        "Helmet.js - HTTP security headers",
+        "Joi - Data validation and schema description",
+        "Redis - Caching and rate limiting",
+      ],
+      outcomes: [
+        "Built APIs serving 100k+ requests daily with zero security breaches",
+        "Implemented 99.95% API availability with proper error handling",
+        "Reduced response time by 40% through caching and optimization",
+        "Successfully authenticated 500k+ users with secure token management",
+        "Prevented 99% of injection attacks through input validation",
+      ],
+      screenshots: [
+        "/api-security-implementation.jpg",
+        "/api-authentication-flow.jpg",
+        "/api-security-testing.jpg",
+        "/api-access-control.jpg",
+      ],
+    },
+  },
+]
+
+const techDetails = {
+  "Node.js": {
+    name: "Node.js",
+    description:
+      "A JavaScript runtime built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a web browser.",
+    logo: "/tech/nodejs-logo.jpg",
+    usage:
+      "Used as the backend runtime environment for the API server, handling concurrent requests and asynchronous operations efficiently.",
+    features: [
+      "Non-blocking, event-driven I/O model",
+      "NPM package manager with 1M+ packages",
+      "Built-in support for streams and buffers",
+      "Excellent for real-time applications",
+    ],
+    category: "Runtime",
+  },
+  "Express.js": {
+    name: "Express.js",
+    description:
+      "A minimal and flexible Node.js web application framework providing robust features for web and mobile applications.",
+    logo: "/tech/expressjs-logo.jpg",
+    usage:
+      "The core framework for routing API endpoints, handling HTTP requests/responses, and managing middleware for authentication and validation.",
+    features: [
+      "Minimalist web framework with great flexibility",
+      "Middleware support for extensibility",
+      "Powerful routing system",
+      "RESTful API development ease",
+    ],
+    category: "Framework",
+  },
+  MongoDB: {
+    name: "MongoDB",
+    description: "A popular NoSQL document database that stores data in flexible, JSON-like BSON format.",
+    logo: "/tech/mongodb-logo.jpg",
+    usage:
+      "Primary data storage for user profiles, API configurations, and security logs. Provides schema flexibility for evolving requirements.",
+    features: [
+      "Flexible document-based data model",
+      "Horizontal scalability with sharding",
+      "Built-in replication for high availability",
+      "Powerful query language and aggregation pipeline",
+    ],
+    category: "Database",
+  },
+  JWT: {
+    name: "JWT (JSON Web Token)",
+    description: "A compact, self-contained way of securely transmitting information between parties as a JSON object.",
+    logo: "/tech/jwt-logo.jpg",
+    usage:
+      "Implements stateless authentication. Users receive a token upon login that is sent with each request to verify identity without server-side sessions.",
+    features: [
+      "Stateless authentication mechanism",
+      "Self-contained, no server session required",
+      "Can include user claims and roles",
+      "Digitally signed for tamper detection",
+    ],
+    category: "Security",
+  },
+  bcryptjs: {
+    name: "bcryptjs",
+    description: "A password hashing library that uses the bcrypt algorithm to securely hash and compare passwords.",
+    logo: "/tech/bcrypt-logo.jpg",
+    usage:
+      "Hashes user passwords before storage and verifies passwords during authentication. Includes built-in salt generation for additional security.",
+    features: [
+      "Adaptive hashing with configurable rounds",
+      "Automatic salt generation",
+      "Resistant to rainbow table attacks",
+      "Computationally expensive by design",
+    ],
+    category: "Security",
+  },
+  "Helmet.js": {
+    name: "Helmet.js",
+    description:
+      "Express.js middleware that secures apps by setting various HTTP headers to protect against well-known security vulnerabilities.",
+    logo: "/tech/helmet-logo.jpg",
+    usage:
+      "Automatically sets security headers like Content-Security-Policy, X-Frame-Options, and X-XSS-Protection to prevent common attacks.",
+    features: [
+      "Sets HTTP security headers automatically",
+      "Protects against XSS, clickjacking, and MIME sniffing",
+      "Configurable for specific security needs",
+      "Zero-config default security",
+    ],
+    category: "Security",
+  },
+  Joi: {
+    name: "Joi",
+    description: "A powerful schema description language and data validator for JavaScript/Node.js.",
+    logo: "/tech/joi-logo.jpg",
+    usage:
+      "Validates all incoming API request data against defined schemas. Ensures only properly formatted data is processed.",
+    features: [
+      "Powerful schema validation language",
+      "Detailed error messages",
+      "Async validation support",
+      "Custom validation rules",
+    ],
+    category: "Validation",
+  },
+  Redis: {
+    name: "Redis",
+    description: "An in-memory data structure store used as a database, cache, and message broker.",
+    logo: "/tech/redis-logo.jpg",
+    usage:
+      "Implements rate limiting to prevent abuse and caching to improve API response times by storing frequently accessed data.",
+    features: [
+      "Ultra-fast in-memory operations",
+      "Supports various data structures",
+      "Automatic expiration of keys",
+      "Distributed caching capabilities",
+    ],
+    category: "Cache/Rate Limiting",
+  },
+}
+
+export default function Projects() {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+  const [selectedProject, setSelectedProject] = useState<(typeof projects)[0] | null>(null)
+  const [selectedTech, setSelectedTech] = useState<(typeof techDetails)[keyof typeof techDetails] | null>(null)
+  const [techModalOpen, setTechModalOpen] = useState(false)
+
+  return (
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/30">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-12">Research & Projects</h2>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="group overflow-hidden rounded-lg border border-border hover:border-accent/50 transition-all bg-background/50 hover:bg-background/80 cursor-pointer"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              onClick={() => setSelectedProject(project)}
+            >
+              <div className="relative h-40 overflow-hidden bg-background/30">
+                <Image
+                  src={project.image || "/placeholder.svg"}
+                  alt={project.title}
+                  width={500}
+                  height={160}
+                  className={`w-full h-full object-cover transition-transform duration-500 ${
+                    hoveredIndex === index ? "scale-110" : "scale-100"
+                  }`}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
+              </div>
+
+              <div className="p-6">
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="text-lg font-bold text-foreground group-hover:text-accent transition-colors flex-1">
+                    {project.title}
+                  </h3>
+                  <span className="text-xs text-muted-foreground bg-primary/10 px-2 py-1 rounded whitespace-nowrap ml-2">
+                    {project.period}
+                  </span>
+                </div>
+
+                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
+
+                <div className="flex flex-wrap gap-2">
+                  {project.tags.map((tag, i) => (
+                    <span
+                      key={i}
+                      className={`text-xs px-2.5 py-1 rounded-full bg-primary/10 text-accent border border-primary/20 transition-all duration-300 ${
+                        hoveredIndex === index ? "bg-primary/20 border-primary/40 scale-105" : ""
+                      }`}
+                      style={{
+                        transitionDelay: `${i * 30}ms`,
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <button className="mt-4 w-full py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors">
+                  View Details →
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {selectedProject && (
+        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+          <div className="bg-background border border-border rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-background border-b border-border p-6 flex items-center justify-between">
+              <h2 className="text-2xl font-bold text-foreground">{selectedProject.title}</h2>
+              <button
+                onClick={() => setSelectedProject(null)}
+                className="p-2 hover:bg-background/80 rounded transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+
+            <div className="p-6 space-y-6">
+              {/* Project overview */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-2">Overview</h3>
+                <p className="text-muted-foreground leading-relaxed">{selectedProject.details.overview}</p>
+              </div>
+
+              {/* Objectives */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-3">Objectives</h3>
+                <ul className="space-y-2">
+                  {selectedProject.details.objectives.map((objective, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="text-accent font-bold">•</span>
+                      <span className="text-muted-foreground">{objective}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Tech Stack */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-3">Tech Stack</h3>
+                <div className="space-y-2">
+                  {selectedProject.details.techStack.map((tech, i) => {
+                    const techName = tech.split(" - ")[0]
+                    const hasTechDetail = techName in techDetails
+                    return (
+                      <div
+                        key={i}
+                        onClick={() => {
+                          if (hasTechDetail) {
+                            setSelectedTech(techDetails[techName as keyof typeof techDetails])
+                            setTechModalOpen(true)
+                          }
+                        }}
+                        className={`flex items-start gap-3 p-3 rounded ${
+                          hasTechDetail
+                            ? "hover:bg-primary/10 cursor-pointer transition-colors border border-transparent hover:border-primary/30"
+                            : ""
+                        }`}
+                      >
+                        <span className="text-primary font-bold">▸</span>
+                        <div className="flex-1">
+                          <p className="text-muted-foreground">{tech}</p>
+                          {hasTechDetail && <p className="text-xs text-accent/60 mt-1">Click to learn more →</p>}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Outcomes */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-3">Key Outcomes</h3>
+                <ul className="space-y-2">
+                  {selectedProject.details.outcomes.map((outcome, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="text-green-500 font-bold">✓</span>
+                      <span className="text-muted-foreground">{outcome}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Screenshots */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-3">Project Screenshots</h3>
+                <div className="grid grid-cols-1 gap-4">
+                  {selectedProject.details.screenshots.map((screenshot, i) => (
+                    <div
+                      key={i}
+                      className="relative h-64 rounded-lg overflow-hidden bg-background/50 border border-border/50"
+                    >
+                      <Image
+                        src={screenshot || "/placeholder.svg"}
+                        alt={`${selectedProject.title} screenshot ${i + 1}`}
+                        width={500}
+                        height={300}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Tags */}
+              <div>
+                <h3 className="text-lg font-semibold text-accent mb-3">Technologies Used</h3>
+                <div className="flex flex-wrap gap-2">
+                  {selectedProject.tags.map((tag, i) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1 text-sm bg-primary/10 text-accent border border-primary/20 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-border">
+                <p className="text-xs text-muted-foreground">
+                  <span className="font-semibold">Period:</span> {selectedProject.period}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <TechDetailModal
+        tech={selectedTech}
+        isOpen={techModalOpen}
+        onClose={() => {
+          setTechModalOpen(false)
+          setSelectedTech(null)
+        }}
+      />
+    </section>
+  )
+}
