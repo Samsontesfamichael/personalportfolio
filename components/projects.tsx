@@ -12,7 +12,7 @@ const projects = [
       "Designed and implemented a comprehensive home lab environment simulating 2G/3G/4G/5G network architectures using OpenBTS, srsRAN, and Open5GS for security research.",
     tags: ["OpenBTS", "srsRAN", "Open5GS", "Network Security", "Linux"],
     period: "2024",
-    image: "/network-architecture-lab.jpg",
+    image: "/personalportfolio/network-architecture-lab.jpg",
     details: {
       overview:
         "A comprehensive home lab project focused on simulating cellular network architectures for security research and testing.",
@@ -35,7 +35,7 @@ const projects = [
         "Created testing framework for protocol validation",
         "Produced comprehensive security analysis report",
       ],
-      screenshots: ["/5g-network-topology.jpg", "/network-traffic-analysis.jpg"],
+      screenshots: ["/personalportfolio/5g-network-topology.jpg", "/personalportfolio/network-traffic-analysis.jpg"],
     },
   },
   {
@@ -44,7 +44,7 @@ const projects = [
       "Deployed and configured Splunk SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
     tags: ["Splunk", "Snort", "Suricata", "SIEM", "Threat Detection"],
     period: "2024",
-    image: "/siem-dashboard.jpg",
+    image: "/personalportfolio/siem-dashboard.jpg",
     details: {
       overview:
         "Enterprise-grade security monitoring infrastructure with real-time threat detection and incident response capabilities.",
@@ -67,7 +67,7 @@ const projects = [
         "Created 50+ custom correlation rules",
         "Achieved 99.9% system uptime",
       ],
-      screenshots: ["/splunk-dashboard.jpg", "/threat-alerts.jpg"],
+      screenshots: ["/personalportfolio/splunk-dashboard.jpg", "/personalportfolio/threat-alerts.jpg"],
     },
   },
   {
@@ -76,7 +76,7 @@ const projects = [
       "Developed Python-based automation scripts for comprehensive vulnerability scanning, compliance reporting, and security monitoring across enterprise environments.",
     tags: ["Python", "Vulnerability Assessment", "Automation", "Compliance"],
     period: "2023-2024",
-    image: "/vulnerability-scanner.jpg",
+    image: "/personalportfolio/vulnerability-scanner.jpg",
     details: {
       overview:
         "Custom Python tool for automated vulnerability discovery, assessment, and reporting with compliance validation.",
@@ -99,7 +99,7 @@ const projects = [
         "Generated automated compliance reports",
         "Identified and tracked 2000+ vulnerabilities",
       ],
-      screenshots: ["/vulnerability-report.jpg", "/compliance-dashboard.jpg"],
+      screenshots: ["/personalportfolio/vulnerability-report.jpg", "/personalportfolio/compliance-dashboard.jpg"],
     },
   },
   {
@@ -108,7 +108,7 @@ const projects = [
       "Conducted comprehensive security audit and hardening of Luna HealthCare System, implementing encryption protocols and access controls to meet HIPAA and GDPR requirements.",
     tags: ["Healthcare Security", "HIPAA", "GDPR", "Penetration Testing"],
     period: "2024",
-    image: "/healthcare-security.jpg",
+    image: "/personalportfolio/healthcare-security.jpg",
     details: {
       overview:
         "Complete security assessment and remediation of healthcare system with focus on regulatory compliance and patient data protection.",
@@ -131,7 +131,7 @@ const projects = [
         "Implemented end-to-end encryption",
         "Reduced security risk by 85%",
       ],
-      screenshots: ["/security-audit-report.jpg", "/compliance-checklist.jpg"],
+      screenshots: ["/personalportfolio/security-audit-report.jpg", "/personalportfolio/compliance-checklist.jpg"],
     },
   },
   {
@@ -140,7 +140,7 @@ const projects = [
       "Provided security consulting services to telecom and software development firms on cloud infrastructure hardening, network segmentation, and threat mitigation strategies.",
     tags: ["Cloud Security", "Risk Management", "Network Security", "Consulting"],
     period: "2021-2024",
-    image: "/cloud-security-consulting.jpg",
+    image: "/personalportfolio/cloud-security-consulting.jpg",
     details: {
       overview:
         "Strategic security consulting across multiple organizations focusing on cloud infrastructure security and risk management.",
@@ -163,7 +163,7 @@ const projects = [
         "Implemented security best practices",
         "Trained 100+ security professionals",
       ],
-      screenshots: ["/cloud-architecture.jpg", "/security-framework.jpg"],
+      screenshots: ["/personalportfolio/cloud-architecture.jpg", "/personalportfolio/security-framework.jpg"],
     },
   },
   {
@@ -172,7 +172,7 @@ const projects = [
       "Designed and implemented secure RESTful APIs with authentication, access control, and data encryption using Node.js, Express.js, and MongoDB for web applications.",
     tags: ["Node.js", "Express.js", "MongoDB", "API Security", "Authentication"],
     period: "2020-2024",
-    image: "/api-security-implementation.jpg",
+    image: "/personalportfolio/api-security-implementation.jpg",
     details: {
       overview:
         "Secure API development framework with comprehensive authentication, authorization, and encryption mechanisms. Implemented OAuth 2.0, JWT tokens, role-based access control, and request validation across multiple production applications.",
@@ -215,7 +215,7 @@ const techDetails = {
     name: "Node.js",
     description:
       "A JavaScript runtime built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a web browser.",
-    logo: "/tech/nodejs-logo.jpg",
+    logo: "/personalportfolio/tech/nodejs-logo.jpg",
     usage:
       "Used as the backend runtime environment for the API server, handling concurrent requests and asynchronous operations efficiently.",
     features: [
@@ -230,7 +230,7 @@ const techDetails = {
     name: "Express.js",
     description:
       "A minimal and flexible Node.js web application framework providing robust features for web and mobile applications.",
-    logo: "/tech/expressjs-logo.jpg",
+    logo: "/personalportfolio/tech/expressjs-logo.jpg",
     usage:
       "The core framework for routing API endpoints, handling HTTP requests/responses, and managing middleware for authentication and validation.",
     features: [
@@ -244,7 +244,7 @@ const techDetails = {
   MongoDB: {
     name: "MongoDB",
     description: "A popular NoSQL document database that stores data in flexible, JSON-like BSON format.",
-    logo: "/tech/mongodb-logo.jpg",
+    logo: "/personalportfolio/tech/mongodb-logo.jpg",
     usage:
       "Primary data storage for user profiles, API configurations, and security logs. Provides schema flexibility for evolving requirements.",
     features: [
@@ -258,7 +258,7 @@ const techDetails = {
   JWT: {
     name: "JWT (JSON Web Token)",
     description: "A compact, self-contained way of securely transmitting information between parties as a JSON object.",
-    logo: "/tech/jwt-logo.jpg",
+    logo: "/personalportfolio/tech/jwt-logo.jpg",
     usage:
       "Implements stateless authentication. Users receive a token upon login that is sent with each request to verify identity without server-side sessions.",
     features: [
@@ -272,7 +272,7 @@ const techDetails = {
   bcryptjs: {
     name: "bcryptjs",
     description: "A password hashing library that uses the bcrypt algorithm to securely hash and compare passwords.",
-    logo: "/tech/bcrypt-logo.jpg",
+    logo: "/personalportfolio/tech/bcrypt-logo.jpg",
     usage:
       "Hashes user passwords before storage and verifies passwords during authentication. Includes built-in salt generation for additional security.",
     features: [
@@ -287,7 +287,7 @@ const techDetails = {
     name: "Helmet.js",
     description:
       "Express.js middleware that secures apps by setting various HTTP headers to protect against well-known security vulnerabilities.",
-    logo: "/tech/helmet-logo.jpg",
+    logo: "/personalportfolio/tech/helmet-logo.jpg",
     usage:
       "Automatically sets security headers like Content-Security-Policy, X-Frame-Options, and X-XSS-Protection to prevent common attacks.",
     features: [
@@ -301,7 +301,7 @@ const techDetails = {
   Joi: {
     name: "Joi",
     description: "A powerful schema description language and data validator for JavaScript/Node.js.",
-    logo: "/tech/joi-logo.jpg",
+    logo: "/personalportfolio/tech/joi-logo.jpg",
     usage:
       "Validates all incoming API request data against defined schemas. Ensures only properly formatted data is processed.",
     features: [
@@ -315,7 +315,7 @@ const techDetails = {
   Redis: {
     name: "Redis",
     description: "An in-memory data structure store used as a database, cache, and message broker.",
-    logo: "/tech/redis-logo.jpg",
+    logo: "/personalportfolio/tech/redis-logo.jpg",
     usage:
       "Implements rate limiting to prevent abuse and caching to improve API response times by storing frequently accessed data.",
     features: [
