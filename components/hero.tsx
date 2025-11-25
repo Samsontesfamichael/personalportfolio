@@ -9,8 +9,11 @@ export default function Hero() {
 
       <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Cybersecurity{" "}
-          <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">Researcher</span>
+          Samson Tesfamichael
+          <br />
+          <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+            Cybersecurity Researcher
+          </span>
         </h1>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">

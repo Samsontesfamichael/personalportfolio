@@ -28,10 +28,11 @@ export default function About() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I'm a motivated IT graduate and cybersecurity enthusiast currently developing hands-on expertise
-                  through a self-hosted home lab while seeking professional opportunities. Skilled in Python automation,
-                  penetration testing, and network defence, I'm passionate about designing secure systems and advancing
-                  digital resilience through continuous learning and applied research.
+                  I'm <strong>Samson Tesfamichael</strong>, a motivated IT graduate and cybersecurity enthusiast
+                  currently developing hands-on expertise through a self-hosted home lab while seeking professional
+                  opportunities. Skilled in Python automation, penetration testing, and network defence, I'm passionate
+                  about designing secure systems and advancing digital resilience through continuous learning and applied
+                  research.
                 </p>
 
                 <p>
