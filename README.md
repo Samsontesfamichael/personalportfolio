@@ -2,12 +2,12 @@
 
 Welcome to my personal portfolio website! This project showcases my work as a Cybersecurity Researcher and IT Graduate, featuring my projects in network security, penetration testing, and threat analysis.
 
-## 🚀 Live Demo
+## 🚀 Live Portfolio
 
-[Insert your live demo link here, e.g., https://yourusername.github.io/repo-name/]
+` https://samsontesfamichael.github.io/personalportfolio/`
 
 ## 👨‍💻 About Me
-
+`
 I am a motivated IT graduate specializing in **Network Security**, **Penetration Testing**, and **Advanced Threat Analysis**. I explore cutting-edge security research through hands-on home lab projects and real-world implementations.
 
 ## 🛠️ Tech Stack
@@ -91,4 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 *Built with ❤️ by Samson Tesfamichael*
-# samsonportfolio
+
