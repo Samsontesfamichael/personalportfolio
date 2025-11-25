@@ -2,9 +2,9 @@
 
 Welcome to my personal portfolio website! This project showcases my work as a Cybersecurity Researcher and IT Graduate, featuring my projects in network security, penetration testing, and threat analysis.
 
-## 🚀 Live Demo
+## 🚀 Live portfolio
 
-[Insert your live demo link here, e.g., https://yourusername.github.io/repo-name/]
+ https://samsontesfamichael.github.io/personalportfolio/]
 
 ## 👨‍💻 About Me
 
