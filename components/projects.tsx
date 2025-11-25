@@ -201,10 +201,10 @@ const projects = [
         "Prevented 99% of injection attacks through input validation",
       ],
       screenshots: [
-        "/api-security-implementation.jpg",
-        "/api-authentication-flow.jpg",
-        "/api-security-testing.jpg",
-        "/api-access-control.jpg",
+        "/personalportfolio/api-security-implementation.jpg",
+        "/personalportfolio/api-authentication-flow.jpg",
+        "/personalportfolio/api-security-testing.jpg",
+        "/personalportfolio/api-access-control.jpg",
       ],
     },
   },
@@ -354,9 +354,8 @@ export default function Projects() {
                   alt={project.title}
                   width={500}
                   height={160}
-                  className={`w-full h-full object-cover transition-transform duration-500 ${
-                    hoveredIndex === index ? "scale-110" : "scale-100"
-                  }`}
+                  className={`w-full h-full object-cover transition-transform duration-500 ${hoveredIndex === index ? "scale-110" : "scale-100"
+                    }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
               </div>
@@ -377,9 +376,8 @@ export default function Projects() {
                   {project.tags.map((tag, i) => (
                     <span
                       key={i}
-                      className={`text-xs px-2.5 py-1 rounded-full bg-primary/10 text-accent border border-primary/20 transition-all duration-300 ${
-                        hoveredIndex === index ? "bg-primary/20 border-primary/40 scale-105" : ""
-                      }`}
+                      className={`text-xs px-2.5 py-1 rounded-full bg-primary/10 text-accent border border-primary/20 transition-all duration-300 ${hoveredIndex === index ? "bg-primary/20 border-primary/40 scale-105" : ""
+                        }`}
                       style={{
                         transitionDelay: `${i * 30}ms`,
                       }}
@@ -447,11 +445,10 @@ export default function Projects() {
                             setTechModalOpen(true)
                           }
                         }}
-                        className={`flex items-start gap-3 p-3 rounded ${
-                          hasTechDetail
+                        className={`flex items-start gap-3 p-3 rounded ${hasTechDetail
                             ? "hover:bg-primary/10 cursor-pointer transition-colors border border-transparent hover:border-primary/30"
                             : ""
-                        }`}
+                          }`}
                       >
                         <span className="text-primary font-bold">▸</span>
                         <div className="flex-1">
