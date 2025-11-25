@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work as a Cy
 
 ## 🚀 Live portfolio
 
- https://samsontesfamichael.github.io/personalportfolio/]
+ https://samsontesfamichael.github.io/personalportfolio
 
 ## 👨‍💻 About Me
 
