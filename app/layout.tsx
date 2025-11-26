@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Samson Tesfamichael" }],
   creator: "Samson Tesfamichael",
+  verification: {
+    google: "C-7OvogeZdkeE5KpOH4nJ-sbzNcPf4JapCl5bVaHVM8",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
