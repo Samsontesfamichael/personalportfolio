@@ -50,8 +50,8 @@ To run this project on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Samsontesfamichael/personalportfolio.git
-    cd personalportfolio
+    git clone https://github.com/Samsontesfamichael/personalportfolio.git personal-portfolio
+    cd personal-portfolio
     ```
 
 2.  **Install dependencies:**
