@@ -24,7 +24,7 @@ export default function Navigation() {
             href="#"
             className="flex items-center gap-2"
           >
-            <span className="text-xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+            <span className="text-xl font-bold text-primary">
               ST
             </span>
             <span className="text-sm font-medium text-muted-foreground inline-block">
