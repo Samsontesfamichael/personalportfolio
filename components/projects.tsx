@@ -374,7 +374,7 @@ const techDetails = {
   Django: {
     name: "Django",
     description: "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
-    logo: "/personalportfolio/tech/redis-logo.jpg",
+    logo: "/personalportfolio/tech/django-logo.jpg",
     usage:
       "Core framework for building the backend application, handling routing, ORM, authentication, and admin interface. Provides a batteries-included approach for web development.",
     features: [
@@ -388,7 +388,7 @@ const techDetails = {
   "Django REST Framework": {
     name: "Django REST Framework",
     description: "A powerful and flexible toolkit for building Web APIs in Django.",
-    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    logo: "/personalportfolio/tech/django-rest-framework-logo.jpg",
     usage:
       "Provides serialization, authentication, permissions, and viewsets for building RESTful APIs. Handles request/response parsing, content negotiation, and API documentation.",
     features: [
@@ -402,7 +402,7 @@ const techDetails = {
   PostgreSQL: {
     name: "PostgreSQL",
     description: "A powerful, open-source object-relational database system with strong ACID compliance.",
-    logo: "/personalportfolio/tech/mongodb-logo.jpg",
+    logo: "/personalportfolio/tech/postgresql-logo.jpg",
     usage:
       "Primary relational database for storing application data with support for complex queries, transactions, and data integrity. Handles user data, relationships, and business logic.",
     features: [
@@ -416,7 +416,7 @@ const techDetails = {
   Celery: {
     name: "Celery",
     description: "A distributed task queue system for processing asynchronous jobs in Python applications.",
-    logo: "/personalportfolio/tech/redis-logo.jpg",
+    logo: "/personalportfolio/tech/celery-logo.jpg",
     usage:
       "Handles background tasks such as email sending, report generation, data processing, and scheduled jobs. Integrates with Redis as message broker for task distribution.",
     features: [
@@ -430,7 +430,7 @@ const techDetails = {
   "Django Channels": {
     name: "Django Channels",
     description: "Extends Django to handle WebSockets, HTTP2, and other asynchronous protocols.",
-    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    logo: "/personalportfolio/tech/django-channels-logo.jpg",
     usage:
       "Enables real-time features like chat, notifications, and live updates through WebSocket connections. Handles both HTTP and WebSocket protocols in a unified way.",
     features: [
@@ -444,7 +444,7 @@ const techDetails = {
   "AWS S3": {
     name: "AWS S3",
     description: "Amazon Simple Storage Service - scalable object storage in the cloud.",
-    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    logo: "/personalportfolio/tech/aws-s3-logo.jpg",
     usage:
       "Stores and serves static files, media uploads, backups, and large datasets. Provides CDN integration for fast global content delivery.",
     features: [
@@ -458,7 +458,7 @@ const techDetails = {
   "Azure Blob Storage": {
     name: "Azure Blob Storage",
     description: "Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data.",
-    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    logo: "/personalportfolio/tech/azure-blob-logo.jpg",
     usage:
       "Alternative cloud storage for files, images, videos, and backups. Provides geo-redundancy and integration with Azure services.",
     features: [
@@ -486,7 +486,7 @@ const techDetails = {
   Docker: {
     name: "Docker",
     description: "A platform for developing, shipping, and running applications in containers.",
-    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    logo: "/personalportfolio/tech/jwt-logo.jpg",
     usage:
       "Containerizes the Django application and its dependencies for consistent deployment across development, staging, and production environments.",
     features: [
