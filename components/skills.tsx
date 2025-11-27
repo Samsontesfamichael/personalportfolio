@@ -51,16 +51,16 @@ export default function Skills() {
             <div key={index} className="p-6 rounded-lg border border-border bg-card/50">
               <h3 className="text-lg font-bold text-accent mb-4">{category.category}</h3>
               <div className="flex flex-wrap gap-2">
-                {category.skills.map((skill, i) => (
-                 <span
-  key={i}
-  className="px-3 py-1.5 rounded-full bg-primary/50 text-primary-dark text-sm font-medium border border-primary/60 hover:border-primary/80 hover:bg-primary/70 transition-colors"
->
-  {skill}
-</span>
+  {category.skills.map((skill, i) => (
+    <span
+      key={i}
+      className="px-3 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-medium border border-blue-300 hover:border-blue-500 hover:bg-blue-200 transition-colors"
+    >
+      {skill}
+    </span>
+  ))}
+</div>
 
-                ))}
-              </div>
             </div>
           ))}
         </div>
