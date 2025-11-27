@@ -37,18 +37,18 @@ export default function Contact() {
           <div className="rounded-lg border border-border bg-background/50 overflow-hidden mb-12">
             <div className="p-6 flex items-center gap-3 border-b border-border">
               <MapPin className="size-6 text-accent" />
-              <p className="text-muted-foreground font-medium">Bole, Addis Ababa, Ethiopia</p>
+              <p className="text-muted-foreground font-medium">Gerji St. Mariam Church, Addis Ababa, Ethiopia</p>
             </div>
             <div className="w-full h-64 md:h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63101.84698640558!2d38.74707!3d8.99806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sBole%2C%20Addis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.2891234567!2d38.7993682!3d8.9991202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85f3a6aa0aaf%3A0x4c69dfae97e0b50a!2sGerji%20St.%20Mariam%20Church!5e0!3m2!1sen!2set!4v1732722000000!5m2!1sen!2set"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Location Map - Bole, Addis Ababa, Ethiopia"
+                title="Location Map - Gerji St. Mariam Church, Addis Ababa, Ethiopia"
               />
             </div>
           </div>
