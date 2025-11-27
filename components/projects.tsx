@@ -214,7 +214,7 @@ const projects = [
       "Architected and developed a production-grade Django backend system with REST APIs, real-time communication, asynchronous task processing, and multi-cloud storage integration serving 100k+ daily users.",
     tags: ["Django", "Python", "PostgreSQL", "Celery", "Redis", "AWS"],
     period: "2020-2024",
-    image: "/personalportfolio/django-backend-system.jpg",
+    image: "/personalportfolio/api-security-implementation.jpg",
     details: {
       overview:
         "Led the development of a highly scalable Django backend system featuring REST APIs, WebSocket real-time communication, asynchronous task pipelines, and cloud-based storage across AWS, Azure, and GCP. Implemented comprehensive security, caching, and performance optimization strategies.",
@@ -246,10 +246,10 @@ const projects = [
         "Achieved zero security breaches with JWT authentication and CORS",
       ],
       screenshots: [
-        "/personalportfolio/django-api-architecture.jpg",
-        "/personalportfolio/django-celery-dashboard.jpg",
-        "/personalportfolio/django-websocket-flow.jpg",
-        "/personalportfolio/django-cloud-storage.jpg",
+        "/personalportfolio/cloud-architecture.jpg",
+        "/personalportfolio/api-authentication-flow.jpg",
+        "/personalportfolio/network-traffic-analysis.jpg",
+        "/personalportfolio/cloud-security-consulting.jpg",
       ],
     },
   },
