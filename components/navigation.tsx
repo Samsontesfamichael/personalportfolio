@@ -22,9 +22,17 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           <Link
             href="#"
-            className="text-xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent"
+            className="flex items-center gap-2"
           >
-            ST
+            <span className="text-xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+              ST
+            </span>
+            <span className="text-sm font-medium text-muted-foreground hidden sm:inline-block">
+              |
+            </span>
+            <span className="text-sm font-medium text-foreground/80">
+              Cybersecurity Researcher
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

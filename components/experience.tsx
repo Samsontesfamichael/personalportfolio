@@ -72,7 +72,7 @@ export default function Experience() {
                   <h3 className="text-xl font-bold text-foreground">{exp.title}</h3>
                   <p className="text-accent font-semibold">{exp.company}</p>
                 </div>
-                <span className="text-sm text-muted-foreground bg-primary/10 px-3 py-1 rounded-full">{exp.period}</span>
+                <span className="text-sm text-foreground/90 bg-primary/10 px-3 py-1 rounded-full font-medium">{exp.period}</span>
               </div>
 
               <p className="text-sm text-muted-foreground mb-4 flex items-center gap-2">📍 {exp.location}</p>

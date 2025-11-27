@@ -51,11 +51,11 @@ export default function About() {
 
                 <div className="pt-4 grid grid-cols-2 gap-4">
                   <div className="p-3 rounded-lg bg-background/50 border border-border">
-                    <p className="text-xs text-muted-foreground font-mono">Years Experience</p>
+                    <p className="text-xs text-foreground/70 font-mono">Years Experience</p>
                     <p className="text-lg font-bold text-accent">3+</p>
                   </div>
                   <div className="p-3 rounded-lg bg-background/50 border border-border">
-                    <p className="text-xs text-muted-foreground font-mono">Certifications</p>
+                    <p className="text-xs text-foreground/70 font-mono">Certifications</p>
                     <p className="text-lg font-bold text-accent">4+</p>
                   </div>
                 </div>
