@@ -37,7 +37,7 @@ export default function Contact() {
           <div className="rounded-lg border border-border bg-background/50 overflow-hidden mb-12">
             <div className="p-6 flex items-center gap-3 border-b border-border">
               <MapPin className="size-6 text-accent" />
-              <p className="text-muted-foreground font-medium">Near Gerji St. Mariam Church, Addis Ababa, Ethiopia</p>
+              <p className="text-muted-foreground font-medium">Near Gerji St. Mariam Church, Bole, Addis Ababa, Ethiopia</p>
             </div>
             <div className="w-full h-64 md:h-80">
               <iframe
@@ -48,7 +48,7 @@ export default function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Location Map - Near Gerji St. Mariam Church, Addis Ababa, Ethiopia"
+                title="Location Map - Near Gerji St. Mariam Church, Bole, Addis Ababa, Ethiopia"
               />
             </div>
           </div>
