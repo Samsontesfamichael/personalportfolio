@@ -165,6 +165,14 @@ export default function Education() {
                   <p className="font-semibold text-foreground">CCNA Certification</p>
                   <p className="text-sm text-muted-foreground">Cisco Certified Network Associate</p>
                   <p className="text-xs text-accent/70 mt-1 font-mono">Certification ID : DA/NRS/24/1346</p>
+                  <a
+                    href="https://drive.google.com/file/d/1DC0sFHx6kCWSit7xsWARkJIgjzOkZrGC/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-primary hover:text-primary/80 inline-block hover:underline transition-colors"
+                  >
+                    Verify Certificate →
+                  </a>
                 </div>
               </div>
             </div>
