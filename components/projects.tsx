@@ -371,6 +371,132 @@ const techDetails = {
     ],
     category: "Cache/Rate Limiting",
   },
+  Django: {
+    name: "Django",
+    description: "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+    logo: "/personalportfolio/tech/redis-logo.jpg",
+    usage:
+      "Core framework for building the backend application, handling routing, ORM, authentication, and admin interface. Provides a batteries-included approach for web development.",
+    features: [
+      "Built-in ORM for database operations",
+      "Automatic admin interface generation",
+      "Robust security features (CSRF, XSS, SQL injection protection)",
+      "Scalable and maintainable architecture",
+    ],
+    category: "Framework",
+  },
+  "Django REST Framework": {
+    name: "Django REST Framework",
+    description: "A powerful and flexible toolkit for building Web APIs in Django.",
+    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    usage:
+      "Provides serialization, authentication, permissions, and viewsets for building RESTful APIs. Handles request/response parsing, content negotiation, and API documentation.",
+    features: [
+      "Serialization for complex data types",
+      "Authentication (JWT, OAuth, Token)",
+      "Powerful browsable API interface",
+      "Flexible permissions and throttling",
+    ],
+    category: "API Framework",
+  },
+  PostgreSQL: {
+    name: "PostgreSQL",
+    description: "A powerful, open-source object-relational database system with strong ACID compliance.",
+    logo: "/personalportfolio/tech/mongodb-logo.jpg",
+    usage:
+      "Primary relational database for storing application data with support for complex queries, transactions, and data integrity. Handles user data, relationships, and business logic.",
+    features: [
+      "ACID compliance for data integrity",
+      "Advanced indexing and query optimization",
+      "Support for JSON and complex data types",
+      "Robust replication and backup capabilities",
+    ],
+    category: "Database",
+  },
+  Celery: {
+    name: "Celery",
+    description: "A distributed task queue system for processing asynchronous jobs in Python applications.",
+    logo: "/personalportfolio/tech/redis-logo.jpg",
+    usage:
+      "Handles background tasks such as email sending, report generation, data processing, and scheduled jobs. Integrates with Redis as message broker for task distribution.",
+    features: [
+      "Asynchronous task execution",
+      "Scheduled and periodic tasks",
+      "Task retries and error handling",
+      "Distributed processing across workers",
+    ],
+    category: "Task Queue",
+  },
+  "Django Channels": {
+    name: "Django Channels",
+    description: "Extends Django to handle WebSockets, HTTP2, and other asynchronous protocols.",
+    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    usage:
+      "Enables real-time features like chat, notifications, and live updates through WebSocket connections. Handles both HTTP and WebSocket protocols in a unified way.",
+    features: [
+      "WebSocket support for real-time communication",
+      "Asynchronous request handling",
+      "Channel layers for message passing",
+      "Integration with Django authentication",
+    ],
+    category: "Real-time",
+  },
+  "AWS S3": {
+    name: "AWS S3",
+    description: "Amazon Simple Storage Service - scalable object storage in the cloud.",
+    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    usage:
+      "Stores and serves static files, media uploads, backups, and large datasets. Provides CDN integration for fast global content delivery.",
+    features: [
+      "Unlimited scalable storage",
+      "99.999999999% durability",
+      "Versioning and lifecycle policies",
+      "Integration with CloudFront CDN",
+    ],
+    category: "Cloud Storage",
+  },
+  "Azure Blob Storage": {
+    name: "Azure Blob Storage",
+    description: "Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data.",
+    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    usage:
+      "Alternative cloud storage for files, images, videos, and backups. Provides geo-redundancy and integration with Azure services.",
+    features: [
+      "Hot, cool, and archive storage tiers",
+      "Geo-redundant replication",
+      "Blob versioning and soft delete",
+      "Integration with Azure CDN",
+    ],
+    category: "Cloud Storage",
+  },
+  "Google Cloud Storage": {
+    name: "Google Cloud Storage",
+    description: "Unified object storage for developers and enterprises, from live applications to cloud archival.",
+    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    usage:
+      "Multi-cloud storage solution for application data, media files, and analytics. Provides global edge caching and strong consistency.",
+    features: [
+      "Multi-regional storage options",
+      "Strong consistency guarantees",
+      "Object lifecycle management",
+      "Integration with Google Cloud CDN",
+    ],
+    category: "Cloud Storage",
+  },
+  Docker: {
+    name: "Docker",
+    description: "A platform for developing, shipping, and running applications in containers.",
+    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    usage:
+      "Containerizes the Django application and its dependencies for consistent deployment across development, staging, and production environments.",
+    features: [
+      "Isolated application environments",
+      "Reproducible builds and deployments",
+      "Microservices architecture support",
+      "Easy scaling and orchestration",
+    ],
+    category: "DevOps",
+  },
 }
 
 export default function Projects() {
