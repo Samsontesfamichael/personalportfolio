@@ -446,8 +446,8 @@ export default function Projects() {
                           }
                         }}
                         className={`flex items-start gap-3 p-3 rounded ${hasTechDetail
-                            ? "hover:bg-primary/10 cursor-pointer transition-colors border border-transparent hover:border-primary/30"
-                            : ""
+                          ? "hover:bg-primary/10 cursor-pointer transition-colors border border-transparent hover:border-primary/30"
+                          : ""
                           }`}
                       >
                         <span className="text-primary font-bold">▸</span>
@@ -510,9 +510,9 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-border">
-                <p className="text-xs text-muted-foreground">
-                  <span className="font-semibold">Period:</span> {selectedProject.period}
+              <div className="pt-4 border-t border-accent/20">
+                <p className="text-sm text-foreground">
+                  <span className="font-semibold text-accent">Period:</span> {selectedProject.period}
                 </p>
               </div>
             </div>

@@ -27,7 +27,7 @@ export default function Navigation() {
             <span className="text-xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
               ST
             </span>
-            <span className="text-sm font-medium text-muted-foreground hidden sm:inline-block">
+            <span className="text-sm font-medium text-muted-foreground inline-block">
               |
             </span>
             <span className="text-sm font-medium text-foreground/80">

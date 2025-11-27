@@ -57,7 +57,7 @@ export default function Education() {
                 {coursework.map((course, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 rounded-full text-xs font-medium bg-accent/10 text-accent border border-accent/30 hover:bg-accent/20 transition-colors"
+                    className="px-3 py-1 rounded-full text-sm font-medium bg-accent/20 text-foreground border border-accent/40 hover:bg-accent/30 transition-colors"
                   >
                     {course}
                   </span>
