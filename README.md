@@ -7,7 +7,6 @@ Welcome to my personal portfolio website! This project showcases my work as a Cy
 https://samsontesfamichael.github.io/personalportfolio/
 
 ## 👨‍💻 About Me
-`
 I am a motivated IT graduate specializing in **Network Security**, **Penetration Testing**, and **Advanced Threat Analysis**. I explore cutting-edge security research through hands-on home lab projects and real-world implementations.
 
 ## 🛠️ Tech Stack
