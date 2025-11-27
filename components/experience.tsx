@@ -75,7 +75,7 @@ export default function Experience() {
                 <span className="text-sm text-foreground bg-primary/20 px-3 py-1.5 rounded-full font-semibold border border-primary/40 whitespace-nowrap">{exp.period}</span>
               </div>
 
-              <p className="text-sm text-muted-foreground mb-4 flex items-center gap-2">📍 {exp.location}</p>
+              <p className="text-sm text-muted-foreground mb-4 flex items-center gap-3">📍 {exp.location}</p>
 
               <p className="text-muted-foreground mb-4">{exp.description}</p>
 
