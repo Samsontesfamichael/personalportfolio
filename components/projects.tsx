@@ -208,6 +208,51 @@ const projects = [
       ],
     },
   },
+  {
+    title: "Enterprise Django Backend System",
+    description:
+      "Architected and developed a production-grade Django backend system with REST APIs, real-time communication, asynchronous task processing, and multi-cloud storage integration serving 100k+ daily users.",
+    tags: ["Django", "Python", "PostgreSQL", "Celery", "Redis", "AWS"],
+    period: "2020-2024",
+    image: "/personalportfolio/django-backend-system.jpg",
+    details: {
+      overview:
+        "Led the development of a highly scalable Django backend system featuring REST APIs, WebSocket real-time communication, asynchronous task pipelines, and cloud-based storage across AWS, Azure, and GCP. Implemented comprehensive security, caching, and performance optimization strategies.",
+      objectives: [
+        "Build scalable REST APIs with Django REST Framework",
+        "Implement real-time features using Django Channels and WebSockets",
+        "Develop asynchronous task pipelines with Celery and Redis",
+        "Integrate multi-cloud storage solutions (AWS S3, Azure Blob, GCP)",
+        "Ensure production-grade security and performance optimization",
+      ],
+      techStack: [
+        "Django - High-level Python web framework",
+        "Django REST Framework - Powerful REST API toolkit",
+        "PostgreSQL - Advanced relational database",
+        "Celery - Distributed task queue system",
+        "Redis - In-memory caching and message broker",
+        "Django Channels - WebSocket and async support",
+        "AWS S3 - Cloud object storage",
+        "Azure Blob Storage - Microsoft cloud storage",
+        "Google Cloud Storage - GCP storage solution",
+        "Docker - Containerization platform",
+      ],
+      outcomes: [
+        "Architected APIs serving 100k+ daily requests with 99.95% uptime",
+        "Reduced API response time by 60% through Redis caching",
+        "Implemented real-time notifications for 500k+ active users",
+        "Processed 1M+ background tasks monthly via Celery pipelines",
+        "Managed 10TB+ of files across multi-cloud storage providers",
+        "Achieved zero security breaches with JWT authentication and CORS",
+      ],
+      screenshots: [
+        "/personalportfolio/django-api-architecture.jpg",
+        "/personalportfolio/django-celery-dashboard.jpg",
+        "/personalportfolio/django-websocket-flow.jpg",
+        "/personalportfolio/django-cloud-storage.jpg",
+      ],
+    },
+  },
 ]
 
 const techDetails = {
