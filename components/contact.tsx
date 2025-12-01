@@ -1,5 +1,21 @@
 import { Mail, Linkedin, Github, MapPin, Phone, MessageSquare } from "lucide-react"
 import Link from "next/link"
+import { cn } from "@/lib/utils"
+
+// Inline Telegram SVG icon component
+function TelegramIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={cn('size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform', className)}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 0C5.371 0 0 5.371 0 12c0 5.302 3.438 9.8 8.205 11.385.6.111.82-.261.82-.577 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.304.762-1.604-2.665-.304-5.466-1.332-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.51 11.51 0 013.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.624-5.476 5.921.43.371.823 1.102.823 2.222 0 1.604-.015 2.896-.015 3.286 0 .319.216.694.825.576C20.565 21.796 24 17.298 24 12c0-6.629-5.371-12-12-12z" />
+    </svg>
+  );
+}
+
 
 export default function Contact() {
   return (
@@ -38,6 +54,14 @@ export default function Contact() {
               <MessageSquare className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-bold mb-2">WhatsApp</h3>
               <p className="text-sm text-muted-foreground">Chat on WhatsApp</p>
+            </Link>
+            <Link
+              href="https://t.me/samsontesfamichael"
+              className="p-6 rounded-lg border border-border hover:border-accent/50 bg-background/50 hover:bg-background/80 transition-all group"
+            >
+              <TelegramIcon className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold mb-2">Telegram</h3>
+              <p className="text-sm text-muted-foreground">Chat on Telegram</p>
             </Link>
           </div>
 
