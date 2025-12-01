@@ -58,10 +58,4 @@ If the workflow doesn't auto-trigger:
 ## Step 5: Verify Deployment
 
 Once successful:
-- Your site will be at: `https://samsontesfamichael.github.io/personalportfolio`
-- Check the Actions tab for a green checkmark ✓
-
----
-
-**Need More Help?**
-Share the specific error message from the Actions tab, and I can provide a targeted fix.
+- Your site will be at: `https://samsontesfamichael.github.io/personalportfolio
