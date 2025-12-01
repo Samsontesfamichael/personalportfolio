@@ -3,29 +3,49 @@ import Link from "next/link"
 import { cn } from "@/lib/utils"
 
 // Inline Telegram SVG icon component
-function TelegramIcon({ className }: { className?: string }) {
+// function TelegramIcon({ className }: { className?: string }) {
+//   return (
+//     <svg
+//       viewBox="0 0 32 32"
+//       fill="none"
+//       className={cn('size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform', className)}
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+//       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+//       <g id="SVGRepo_iconCarrier">
+//         <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)" />
+//         <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white" />
+//         <defs>
+//           <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+//             <stop stop-color="var(--accent)" />
+//             <stop offset="1" stop-color="var(--accent)" />
+//           </linearGradient>
+//         </defs>
+//       </g>
+//     </svg>
+//   );
+// }
+
+function TelegramOutlineIcon({ className }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 32 32"
-      fill="none"
-      className={cn('size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform', className)}
       xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={`size-8 text-accent mx-auto mb-4 transition-transform duration-300 hover:scale-110 ${className}`}
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-      <g id="SVGRepo_iconCarrier">
-        <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)" />
-        <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white" />
-        <defs>
-          <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
-            <stop stop-color="var(--accent)" />
-            <stop offset="1" stop-color="var(--accent)" />
-          </linearGradient>
-        </defs>
-      </g>
+      <path d="M21.5 4.5l-3.8 15.1c-.2.8-1.1 1.1-1.7.7l-4.4-3.2-2.1 2
+      c-.5.5-1.3.2-1.5-.5L7.4 14l-4.1-1.3c-.8-.2-.8-1.3-.1-1.6L20.2 3.8
+      c.7-.3 1.4.4 1.3 1.1z"/>
     </svg>
   );
 }
+
 
 
 export default function Contact() {
@@ -70,7 +90,7 @@ export default function Contact() {
               href="https://t.me/Willow_Gretena"
               className="p-6 rounded-lg border border-border hover:border-accent/50 bg-background/50 hover:bg-background/80 transition-all group"
             >
-              <TelegramIcon className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <TelegramOutlineIcon className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-bold mb-2">Telegram</h3>
               <p className="text-sm text-muted-foreground">Chat on Telegram</p>
             </Link>
