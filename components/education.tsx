@@ -169,8 +169,7 @@ export default function Education() {
                     href="https://drive.google.com/file/d/1DC0sFHx6kCWSit7xsWARkJIgjzOkZrGC/view"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-primary hover:text-primary/80 inline-block hover:underline transition-colors"
-                  >
+                    className="text-xs text-primary hover:text-primary/80 inline-block hover:underline transition-colors">
                     Verify Certificate →
                   </a>
                 </div>

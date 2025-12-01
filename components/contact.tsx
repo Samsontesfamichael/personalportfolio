@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MapPin, Phone } from "lucide-react"
+import { Mail, Linkedin, Github, MapPin, Phone, MessageSquare } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -30,6 +30,14 @@ export default function Contact() {
               <Phone className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-bold mb-2">Phone</h3>
               <p className="text-sm text-muted-foreground">+251 962 600 752</p>
+            </Link>
+            <Link
+              href="https://wa.me/251962600752"
+              className="p-6 rounded-lg border border-border hover:border-accent/50 bg-background/50 hover:bg-background/80 transition-all group"
+            >
+              <MessageSquare className="size-8 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold mb-2">WhatsApp</h3>
+              <p className="text-sm text-muted-foreground">Chat on WhatsApp</p>
             </Link>
           </div>
 
