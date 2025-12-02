@@ -13,7 +13,7 @@ export default function Navigation() {
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
-    { label: "Publication", href: "/E-commerce%20Server%20Security%20Report.pdf" },
+    { label: "Publication", href: "#publication" },
     { label: "Contact", href: "#contact" },
   ]
 
