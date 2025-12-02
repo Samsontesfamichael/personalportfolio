@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "export:local": "npm run build && npm run export",
+    "export:local": "npm run build",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
