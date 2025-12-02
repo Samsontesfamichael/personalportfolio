@@ -3,12 +3,12 @@ import { FileText, Download } from "lucide-react"
 
 export default function Publication() {
     return (
-        <section id="publication" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+        <section id="publication" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/30">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold mb-12">Publications</h2>
 
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <div className="group relative bg-card rounded-xl border border-border p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                    <div className="group relative bg-background/50 rounded-lg border border-border p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:bg-background/80">
                         <div className="flex items-start justify-between mb-4">
                             <div className="p-3 bg-primary/10 rounded-lg text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                                 <FileText size={24} />
@@ -18,7 +18,7 @@ export default function Publication() {
                             </span>
                         </div>
 
-                        <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
                             E-commerce Server Security Report
                         </h3>
 
@@ -29,7 +29,7 @@ export default function Publication() {
                         <Link
                             href="/E-commerce%20Server%20Security%20Report.pdf"
                             target="_blank"
-                            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                            className="mt-4 w-full py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors flex items-center justify-center gap-2"
                         >
                             Download PDF <Download size={16} />
                         </Link>
