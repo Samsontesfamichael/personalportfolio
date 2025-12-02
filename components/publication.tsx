@@ -27,7 +27,7 @@ export default function Publication() {
                         </p>
 
                         <Link
-                            href="blob/main/public/E-commerce%20Server%20Security%20Report.pdf"
+                            href="/E-commerce%20Server%20Security%20Report.pdf"
                             target="_blank"
                             className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
                         >
