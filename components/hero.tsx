@@ -21,17 +21,7 @@ export default function Hero() {
           Exploring cutting-edge security research through hands-on home lab projects and real-world implementations.
         </p>
 
-        <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Check out my technical report on server administration:{" "}
-          <Link
-            href="/E-commerce%20Server%20Security%20Report.pdf"
-            className="text-primary hover:underline font-medium"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            E-commerce Server Security Report (PDF)
-          </Link>
-        </p>
+
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <Link
