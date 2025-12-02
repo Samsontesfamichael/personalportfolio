@@ -1,7 +1,7 @@
 const skillCategories = [
   {
     category: "Security Tools & Platforms",
-    skills: ["Splunk (SIEM)", "Snort (IDS/IPS)", "Suricata", "Wazuh", "Wireshark", "OpenBTS", "srsRAN", "Open5GS"],
+    skills: ["Splunk (SIEM)", "ELK Stack", "Snort (IDS/IPS)", "Suricata", "Wazuh", "Wireshark", "OpenBTS", "srsRAN", "Open5GS"],
   },
   {
     category: "Programming & Databases",
