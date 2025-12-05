@@ -18,7 +18,7 @@ export default function Publication() {
                             </span>
                         </div>
 
-                        <Link href="https://github.com/Samsontesfamichael/Hybrid-IDS-5G" target="_blank" className="block">
+                        <Link href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/thesis/Hybrid-IDS-5G#readme" target="_blank" className="block">
                             <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
                                 Machine Learning Intrusion Detection Using Statistical Feature Embeddings
                             </h3>
