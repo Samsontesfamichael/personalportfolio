@@ -12,8 +12,7 @@ This research addresses the limitations of traditional signature-based IDS (whic
 ## 📄 Abstract
 Intrusion Detection Systems (IDS) are critical for network security. This thesis proposes a **mathematically optimized anomaly-scoring method** defined as:
 
-<!-- $$ S(x) = \alpha \|x - \mu\|_2 + \beta (x - \mu)^\top \Sigma^{-1} (x - \mu) + \gamma \ell(f_\theta(x), y) $$ -->
-$S(x) = \alpha \|x - \mu\|_2 + \beta (x - \mu)^\top \Sigma^{-1} (x - \mu) + \gamma \ell(f_\theta(x), y)$
+$$ S(x) = \alpha \|x - \mu\|_2 + \beta (x - \mu)^\top \Sigma^{-1} (x - \mu) + \gamma \ell(f_\theta(x), y) $$
 
 Where:
 - **Statistical Component**: Captures deviation from normal traffic patterns using Euclidean ($\|x - \mu\|_2$) and Mahalanobis ($(x - \mu)^\top \Sigma^{-1} (x - \mu)$) distances.
