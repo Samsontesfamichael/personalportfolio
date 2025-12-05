@@ -66,7 +66,7 @@ export default function Publication() {
                                         <Github size={18} /> View Code
                                     </Link>
                                     <Link
-                                        href="/thesis/master.tex"
+                                        href="https://www.overleaf.com/read/pbxfgnhksdvz#3b3a49"
                                         target="_blank"
                                         className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-card border border-border hover:border-primary/50 hover:bg-accent/5 transition-all hover:-translate-y-0.5"
                                     >
