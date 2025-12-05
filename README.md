@@ -86,7 +86,7 @@ This repository includes a GitHub Actions workflow (`.github/workflows/deploy.ym
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE/LICENSE.txt) file for details.
 
 ---
 *Built with ❤️ by Samson Tesfamichael*
