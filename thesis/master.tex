@@ -50,9 +50,9 @@
 % -----------------------------------------------------------------------------
 \title{\textbf{\Huge Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring}}
 \author{\textbf{Samson Tesfamichael} \\[1cm]
-\large Department of Computer Engineering \\
-\large Your University}
-\date{December 2025}
+\large Department of Information Technology \\
+\large Mekelle Institute Of Technology}
+\date{September 2024}
 
 \begin{document}
 
@@ -60,8 +60,8 @@
 
 \begin{center}
     \vspace*{2cm}
-    \textbf{\Large Supervisor:} Prof. [Supervisor Name] \\[0.5cm]
-    \textbf{\Large Degree:} Bachelor of Science in Computer Engineering
+    \textbf{\Large Supervisor:} Prof. Hafelom Tekle Weldegebriel  \\[0.5cm]
+    \textbf{\Large Degree:} Bachelor of Science in Information Technology
 \end{center}
 
 \newpage
@@ -72,13 +72,13 @@
 \begin{abstract}
 Intrusion Detection Systems (IDS) are a critical component of modern network security infrastructure. While traditional signature-based IDS are effective against known threats, they fail to detect novel or zero-day attacks. Machine Learning (ML) approaches offer the potential to detect unknown patterns but often suffer from high false-positive rates and poor feature representation. 
 
-This thesis proposes a **mathematically optimized anomaly-scoring method** that combines statistical feature embeddings with ML classifier loss to enhance detection performance. The proposed anomaly score is defined as:
+This thesis proposes a \textbf{mathematically optimized anomaly-scoring method} that combines statistical feature embeddings with ML classifier loss to enhance detection performance. The proposed anomaly score is defined as:
 \begin{equation}
 S(x) = \alpha \|x - \mu\|_2 + \beta (x - \mu)^\top \Sigma^{-1} (x - \mu) + \gamma \ell(f_\theta(x), y)
 \end{equation}
 where \(x\) represents network traffic features, \(\mu\) and \(\Sigma\) are the mean and covariance of normal traffic, \(\ell\) is the classifier loss, and \(\alpha, \beta, \gamma\) are tunable weights optimized to minimize classification error.
 
-Experiments conducted on the **NSL-KDD** and **CICIDS2017** benchmark datasets demonstrate that the proposed hybrid method achieves a detection accuracy of **95--97\%** while significantly reducing false positive rates to **4--6\%**, outperforming baseline ML models.
+Experiments conducted on the \textbf{NSL-KDD} and \textbf{CICIDS2017} benchmark datasets demonstrate that the proposed hybrid method achieves a detection accuracy of \textbf{95--97\%} while significantly reducing false positive rates to \textbf{4--6\%}, outperforming baseline ML models.
 \end{abstract}
 
 \newpage
@@ -90,9 +90,9 @@ Experiments conducted on the **NSL-KDD** and **CICIDS2017** benchmark datasets d
 % Acknowledgements
 % -----------------------------------------------------------------------------
 \chapter*{Acknowledgements}
-I would like to express my sincere gratitude to my supervisor, \textbf{Prof. [Name]}, for their invaluable guidance, patience, and support throughout this research. Their insights were instrumental in shaping the mathematical framework of this thesis.
+I would like to express my sincere gratitude to my supervisor, \textbf{Prof. Hafelom Tekle Weldegebriel}, for their invaluable guidance, patience, and support throughout this research. Their insights were instrumental in shaping the mathematical framework of this thesis.
 
-I also thank my family for their unwavering encouragement and my colleagues in the Computer Engineering department for their helpful discussions and feedback.
+I also thank my family for their unwavering encouragement and my colleagues in the Information Technology department for their helpful discussions and feedback.
 
 % -----------------------------------------------------------------------------
 % Chapter 1: Introduction
@@ -100,7 +100,7 @@ I also thank my family for their unwavering encouragement and my colleagues in t
 \chapter{Introduction}
 
 \section{Background}
-In the era of interconnected systems, network security has become a paramount concern. Cyber-attacks are becoming increasingly sophisticated, evolving from simple denial-of-service attacks to complex, multi-vector intrusions. Intrusion Detection Systems (IDS) serve as the first line of defense, monitoring network traffic for suspicious activity. Traditional IDS rely on **signatures**—databases of known attack patterns. While efficient, they are blind to **zero-day attacks** (exploits that have never been seen before).
+In the era of interconnected systems, network security has become a paramount concern. Cyber-attacks are becoming increasingly sophisticated, evolving from simple denial-of-service attacks to complex, multi-vector intrusions. Intrusion Detection Systems (IDS) serve as the first line of defense, monitoring network traffic for suspicious activity. Traditional IDS rely on \textbf{signatures}—databases of known attack patterns. While efficient, they are blind to \textbf{zero-day attacks} (exploits that have never been seen before).
 
 \section{Problem Statement}
 Machine Learning (ML) based IDS have been proposed to address the limitations of signature-based systems. However, current ML approaches face significant challenges:
@@ -113,8 +113,8 @@ Machine Learning (ML) based IDS have been proposed to address the limitations of
 \section{Objectives}
 The primary objectives of this research are:
 \begin{enumerate}
-    \item To develop a **statistical feature embedding** technique that captures both the magnitude and correlation structure of network traffic.
-    \item To formulate a **hybrid anomaly-scoring function** that integrates statistical deviations with deep learning classifier loss.
+    \item To develop a \textbf{statistical feature embedding} technique that captures both the magnitude and correlation structure of network traffic.
+    \item To formulate a \textbf{hybrid anomaly-scoring function} that integrates statistical deviations with deep learning classifier loss.
     \item To mathematically optimize the weighting of these components to maximize detection accuracy.
     \item To evaluate the proposed system against state-of-the-art baselines using standard datasets.
 \end{enumerate}
@@ -139,17 +139,17 @@ Signature-based detection compares network packets against a database of known t
 \textbf{Limitations:} Completely ineffective against new, unknown attacks.
 
 \subsection{Machine Learning Methods}
-ML algorithms like Support Vector Machines (SVM), Random Forests, and Deep Neural Networks (DNN) learn to classify traffic as "normal" or "malicious" based on training data.
+ML algorithms like Support Vector Machines (SVM), Random Forests, and Deep Neural Networks (DNN) learn to classify traffic as "normal" or "malicious" based on training data.\\
 \textbf{Advantages:} Can generalize to detect variations of attacks. \\
 \textbf{Limitations:} Often act as "black boxes" and can be easily fooled by adversarial examples.
 
 \subsection{Statistical Methods}
-Statistical approaches model the distribution of normal traffic. Anomalies are defined as data points that fall in low-probability regions.
+Statistical approaches model the distribution of normal traffic. Anomalies are defined as data points that fall in low-probability regions.\\
 \textbf{Advantages:} Unsupervised; does not require labeled attack data. \\
 \textbf{Limitations:} Sensitive to noise and requires careful selection of statistical thresholds.
 
 \subsection{Hybrid Methods}
-Recent research suggests combining methods. However, most hybrid systems use simple voting mechanisms (e.g., majority vote). This thesis proposes a **weighted mathematical integration**, which allows for finer control and optimization of the decision boundary.
+Recent research suggests combining methods. However, most hybrid systems use simple voting mechanisms (e.g., majority vote). This thesis proposes a \textbf{weighted mathematical integration}, which allows for finer control and optimization of the decision boundary.
 
 % -----------------------------------------------------------------------------
 % Chapter 3: Methodology
