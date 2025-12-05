@@ -44,7 +44,7 @@ export default function Publication() {
                                 LaTeX <FileText size={16} />
                             </Link>
                             <Link
-                                href="https://github.com/Samsontesfamichael/Hybrid-IDS-5G"
+                                href="https://github.com/Samsontesfamichael/personalportfolio/blob/main/thesis/hybrid_ids.py"
                                 target="_blank"
                                 className="flex-1 py-2 text-sm font-medium text-foreground/80 border border-border rounded hover:bg-muted transition-colors flex items-center justify-center gap-2 min-w-[100px]"
                             >
