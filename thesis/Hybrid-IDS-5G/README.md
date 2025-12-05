@@ -1,11 +1,11 @@
 # Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring
 
-**Master's Thesis Project**  
+**Bachelor's Thesis Project**  
 **Author:** Samson Tesfamichael  
-**Department:** Computer Engineering  
+**Department:** Information Technology  
 
 ## 📌 Overview
-This repository contains the implementation of a **Hybrid Intrusion Detection System (IDS)** proposed in my Master's thesis. The system integrates **statistical feature embeddings** (Euclidean and Mahalanobis distances) with **Deep Learning classifier loss** to detect network anomalies with high accuracy and low false-positive rates.
+This repository contains the implementation of a **Hybrid Intrusion Detection System (IDS)** proposed in my Bachelor's thesis. The system integrates **statistical feature embeddings** (Euclidean and Mahalanobis distances) with **Deep Learning classifier loss** to detect network anomalies with high accuracy and low false-positive rates.
 
 This research addresses the limitations of traditional signature-based IDS (which fail against zero-day attacks) and standard ML approaches (which often suffer from high false-positive rates).
 
@@ -92,7 +92,7 @@ The proposed method was evaluated against standard baselines on the NSL-KDD data
 ## 📝 Citation
 If you find this research useful, please cite:
 
-> **Samson Tesfamichael**, "Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring," Master's Thesis, Department of Computer Engineering, 2025.
+> **Samson Tesfamichael**, "Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring," Bachelor's Thesis, Department of Information Technology, Mekelle Institute of Technology, 2025.
 
 ---
 *This project is part of my professional portfolio. For more details, visit [my portfolio website](https://samsontesfamichael.github.io/personalportfolio/).*
