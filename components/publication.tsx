@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FileText, Download } from "lucide-react"
+import { FileText, Download, Github } from "lucide-react"
 
 export default function Publication() {
     return (
@@ -14,32 +14,41 @@ export default function Publication() {
                                 <FileText size={24} />
                             </div>
                             <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-accent/10 text-accent">
-                                Master's Thesis
+                                Bachelor's Thesis
                             </span>
                         </div>
 
-                        <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
-                            Machine Learning Intrusion Detection Using Statistical Feature Embeddings
-                        </h3>
+                        <Link href="https://github.com/Samsontesfamichael/Hybrid-IDS-5G" target="_blank" className="block">
+                            <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
+                                Machine Learning Intrusion Detection Using Statistical Feature Embeddings
+                            </h3>
+                        </Link>
 
                         <p className="text-muted-foreground mb-6 line-clamp-3">
                             Proposed a mathematically optimized anomaly-scoring method combining statistical feature embeddings (Euclidean & Mahalanobis) with Deep Learning classifier loss. Achieved 96.8% accuracy and 4.3% False Positive Rate on NSL-KDD dataset, outperforming standard ML baselines.
                         </p>
 
-                        <div className="flex gap-3 mt-4">
+                        <div className="flex gap-3 mt-4 flex-wrap">
                             <Link
-                                href="/thesis/master.pdf"
+                                href="/thesis/BSc_Thesis.pdf"
                                 target="_blank"
-                                className="flex-1 py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors flex items-center justify-center gap-2"
+                                className="flex-1 py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors flex items-center justify-center gap-2 min-w-[100px]"
                             >
                                 PDF <Download size={16} />
                             </Link>
                             <Link
                                 href="/thesis/master.tex"
                                 target="_blank"
-                                className="flex-1 py-2 text-sm font-medium text-foreground/80 border border-border rounded hover:bg-muted transition-colors flex items-center justify-center gap-2"
+                                className="flex-1 py-2 text-sm font-medium text-foreground/80 border border-border rounded hover:bg-muted transition-colors flex items-center justify-center gap-2 min-w-[100px]"
                             >
-                                LaTeX Source <FileText size={16} />
+                                LaTeX <FileText size={16} />
+                            </Link>
+                            <Link
+                                href="https://github.com/Samsontesfamichael/Hybrid-IDS-5G"
+                                target="_blank"
+                                className="flex-1 py-2 text-sm font-medium text-foreground/80 border border-border rounded hover:bg-muted transition-colors flex items-center justify-center gap-2 min-w-[100px]"
+                            >
+                                Code <Github size={16} />
                             </Link>
                         </div>
                     </div>
