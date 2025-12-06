@@ -94,7 +94,7 @@ The proposed method was evaluated against standard baselines on the NSL-KDD data
 ## 📝 Citation
 If you find this research useful, please cite:
 
-> **Samson Tesfamichael**, "Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring," Bachelor's Thesis, Department of Information Technology, Mekelle Institute of Technology, 2025.
+> **Samson Tesfamichael**, "Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring," Bachelor's Thesis, Department of Information Technology, Mekelle Institute of Technology, 2024.
 
 ---
 *This project is part of my professional portfolio. For more details, visit [my portfolio website](https://samsontesfamichael.github.io/personalportfolio/).*
