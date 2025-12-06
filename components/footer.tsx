@@ -40,9 +40,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground">
             <p>© {currentYear} Samson Tesfamichael. All rights reserved.</p>
             <span className="hidden md:inline text-border">|</span>
-            <a href="/LICENSE.txt" target="_blank" className="hover:text-primary transition-colors">
+            <Link href="/LICENSE.txt" target="_blank" className="hover:text-primary transition-colors">
               MIT License
-            </a>
+            </Link>
           </div>
 
           <p className="text-sm text-muted-foreground flex items-center gap-1">
