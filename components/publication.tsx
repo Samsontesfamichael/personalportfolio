@@ -107,10 +107,10 @@ export default function Publication() {
                     {/* Technical Report Card */}
                     <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-8 hover:bg-card/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                         <div className="flex items-start justify-between mb-6">
-                            <div className="p-3 bg-accent/10 rounded-xl text-accent ring-1 ring-accent/30">
+                            <div className="p-3 bg-accent/10 rounded-xl text-foreground ring-1 ring-accent/30">
                                 <FileText size={24} />
                             </div>
-                            <span className="px-3 py-1 rounded-full bg-accent/10 text-accent text-xs font-semibold border border-accent/20">
+                            <span className="px-3 py-1 rounded-full bg-accent/10 text-foreground text-xs font-semibold border border-accent/20">
                                 Technical Report
                             </span>
                         </div>
