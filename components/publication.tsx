@@ -18,7 +18,7 @@ export default function Publication() {
                         Exploring the intersection of advanced mathematics, machine learning, and cybersecurity.
                     </p>
                     <div className="flex justify-center">
-                        <Link href="https://orcid.org/0009-0008-0325-2111" target="_blank" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#A6CE39]/10 text-[#A6CE39] border border-[#A6CE39]/20 hover:bg-[#A6CE39]/20 transition-all text-sm font-medium">
+                        <Link href="https://orcid.org/0009-0008-0325-2111" target="_blank" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-all text-sm font-medium">
                             <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.306v7.444h2.297c3.125 0 4.05-2.094 4.05-3.719 0-2.438-1.572-3.725-3.9-3.725h-2.447z" />
                             </svg>
@@ -29,7 +29,7 @@ export default function Publication() {
 
                 <div className="grid gap-8 lg:grid-cols-2">
                     {/* Featured Thesis Card */}
-                    <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-1 hover:bg-card/60 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 lg:col-span-2 overflow-hidden">
+                    <div className="group relative bg-card/80 backdrop-blur-md rounded-2xl border border-border p-1 hover:bg-card/90 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 lg:col-span-2 overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                         <div className="relative p-8 h-full flex flex-col md:flex-row gap-8">
@@ -86,7 +86,7 @@ export default function Publication() {
                             {/* Visual Decoration for Thesis */}
                             <div className="hidden md:flex w-1/3 items-center justify-center relative">
                                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-2xl blur-2xl"></div>
-                                <div className="relative z-10 bg-card/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-2xl w-full rotate-3 transition-transform duration-500 group-hover:rotate-0">
+                                <div className="relative z-10 bg-card/80 backdrop-blur-xl border border-border rounded-2xl p-6 shadow-2xl w-full rotate-3 transition-transform duration-500 group-hover:rotate-0">
                                     <div className="space-y-3 opacity-80">
                                         <div className="h-2 w-1/2 bg-muted rounded"></div>
                                         <div className="h-2 w-3/4 bg-muted rounded"></div>
@@ -105,7 +105,7 @@ export default function Publication() {
                     </div>
 
                     {/* Technical Report Card */}
-                    <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-8 hover:bg-card/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div className="group relative bg-card/80 backdrop-blur-md rounded-2xl border border-border p-8 hover:bg-card/90 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                         <div className="flex items-start justify-between mb-6">
                             <div className="p-3 bg-accent/10 rounded-xl text-accent ring-1 ring-accent/30">
                                 <FileText size={24} />
