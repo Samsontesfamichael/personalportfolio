@@ -124,7 +124,7 @@ export default function Publication() {
                         </p>
 
                         <Link
-                            href="/personalportfolio/E-commerce%20Server%20Security%20Report.pdf"
+                            href="/E-commerce_Server_Security_Report.pdf"
                             target="_blank"
                             className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-card border border-border hover:border-accent/50 hover:bg-accent/5 transition-all group-hover:shadow-lg group-hover:shadow-accent/10"
                         >
