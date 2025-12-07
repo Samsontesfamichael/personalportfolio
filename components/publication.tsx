@@ -11,7 +11,7 @@ export default function Publication() {
 
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary bg-300% animate-gradient">
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-primary md:via-accent md:to-primary md:bg-300% md:animate-gradient">
                         Research & Publications
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-6">
