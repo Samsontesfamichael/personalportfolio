@@ -14,9 +14,17 @@ export default function Publication() {
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary bg-300% animate-gradient">
                         Research & Publications
                     </h2>
-                    <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+                    <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-6">
                         Exploring the intersection of advanced mathematics, machine learning, and cybersecurity.
                     </p>
+                    <div className="flex justify-center">
+                        <Link href="https://orcid.org/0009-0008-0325-2111" target="_blank" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#A6CE39]/10 text-[#A6CE39] border border-[#A6CE39]/20 hover:bg-[#A6CE39]/20 transition-all text-sm font-medium">
+                            <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.306v7.444h2.297c3.125 0 4.05-2.094 4.05-3.719 0-2.438-1.572-3.725-3.9-3.725h-2.447z" />
+                            </svg>
+                            ORCID: 0009-0008-0325-2111
+                        </Link>
+                    </div>
                 </div>
 
                 <div className="grid gap-8 lg:grid-cols-2">
