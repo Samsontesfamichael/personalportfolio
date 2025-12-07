@@ -35,10 +35,10 @@ export default function Publication() {
                         <div className="relative p-8 h-full flex flex-col md:flex-row gap-8">
                             <div className="flex-1 space-y-6">
                                 <div className="flex items-center gap-3">
-                                    <div className="p-2.5 bg-primary/20 rounded-xl text-primary ring-1 ring-primary/50">
+                                    <div className="p-2.5 bg-primary/20 rounded-xl text-foreground ring-1 ring-primary/50">
                                         <BookOpen size={24} />
                                     </div>
-                                    <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold border border-primary/20">
+                                    <span className="px-3 py-1 rounded-full bg-primary/10 text-foreground text-sm font-semibold border border-primary/20">
                                         Bachelor's Thesis
                                     </span>
                                     <span className="text-muted-foreground text-sm flex items-center gap-1">
