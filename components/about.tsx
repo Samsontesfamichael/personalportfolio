@@ -28,25 +28,19 @@ export default function About() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I'm <strong>Samson Tesfamichael</strong>, a motivated IT graduate and cybersecurity enthusiast
-                  currently developing hands-on expertise through a self-hosted home lab while seeking professional
-                  opportunities. Skilled in Python automation, penetration testing, and network defence, I'm passionate
-                  about designing secure systems and advancing digital resilience through continuous learning and applied
-                  research.
+                  I'm <strong>Samson Tesfamichael</strong>, a recent graduate with a Bachelor of Science in Information Technology from Mekelle Institute of Technology.
+                  Experienced in Python, Java, SQL, and MATLAB, I have a strong foundation in data analysis and system automation.
+                  My background spans academic projects involving computational thinking and problem-solving, with proficiency in both Windows and Linux/UNIX environments.
                 </p>
 
                 <p>
-                  My expertise spans network security, vulnerability assessment, penetration testing, and compliance
-                  frameworks including ISO 27001, NIST RMF, and PCI DSS. I've demonstrated strong proficiency in
-                  security tools like Splunk SIEM, Snort/Suricata IDS/IPS, and network simulation platforms for
-                  2G/3G/4G/5G architectures.
+                  My expertise includes network security, compliance frameworks (ISO 27001, NIST RMF), and security tools like Splunk and Snort.
+                  Beyond traditional IT, I am skilled in scientific tools such as Excel, ArcGIS, and Jupyter Notebooks, applying these to interdisciplinary projects.
                 </p>
 
                 <p>
-                  Through independent research, freelance consulting, and professional experience in healthcare and
-                  telecom sectors, I've developed comprehensive understanding of threat landscapes, risk management, and
-                  secure system architecture. I'm committed to continuous learning and applied research to deliver
-                  impactful cybersecurity solutions.
+                  I am highly interested in applying my computational and analytical skills to planetary science research and interdisciplinary scientific projects.
+                  I bring a versatile skillset ranging from system administration to data analysis, driven by a passion for solving complex problems through technology.
                 </p>
 
                 <div className="pt-4 grid grid-cols-2 gap-4">

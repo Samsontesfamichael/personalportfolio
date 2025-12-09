@@ -5,7 +5,11 @@ const skillCategories = [
   },
   {
     category: "Programming & Databases",
-    skills: ["Python", "C/C++", "Java", "Node.js", "Express.js", "SQL", "NoSQL", "MongoDB", "Bash Script"],
+    skills: ["Python", "C/C++", "Java", "MATLAB", "Node.js", "Express.js", "SQL", "NoSQL", "MongoDB", "Bash Script"],
+  },
+  {
+    category: "Operating Systems",
+    skills: ["Windows", "Linux/UNIX", "MacOS"],
   },
   {
     category: "Frameworks & Standards",
@@ -19,8 +23,11 @@ const skillCategories = [
       "Network Segmentation",
       "VPN",
       "Firewall Configuration",
-      "Linux/Unix",
     ],
+  },
+  {
+    category: "Scientific & Data Tools",
+    skills: ["Microsoft Excel", "Git/GitHub", "ArcGIS", "Jupyter Notebooks"],
   },
   {
     category: "Core Competencies",
