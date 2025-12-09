@@ -35,11 +35,10 @@ export default function About() {
 
                 <p>
                   My expertise includes network security, compliance frameworks (ISO 27001, NIST RMF), and security tools like Splunk and Snort.
-                  Beyond traditional IT, I am skilled in scientific tools such as Excel, ArcGIS, and Jupyter Notebooks, applying these to interdisciplinary projects.
+                  Beyond traditional IT, I am skilled in scientific tools such as Excel, ArcGIS, and Jupyter Notebooks.
                 </p>
 
                 <p>
-                  I am highly interested in applying my computational and analytical skills to planetary science research and interdisciplinary scientific projects.
                   I bring a versatile skillset ranging from system administration to data analysis, driven by a passion for solving complex problems through technology.
                 </p>
 
