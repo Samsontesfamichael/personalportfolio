@@ -1,14 +1,16 @@
 # Boolean Algebra
 
-## Basic Operations
-A ∧ B  
-A ∨ B  
-¬A  
+Decision Tree Split Selection
 
-## Laws
-- Idempotent: A ∨ A = A
-- De Morgan: ¬(A∧B) = ¬A ∨ ¬B
+## Implementation
 
-## Applications
-- Logic circuits
-- Digital systems
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import make_classification
+
+X, y = make_classification(n_samples=500, n_features=4, random_state=0)
+
+clf = DecisionTreeClassifier().fit(X, y)
+
+print("Boolean split rules in tree:", clf.tree_.feature)
+```

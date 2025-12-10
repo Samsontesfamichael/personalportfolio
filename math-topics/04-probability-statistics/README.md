@@ -1,14 +1,18 @@
 # Probability & Statistics
 
-## Probability Rules
-P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
-P(A|B) = P(A ∩ B) / P(B)
+Gaussian Mixture Model (GMM) Using EM Algorithm
 
-## Statistics
-Mean: μ = (1/n) Σ xᵢ  
-Variance: σ² = (1/n) Σ (xᵢ − μ)²  
-Standard deviation: σ = √σ²
+## Implementation
 
-## Applications
-- Data analysis
-- Machine learning models
+```python
+import numpy as np
+from sklearn.mixture import GaussianMixture
+from sklearn.datasets import make_blobs
+
+X, y = make_blobs(n_samples=500, centers=3, random_state=0)
+
+gmm = GaussianMixture(n_components=3).fit(X)
+
+print("Means:", gmm.means_)
+print("Predicted clusters:", gmm.predict(X)[:10])
+```

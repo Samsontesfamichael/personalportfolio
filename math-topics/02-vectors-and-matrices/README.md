@@ -1,22 +1,25 @@
 # Vectors & Matrices
 
-## Vectors
-Represent direction and magnitude.
+Deep Neural Network Forward Pass (Manual)
 
-### Magnitude
-||v|| = √(Σ vᵢ²)
+## Implementation
 
-### Unit Vector
-v / ||v||
+```python
+import numpy as np
 
-## Matrices
-Represent transformations.
+np.random.seed(0)
 
-### Matrix Properties
-- Transpose: Aᵀ
-- Identity: I
-- Zero matrix: 0
+# 3-layer fully connected NN
+def relu(x): return np.maximum(0, x)
 
-## Applications
-- Neural networks
-- Data representation
+x = np.random.randn(1, 10)
+W1 = np.random.randn(10, 32)
+W2 = np.random.randn(32, 16)
+W3 = np.random.randn(16, 1)
+
+h1 = relu(x @ W1)
+h2 = relu(h1 @ W2)
+output = h2 @ W3
+
+print("NN output:", output)
+```

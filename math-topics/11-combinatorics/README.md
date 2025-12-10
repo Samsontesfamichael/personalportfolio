@@ -1,10 +1,28 @@
 # Combinatorics
 
-## Formulas
-Permutations: P(n,r) = n! / (n−r)!  
-Combinations: C(n,r) = n! / (r!(n−r)!)  
-Binomial theorem: (a+b)ⁿ = Σ C(n,k)aⁿ⁻ᵏbᵏ
+Beam Search for Text Generation
 
-## Applications
-- Probability
-- Counting problems
+## Implementation
+
+```python
+import heapq
+
+def beam_search(start, next_token_fn, beam_width=3, length=5):
+    sequences = [(0, [start])]
+
+    for _ in range(length):
+        all_candidates = []
+        for score, seq in sequences:
+            for token, prob in next_token_fn(seq).items():
+                new_score = score - np.log(prob)
+                all_candidates.append((new_score, seq + [token]))
+
+        sequences = heapq.nsmallest(beam_width, all_candidates)
+    
+    return sequences
+
+def dummy_next_token(seq):
+    return {"a": 0.6, "b": 0.4}
+
+print(beam_search("s", dummy_next_token))
+```

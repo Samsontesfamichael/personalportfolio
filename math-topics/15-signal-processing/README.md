@@ -1,14 +1,21 @@
 # Signal Processing
 
-## Discrete Fourier Transform (DFT)
-X(k) = Σ x(n) e^(−j2πnk/N)
+CNN Feature Extraction from Audio
 
-## Inverse DFT
-x(n) = (1/N) Σ X(k) e^(j2πnk/N)
+## Implementation
 
-## Convolution
-(y * h)[n] = Σ y[k]h[n−k]
+```python
+import librosa
+import torch
+import torch.nn as nn
 
-## Applications
-- Audio processing
-- Filtering
+audio, sr = librosa.load(librosa.ex('trumpet'))
+
+mel = librosa.feature.melspectrogram(audio, sr=sr)
+mel_tensor = torch.tensor(mel).unsqueeze(0).unsqueeze(0)
+
+model = nn.Conv2d(1, 8, kernel_size=3)
+features = model(mel_tensor)
+
+print("Extracted audio features:", features.shape)
+```

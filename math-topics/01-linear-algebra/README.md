@@ -1,29 +1,31 @@
 # Linear Algebra
 
-## Overview
-Linear algebra studies vectors, matrices, and linear transformations. It is essential for machine learning, graphics, optimization, and deep learning.
+PCA + Eigen Decomposition + Dimensionality Reduction on Real Data
 
-## Key Concepts
-- Vector spaces
-- Linear transformations
-- Matrices and operations
-- Rank, nullity, basis, dimension
-- Determinants and inverses
+## Implementation
 
-## Formulas
-### Dot Product
-u · v = Σ uᵢ vᵢ
+```python
+import numpy as np
+from sklearn.datasets import load_digits
+from sklearn.preprocessing import StandardScaler
 
-### Matrix Multiplication
-(AB)ᵢⱼ = Σ Aᵢₖ Bₖⱼ
+X, y = load_digits(return_X_y=True)
 
-### Determinant (2×2)
-det(A) = ad − bc
+# Standardize
+X = StandardScaler().fit_transform(X)
 
-### Inverse (2×2)
-A⁻¹ = (1/(ad − bc)) [[d, -b], [-c, a]]
+# Covariance
+cov = np.cov(X.T)
 
-## Applications
-- Machine learning models
-- PCA / SVD
-- 3D graphics
+# Eigen decomposition
+eigvals, eigvecs = np.linalg.eig(cov)
+
+# Sort
+idx = np.argsort(eigvals)[::-1]
+W = eigvecs[:, idx[:2]]
+
+# Project to 2D
+X_2D = X @ W
+
+print("Projected shape:", X_2D.shape)
+```

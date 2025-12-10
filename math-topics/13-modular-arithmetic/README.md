@@ -1,10 +1,17 @@
 # Modular Arithmetic
 
-a ≡ b (mod m)
+Hashing in Machine Learning
 
-## Fermat’s Little Theorem
-a^(p−1) ≡ 1 (mod p)
+## Implementation
 
-## Applications
-- Cryptography
-- Hashing
+```python
+import numpy as np
+
+def feature_hash(x, m=1000):
+    return hash(x) % m
+
+features = ["cat", "dog", "apple", "cat"]
+hashed = [feature_hash(f) for f in features]
+
+print("Hashed features:", hashed)
+```

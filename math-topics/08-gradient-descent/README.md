@@ -1,10 +1,26 @@
 # Gradient Descent
 
-θₜ₊₁ = θₜ − α ∇J(θₜ)
+Train Logistic Regression from Scratch
 
-## Parameters
-α — learning rate  
-∇J — gradient  
+## Implementation
 
-## Applications
-- Machine learning optimization
+```python
+import numpy as np
+
+def sigmoid(z): return 1/(1 + np.exp(-z))
+
+# Fake data
+np.random.seed(0)
+X = np.random.randn(500, 3)
+y = (sigmoid(X.sum(axis=1) + 0.5) > 0.5).astype(int)
+
+w = np.zeros(3)
+lr = 0.1
+
+for _ in range(2000):
+    pred = sigmoid(X @ w)
+    grad = X.T @ (pred - y) / len(y)
+    w -= lr * grad
+
+print("Learned weights:", w)
+```

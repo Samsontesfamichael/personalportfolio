@@ -1,17 +1,20 @@
 # Hypothesis Testing
 
-## Steps
-1. Define H₀ and H₁
-2. Compute test statistic
-3. Determine p-value
-4. Accept or reject H₀
+Detect Performance Drift in ML Models
 
-## Z-test
-Z = (x̄ − μ) / (σ / √n)
+## Implementation
 
-## t-test
-t = (x̄ − μ) / (s / √n)
+```python
+from scipy.stats import ks_2samp
+import numpy as np
 
-## Applications
-- A/B testing
-- Statistical inference
+# incoming model predictions
+old_scores = np.random.randn(500)
+new_scores = np.random.randn(500) + 0.7  # drifted
+
+stat, p = ks_2samp(old_scores, new_scores)
+
+print("KS statistic:", stat)
+print("p-value:", p)
+print("Drift detected?", p < 0.05)
+```
