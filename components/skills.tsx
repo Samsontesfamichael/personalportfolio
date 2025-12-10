@@ -44,23 +44,23 @@ const skillCategories = [
   {
     category: "Mathematical Skills",
     skills: [
-      "Linear Algebra",
-      "Vectors & Matrices",
-      "Eigenvalues & Eigenvectors",
-      "Probability & Statistics",
-      "Bayes' Theorem",
-      "Hypothesis Testing",
-      "Calculus",
-      "Gradient Descent",
-      "Optimization",
-      "Graph Theory",
-      "Combinatorics",
-      "Boolean Algebra",
-      "Modular Arithmetic",
-      "Convex Optimization",
-      "Signal Processing",
-      "Markov Chains",
-      "Information Theory",
+      { name: "Linear Algebra", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/01-linear-algebra" },
+      { name: "Vectors & Matrices", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/02-vectors-and-matrices" },
+      { name: "Eigenvalues & Eigenvectors", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/03-eigenvalues-eigenvectors" },
+      { name: "Probability & Statistics", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/04-probability-statistics" },
+      { name: "Bayes' Theorem", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/05-bayes-theorem" },
+      { name: "Hypothesis Testing", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/06-hypothesis-testing" },
+      { name: "Calculus", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/07-calculus" },
+      { name: "Gradient Descent", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/08-gradient-descent" },
+      { name: "Optimization", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/09-optimization" },
+      { name: "Graph Theory", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/10-graph-theory" },
+      { name: "Combinatorics", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/11-combinatorics" },
+      { name: "Boolean Algebra", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/12-boolean-algebra" },
+      { name: "Modular Arithmetic", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/13-modular-arithmetic" },
+      { name: "Convex Optimization", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/14-convex-optimization" },
+      { name: "Signal Processing", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/15-signal-processing" },
+      { name: "Markov Chains", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/16-markov-chains" },
+      { name: "Information Theory", link: "https://github.com/Samsontesfamichael/personalportfolio/tree/main/math-topics/17-information-theory" },
     ],
   },
   {
@@ -80,14 +80,30 @@ export default function Skills() {
             <div key={index} className="p-6 rounded-lg border border-border bg-card/50">
               <h3 className="text-lg font-bold text-accent mb-4">{category.category}</h3>
               <div className="flex flex-wrap gap-2">
-                {category.skills.map((skill, i) => (
-                  <span
-                    key={i}
-                    className="px-3 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-medium border border-blue-300 hover:border-blue-500 hover:bg-blue-200 transition-colors"
-                  >
-                    {skill}
-                  </span>
-                ))}
+                {category.skills.map((skill, i) => {
+                  if (typeof skill === 'string') {
+                    return (
+                      <span
+                        key={i}
+                        className="px-3 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-medium border border-blue-300 hover:border-blue-500 hover:bg-blue-200 transition-colors"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  } else {
+                    return (
+                      <a
+                        key={i}
+                        href={skill.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 rounded-full bg-blue-100 text-blue-800 text-sm font-medium border border-blue-300 hover:border-blue-500 hover:bg-blue-200 transition-colors cursor-pointer"
+                      >
+                        {skill.name}
+                      </a>
+                    )
+                  }
+                })}
               </div>
 
             </div>
