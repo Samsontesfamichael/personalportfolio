@@ -1,11 +1,13 @@
 # Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring
 
+### A Hybrid Intrusion Detection System for 5G Networks
+
 **Bachelor's Thesis Project**  
 **Author:** Samson Tesfamichael  
 **Department:** Information Technology  
 
 ## 📌 Overview
-This repository contains the implementation of a **Hybrid Intrusion Detection System (IDS)** proposed in my Bachelor's thesis. The system integrates **statistical feature embeddings** (Euclidean and Mahalanobis distances) with **Deep Learning classifier loss** to detect network anomalies with high accuracy and low false-positive rates.
+This repository contains the implementation of a hybrid intrusion detection system for 5G networks, developed as part of the Bachelor’s thesis **Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring** by Samson Tesfamichael (2024).
 
 This research addresses the limitations of traditional signature-based IDS (which fail against zero-day attacks) and standard ML approaches (which often suffer from high false-positive rates).
 
@@ -24,7 +26,7 @@ Where:
 ## 🚀 Key Features
 - **Hybrid Architecture**: Combines unsupervised statistical analysis with supervised Deep Learning (MLP).
 - **Optimized Scoring**: A novel scoring function that adapts to feature correlations and model confidence.
-- **High Performance**: Achieved **96.8% Accuracy** and **4.3% False Positive Rate** on the NSL-KDD benchmark dataset.
+- **High Performance**: Achieved **97.85% Accuracy** and **0.79% False Positive Rate** on the NSL-KDD benchmark dataset.
 - **Real-time Dashboard**: Includes a Dash-based monitor for visualizing anomaly scores in real-time.
 
 ## 🛠️ Technologies Used
@@ -109,7 +111,7 @@ The hybrid feature space successfully clusters normal traffic while isolating an
 ## 📝 Citation
 If you find this research useful, please cite:
 
-> **Samson Tesfamichael**, "Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring," Bachelor's Thesis, Department of Information Technology, Mekelle Institute of Technology, 2024.
+> **Tesfamichael, S. (2024).** *Machine learning intrusion detection using statistical feature embeddings and optimized anomaly scoring* (Bachelor of Science thesis, Department of Information Technology). Mekelle University.
 
 ---
 *This project is part of my professional portfolio. For more details, visit [my portfolio website](https://samsontesfamichael.github.io/personalportfolio/).*
