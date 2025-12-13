@@ -38,7 +38,7 @@ Where:
 ```text
 Hybrid-IDS-5G/
 │
-├── data/                   # Dataset storage (e.g., NSL-KDD, CICIDS2017)
+├── data/                   # Simulation of standard datasets (NSL-KDD with 41 features)
 ├── models/                 # Directory for saving trained models and statistical params
 │
 ├── src/                    # Core source code

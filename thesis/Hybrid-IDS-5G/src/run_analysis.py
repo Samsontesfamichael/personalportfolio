@@ -1,7 +1,7 @@
 import numpy as np
 import os
 from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix, roc_curve
-from dataset_loader import load_data
+from dataset_loader import load_data, get_nsl_kdd_feature_names
 from anomaly_score import HybridIDS
 from utils import plot_roc_curve, plot_anomaly_distribution, plot_feature_embeddings
 from typing import Optional
@@ -25,7 +25,11 @@ def main(output_dir: str = '../results') -> None:
     
     # 1. Load Data
     print("Loading Dataset...")
-    X_train, X_val, X_test, y_train, y_val, y_test, scaler = load_data()
+    features = get_nsl_kdd_feature_names()
+    print(f"Simulating NSL-KDD dataset with {len(features)} features:")
+    print(features)
+    
+    X_train, X_val, X_test, y_train, y_val, y_test, scaler = load_data(n_features=len(features))
     
     # Initialize IDS
     ids = HybridIDS()

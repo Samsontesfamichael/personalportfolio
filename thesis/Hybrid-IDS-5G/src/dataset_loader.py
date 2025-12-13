@@ -17,14 +17,30 @@ def generate_synthetic_data(n_samples: int = 5000, n_features: int = 20) -> Tupl
     """
     print(f"Generating synthetic data with {n_samples} samples and {n_features} features...")
     X, y = make_classification(n_samples=n_samples, n_features=n_features, 
-                               n_informative=15, n_redundant=5, 
+                               n_informative=30, n_redundant=10, 
                                n_clusters_per_class=2, weights=[0.9, 0.1], 
                                flip_y=0.01, random_state=42)
     return X, y
 
+def get_nsl_kdd_feature_names() -> list[str]:
+    """
+    Returns the list of 41 features used in the NSL-KDD dataset.
+    """
+    return [
+        "duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", 
+        "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", 
+        "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", 
+        "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", 
+        "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", 
+        "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", 
+        "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", 
+        "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", 
+        "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"
+    ]
+
 def load_data(
     n_samples: int = 10000, 
-    n_features: int = 20,
+    n_features: int = 41, # Updated default to match NSL-KDD
     test_size: float = 0.2,
     val_size: float = 0.1
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, StandardScaler]:
