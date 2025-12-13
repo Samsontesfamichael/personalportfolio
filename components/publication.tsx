@@ -43,19 +43,19 @@ export default function Publication() {
                                     </span>
                                     <span className="text-muted-foreground text-sm flex items-center gap-1">
                                         <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
-                                        Published 2025
+                                        Published 2024
                                     </span>
                                 </div>
 
                                 <Link href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/thesis/Hybrid-IDS-5G#readme" target="_blank" className="block group/title">
                                     <h3 className="text-3xl font-bold mb-3 text-foreground group-hover/title:text-primary transition-colors">
-                                        Machine Learning Intrusion Detection Using Statistical Feature Embeddings
+                                        Machine Learning Intrusion Detection Using Statistical Feature Embeddings and Optimized Anomaly Scoring
                                     </h3>
                                     <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full mt-2 group-hover/title:w-32 transition-all duration-300"></div>
                                 </Link>
 
                                 <p className="text-muted-foreground text-lg leading-relaxed">
-                                    Proposed a mathematically optimized anomaly-scoring method combining statistical feature embeddings (Euclidean & Mahalanobis) with Deep Learning classifier loss. Achieved <span className="text-foreground font-semibold">96.8% accuracy</span> and <span className="text-foreground font-semibold">4.3% False Positive Rate</span> on NSL-KDD dataset, outperforming standard ML baselines.
+                                    Proposed a mathematically optimized anomaly-scoring method combining statistical feature embeddings (Euclidean & Mahalanobis) with Deep Learning classifier loss. Achieved <span className="text-foreground font-semibold">97.85% accuracy</span> and <span className="text-foreground font-semibold">0.79% False Positive Rate</span> on NSL-KDD dataset, outperforming standard ML baselines.
                                 </p>
 
                                 <div className="flex flex-wrap gap-4 pt-4">
@@ -92,7 +92,7 @@ export default function Publication() {
                                         <div className="h-2 w-3/4 bg-muted rounded"></div>
                                         <div className="h-32 w-full bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg border border-primary/10 flex items-center justify-center">
                                             <div className="text-center">
-                                                <div className="text-4xl font-bold text-primary mb-1">96.8%</div>
+                                                <div className="text-4xl font-bold text-primary mb-1">97.85%</div>
                                                 <div className="text-xs text-muted-foreground uppercase tracking-wider">Accuracy</div>
                                             </div>
                                         </div>
