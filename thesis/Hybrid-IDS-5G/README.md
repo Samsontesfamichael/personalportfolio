@@ -13,13 +13,13 @@ This research addresses the limitations of traditional signature-based IDS (whic
 Intrusion Detection Systems (IDS) are critical for network security. This thesis proposes a **mathematically optimized anomaly-scoring method** defined as:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{white}\Large&space;S(x)=\alpha\|x-\mu\|_2+\beta(x-\mu)^\top\Sigma^{-1}(x-\mu)+\gamma\ell(f_\theta(x),y)" title="Hybrid Anomaly Score" />
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;S(x)=\alpha\|x-\mu\|_2+\beta(x-\mu)^\top\Sigma^{-1}(x-\mu)+\gamma\ell(f_\theta(x),y)" title="Hybrid Anomaly Score" />
 </div>
 
 Where:
-- **Statistical Component**: Captures deviation from normal traffic patterns using Euclidean (<img src="https://latex.codecogs.com/svg.latex?\color{white}\|x-\mu\|_2" title="Euclidean Distance" />) and Mahalanobis (<img src="https://latex.codecogs.com/svg.latex?\color{white}(x-\mu)^\top\Sigma^{-1}(x-\mu)" title="Mahalanobis Distance" />) distances.
-- **ML Component**: Uses the Cross-Entropy loss (<img src="https://latex.codecogs.com/svg.latex?\color{white}\ell" title="Loss" />) of a Neural Network (<img src="https://latex.codecogs.com/svg.latex?\color{white}f_\theta" title="Neural Network" />) to quantify model uncertainty.
-- **Optimization**: Weights (<img src="https://latex.codecogs.com/svg.latex?\color{white}\alpha,\beta,\gamma" title="Weights" />) are optimized via gradient descent or grid search to minimize classification error.
+- **Statistical Component**: Captures deviation from normal traffic patterns using Euclidean (<img src="https://latex.codecogs.com/svg.latex?\|x-\mu\|_2" title="Euclidean Distance" />) and Mahalanobis (<img src="https://latex.codecogs.com/svg.latex?(x-\mu)^\top\Sigma^{-1}(x-\mu)" title="Mahalanobis Distance" />) distances.
+- **ML Component**: Uses the Cross-Entropy loss (<img src="https://latex.codecogs.com/svg.latex?\ell" title="Loss" />) of a Neural Network (<img src="https://latex.codecogs.com/svg.latex?f_\theta" title="Neural Network" />) to quantify model uncertainty.
+- **Optimization**: Weights (<img src="https://latex.codecogs.com/svg.latex?\alpha,\beta,\gamma" title="Weights" />) are optimized via gradient descent or grid search to minimize classification error.
 
 ## 🚀 Key Features
 - **Hybrid Architecture**: Combines unsupervised statistical analysis with supervised Deep Learning (MLP).

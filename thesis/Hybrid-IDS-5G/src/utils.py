@@ -22,7 +22,7 @@ def plot_roc_curve(y_test, scores, save_path='roc_curve.png'):
 
 def plot_anomaly_distribution(y_test, scores, save_path='anomaly_distribution.png'):
     plt.figure(figsize=(8, 6))
-    sns.histplot(scores[y_test == 0], color='green', label='Normal', kde=True, stat="density", alpha=0.5)
+    sns.histplot(scores[y_test == 0], color='blue', label='Normal', kde=True, stat="density", alpha=0.5)
     sns.histplot(scores[y_test == 1], color='red', label='Anomaly', kde=True, stat="density", alpha=0.5)
     plt.title('Distribution of Hybrid Anomaly Scores')
     plt.xlabel('Anomaly Score')
@@ -39,7 +39,7 @@ def plot_feature_embeddings(X_test, y_test, save_path='feature_embeddings.png'):
     X_pca = pca.fit_transform(X_test)
     
     plt.figure(figsize=(8, 6))
-    plt.scatter(X_pca[y_test == 0, 0], X_pca[y_test == 0, 1], c='green', label='Normal', alpha=0.5, s=10)
+    plt.scatter(X_pca[y_test == 0, 0], X_pca[y_test == 0, 1], c='blue', label='Normal', alpha=0.5, s=10)
     plt.scatter(X_pca[y_test == 1, 0], X_pca[y_test == 1, 1], c='red', label='Anomaly', alpha=0.5, s=10)
     plt.title('2D Feature Embeddings (PCA)')
     plt.xlabel('Principal Component 1')
