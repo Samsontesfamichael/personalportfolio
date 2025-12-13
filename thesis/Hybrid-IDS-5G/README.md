@@ -89,7 +89,22 @@ The proposed method was evaluated against standard baselines on the NSL-KDD data
 | :--- | :---: | :---: | :---: | :---: |
 | SVM | 93.2% | 92.1% | 91.5% | 8.5% |
 | Random Forest | 94.5% | 93.8% | 94.1% | 7.2% |
-| **Proposed Hybrid** | **96.8%** | **96.2%** | **97.1%** | **4.3%** |
+| **Proposed Hybrid** | **97.85%** | **93.64%** | **87.66%** | **0.79%** |
+
+
+### 📈 Visual Analysis
+
+#### ROC Curve
+The model achieves an AUC of **0.9780**, demonstrating excellent discrimination between normal and anomalous traffic.
+![ROC Curve](roc_curve.png)
+
+#### Anomaly Score Distribution
+There is a clear separation between the anomaly scores of normal traffic (blue) and attacks (red), minimizing overlap and false positives.
+![Anomaly Distribution](anomaly_distribution.png)
+
+#### Feature Embeddings (t-SNE/PCA)
+The hybrid feature space successfully clusters normal traffic while isolating anomalies.
+![Feature Embeddings](feature_embeddings.png)
 
 ## 📝 Citation
 If you find this research useful, please cite:
