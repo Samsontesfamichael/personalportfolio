@@ -53,7 +53,7 @@ app.layout = html.Div(style={'fontFamily': 'Helvetica, sans-serif', 'maxWidth': 
     # Legend / Info
     html.Div([
         html.Div([
-            html.Span("●", style={'color': '#0074D9', 'fontSize': '20px', 'marginRight': '5px'}),
+            html.Span("●", style={'color': '#2ECC71', 'fontSize': '20px', 'marginRight': '5px'}),
             html.Span("Normal Traffic (< 0.8)", style={'marginRight': '20px'}),
             html.Span("●", style={'color': '#e74c3c', 'fontSize': '20px', 'marginRight': '5px'}),
             html.Span("Anomaly / Attack (> 0.8)")
@@ -111,7 +111,7 @@ def update_metrics(n):
     stats_element = html.Div([
         html.Div([html.B("Total Rate: "), f"{total_rate:.0f} pkts/sec"]),
         html.Hr(style={'margin': '5px 0'}),
-        html.Div([html.B("Normal Rate: "), f"{normal_rate:.0f} pkts/sec"], style={'color': '#0074D9'}),
+        html.Div([html.B("Normal Rate: "), f"{normal_rate:.0f} pkts/sec"], style={'color': '#2ECC71'}),
         html.Div([html.B("Attack Rate: "), f"{attack_rate:.0f} pkts/sec"], style={'color': '#e74c3c'}),
         html.Hr(style={'margin': '5px 0'}),
         html.Div([html.Small(f"Total packets: {global_total_traffic:,}")])
@@ -125,7 +125,7 @@ def update_metrics(n):
             colors.append('#e74c3c')
             marker_sizes.append(12)
         else:
-            colors.append('#0074D9')
+            colors.append('#2ECC71')
             marker_sizes.append(8)
     
     fig = go.Figure()
