@@ -99,7 +99,7 @@ The model achieves an AUC of **0.9780**, demonstrating excellent discrimination 
 ![ROC Curve](roc_curve.png)
 
 #### Anomaly Score Distribution
-There is a clear separation between the anomaly scores of normal traffic (green) and attacks (red), minimizing overlap and false positives.
+There is a clear separation between the anomaly scores of normal traffic (blue) and attacks (red), minimizing overlap and false positives.
 ![Anomaly Distribution](anomaly_distribution.png)
 
 #### Feature Embeddings (t-SNE/PCA)
