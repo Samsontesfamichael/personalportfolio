@@ -1,6 +1,6 @@
 const experiences = [
   {
-    title: "Cyber Security Architect",
+    title: "Cyber Security Engineer",
     company: "Timeless Technologies plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "July 2023 – Present",
