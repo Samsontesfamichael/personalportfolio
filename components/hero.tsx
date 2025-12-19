@@ -41,24 +41,27 @@ export default function Hero() {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6">
           <Link
-            href="https://github.com"
+            href="https://github.com/Samsontesfamichael"
             className="p-3 rounded-lg bg-card hover:bg-card/80 transition-colors text-muted-foreground hover:text-accent"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub Profile"
           >
             <Github size={24} />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/samsontesfamichael"
             className="p-3 rounded-lg bg-card hover:bg-card/80 transition-colors text-muted-foreground hover:text-accent"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
           >
             <Linkedin size={24} />
           </Link>
           <Link
             href="mailto:samsontesfamichael11@gmail.com"
             className="p-3 rounded-lg bg-card hover:bg-card/80 transition-colors text-muted-foreground hover:text-accent"
+            aria-label="Email Contact"
           >
             <Mail size={24} />
           </Link>
