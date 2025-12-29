@@ -1,13 +1,13 @@
 const experiences = [
   {
-    title: "Cyber Security Engineer",
+    title: "Cybersecurity Engineer",
     company: "Timeless Technologies plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "July 2023 – Present",
     description:
-      "A Technology company and worked as a Cyber Security Engineer. Focused on vulnerability assessments, risk management, and strengthening network and software security.",
+      "Timeless Technologies plc is a technology company where I work as a Cybersecurity Engineer. Focused on vulnerability assessments, risk management, and strengthening network and software security.",
     highlights: [
-      "Conducted Vulnerability Assessments, Risk Assessment, Risk Identification, and Risk Mitigation",
+      "Conducted vulnerability assessments, risk identification, risk analysis, and risk mitigation",
       "Strengthened both the company's network security and the security of the software we developed",
     ],
   },
@@ -26,7 +26,7 @@ const experiences = [
     ],
   },
   {
-    title: "Cyber Security Consultant",
+    title: "Cybersecurity Consultant",
     company: "Freelancer",
     location: "Mekelle, Tigray, Ethiopia",
     period: "December 2020 – October 2022",

@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "5G Security",
     "Network Architecture",
     "Threat Analysis",
-    "Cyber Security Consultant",
+    "Cybersecurity Consultant",
     "Information Technology",
     "Mekelle University",
   ],
