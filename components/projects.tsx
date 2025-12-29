@@ -12,7 +12,7 @@ const projects = [
       "Designed and implemented a comprehensive home lab environment simulating 2G/3G/4G/5G network architectures using OpenBTS, srsRAN, and Open5GS for security research.",
     tags: ["OpenBTS", "srsRAN", "Open5GS", "Network Security", "Linux"],
     period: "2024",
-    image: "/personalportfolio/network-architecture-lab.jpg",
+    image: "/network-architecture-lab.jpg",
     details: {
       overview:
         "A comprehensive home lab project focused on simulating cellular network architectures for security research and testing.",
@@ -35,7 +35,7 @@ const projects = [
         "Created testing framework for protocol validation",
         "Produced comprehensive security analysis report",
       ],
-      screenshots: ["/personalportfolio/5g-network-topology.jpg", "/personalportfolio/network-traffic-analysis.jpg"],
+      screenshots: ["/5g-network-topology.jpg", "/network-traffic-analysis.jpg"],
     },
   },
   {
@@ -44,7 +44,7 @@ const projects = [
       "Deployed and configured Splunk SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
     tags: ["Splunk", "Snort", "Suricata", "SIEM", "Threat Detection"],
     period: "2024",
-    image: "/personalportfolio/siem-dashboard.jpg",
+    image: "/siem-dashboard.jpg",
     details: {
       overview:
         "Enterprise-grade security monitoring infrastructure with real-time threat detection and incident response capabilities.",
@@ -67,7 +67,7 @@ const projects = [
         "Created 50+ custom correlation rules",
         "Achieved 99.9% system uptime",
       ],
-      screenshots: ["/personalportfolio/splunk-dashboard.jpg", "/personalportfolio/threat-alerts.jpg"],
+      screenshots: ["/splunk-dashboard.jpg", "/threat-alerts.jpg"],
     },
   },
   {
@@ -76,7 +76,7 @@ const projects = [
       "Developed Python-based automation scripts for comprehensive vulnerability scanning, compliance reporting, and security monitoring across enterprise environments.",
     tags: ["Python", "Vulnerability Assessment", "Automation", "Compliance"],
     period: "2023-2024",
-    image: "/personalportfolio/vulnerability-scanner.jpg",
+    image: "/vulnerability-scanner.jpg",
     details: {
       overview:
         "Custom Python tool for automated vulnerability discovery, assessment, and reporting with compliance validation.",
@@ -99,7 +99,7 @@ const projects = [
         "Generated automated compliance reports",
         "Identified and tracked 2000+ vulnerabilities",
       ],
-      screenshots: ["/personalportfolio/vulnerability-report.jpg", "/personalportfolio/compliance-dashboard.jpg"],
+      screenshots: ["/vulnerability-report.jpg", "/compliance-dashboard.jpg"],
     },
   },
   {
@@ -108,7 +108,7 @@ const projects = [
       "Conducted comprehensive security audit and hardening of Luna HealthCare System, implementing encryption protocols and access controls to meet HIPAA and GDPR requirements.",
     tags: ["Healthcare Security", "HIPAA", "GDPR", "Penetration Testing"],
     period: "2024",
-    image: "/personalportfolio/healthcare-security.jpg",
+    image: "/healthcare-security.jpg",
     details: {
       overview:
         "Complete security assessment and remediation of healthcare system with focus on regulatory compliance and patient data protection.",
@@ -131,7 +131,7 @@ const projects = [
         "Implemented end-to-end encryption",
         "Reduced security risk by 85%",
       ],
-      screenshots: ["/personalportfolio/security-audit-report.jpg", "/personalportfolio/compliance-checklist.jpg"],
+      screenshots: ["/security-audit-report.jpg", "/compliance-checklist.jpg"],
     },
   },
   {
@@ -140,7 +140,7 @@ const projects = [
       "Provided security consulting services to telecom and software development firms on cloud infrastructure hardening, network segmentation, and threat mitigation strategies.",
     tags: ["Cloud Security", "Risk Management", "Network Security", "Consulting"],
     period: "2021-2024",
-    image: "/personalportfolio/cloud-security-consulting.jpg",
+    image: "/cloud-security-consulting.jpg",
     details: {
       overview:
         "Strategic security consulting across multiple organizations focusing on cloud infrastructure security and risk management.",
@@ -163,7 +163,7 @@ const projects = [
         "Implemented security best practices",
         "Trained 100+ security professionals",
       ],
-      screenshots: ["/personalportfolio/cloud-architecture.jpg", "/personalportfolio/security-framework.jpg"],
+      screenshots: ["/cloud-architecture.jpg", "/security-framework.jpg"],
     },
   },
   {
@@ -172,7 +172,7 @@ const projects = [
       "Designed and implemented secure RESTful APIs with authentication, access control, and data encryption using Node.js, Express.js, and MongoDB for web applications.",
     tags: ["Node.js", "Express.js", "MongoDB", "API Security", "Authentication"],
     period: "2020-2024",
-    image: "/personalportfolio/api-security-implementation.jpg",
+    image: "/api-security-implementation.jpg",
     details: {
       overview:
         "Secure API development framework with comprehensive authentication, authorization, and encryption mechanisms. Implemented OAuth 2.0, JWT tokens, role-based access control, and request validation across multiple production applications.",
@@ -201,10 +201,10 @@ const projects = [
         "Prevented 99% of injection attacks through input validation",
       ],
       screenshots: [
-        "/personalportfolio/api-security-implementation.jpg",
-        "/personalportfolio/api-authentication-flow.jpg",
-        "/personalportfolio/api-security-testing.jpg",
-        "/personalportfolio/api-access-control.jpg",
+        "/api-security-implementation.jpg",
+        "/api-authentication-flow.jpg",
+        "/api-security-testing.jpg",
+        "/api-access-control.jpg",
       ],
     },
   },
@@ -214,7 +214,7 @@ const projects = [
       "Architected and developed a production-grade Django backend system with REST APIs, real-time communication, asynchronous task processing, and multi-cloud storage integration serving 100k+ daily users.",
     tags: ["Django", "Python", "PostgreSQL", "Celery", "Redis", "AWS"],
     period: "2020-2024",
-    image: "/personalportfolio/api-security-implementation.jpg",
+    image: "/api-security-implementation.jpg",
     details: {
       overview:
         "Led the development of a highly scalable Django backend system featuring REST APIs, WebSocket real-time communication, asynchronous task pipelines, and cloud-based storage across AWS, Azure, and GCP. Implemented comprehensive security, caching, and performance optimization strategies.",
@@ -246,10 +246,10 @@ const projects = [
         "Achieved zero security breaches with JWT authentication and CORS",
       ],
       screenshots: [
-        "/personalportfolio/cloud-architecture.jpg",
-        "/personalportfolio/api-authentication-flow.jpg",
-        "/personalportfolio/network-traffic-analysis.jpg",
-        "/personalportfolio/cloud-security-consulting.jpg",
+        "/cloud-architecture.jpg",
+        "/api-authentication-flow.jpg",
+        "/network-traffic-analysis.jpg",
+        "/cloud-security-consulting.jpg",
       ],
     },
   },
@@ -260,7 +260,7 @@ const techDetails = {
     name: "Node.js",
     description:
       "A JavaScript runtime built on Chrome's V8 JavaScript engine that executes JavaScript code outside of a web browser.",
-    logo: "/personalportfolio/tech/nodejs-logo.jpg",
+    logo: "/tech/nodejs-logo.jpg",
     usage:
       "Used as the backend runtime environment for the API server, handling concurrent requests and asynchronous operations efficiently.",
     features: [
@@ -275,7 +275,7 @@ const techDetails = {
     name: "Express.js",
     description:
       "A minimal and flexible Node.js web application framework providing robust features for web and mobile applications.",
-    logo: "/personalportfolio/tech/expressjs-logo.jpg",
+    logo: "/tech/expressjs-logo.jpg",
     usage:
       "The core framework for routing API endpoints, handling HTTP requests/responses, and managing middleware for authentication and validation.",
     features: [
@@ -289,7 +289,7 @@ const techDetails = {
   MongoDB: {
     name: "MongoDB",
     description: "A popular NoSQL document database that stores data in flexible, JSON-like BSON format.",
-    logo: "/personalportfolio/tech/mongodb-logo.jpg",
+    logo: "/tech/mongodb-logo.jpg",
     usage:
       "Primary data storage for user profiles, API configurations, and security logs. Provides schema flexibility for evolving requirements.",
     features: [
@@ -303,7 +303,7 @@ const techDetails = {
   JWT: {
     name: "JWT (JSON Web Token)",
     description: "A compact, self-contained way of securely transmitting information between parties as a JSON object.",
-    logo: "/personalportfolio/tech/jwt-logo.jpg",
+    logo: "/tech/jwt-logo.jpg",
     usage:
       "Implements stateless authentication. Users receive a token upon login that is sent with each request to verify identity without server-side sessions.",
     features: [
@@ -317,7 +317,7 @@ const techDetails = {
   bcryptjs: {
     name: "bcryptjs",
     description: "A password hashing library that uses the bcrypt algorithm to securely hash and compare passwords.",
-    logo: "/personalportfolio/tech/bcrypt-logo.jpg",
+    logo: "/tech/bcrypt-logo.jpg",
     usage:
       "Hashes user passwords before storage and verifies passwords during authentication. Includes built-in salt generation for additional security.",
     features: [
@@ -332,7 +332,7 @@ const techDetails = {
     name: "Helmet.js",
     description:
       "Express.js middleware that secures apps by setting various HTTP headers to protect against well-known security vulnerabilities.",
-    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    logo: "/tech/helmet-logo.jpg",
     usage:
       "Automatically sets security headers like Content-Security-Policy, X-Frame-Options, and X-XSS-Protection to prevent common attacks.",
     features: [
@@ -346,7 +346,7 @@ const techDetails = {
   Joi: {
     name: "Joi",
     description: "A powerful schema description language and data validator for JavaScript/Node.js.",
-    logo: "/personalportfolio/tech/joi-logo.jpg",
+    logo: "/tech/joi-logo.jpg",
     usage:
       "Validates all incoming API request data against defined schemas. Ensures only properly formatted data is processed.",
     features: [
@@ -360,7 +360,7 @@ const techDetails = {
   Redis: {
     name: "Redis",
     description: "An in-memory data structure store used as a database, cache, and message broker.",
-    logo: "/personalportfolio/tech/redis-logo.jpg",
+    logo: "/tech/redis-logo.jpg",
     usage:
       "Implements rate limiting to prevent abuse and caching to improve API response times by storing frequently accessed data.",
     features: [
@@ -374,7 +374,7 @@ const techDetails = {
   Django: {
     name: "Django",
     description: "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
-    logo: "/personalportfolio/tech/django-logo.jpg",
+    logo: "/tech/django-logo.jpg",
     usage:
       "Core framework for building the backend application, handling routing, ORM, authentication, and admin interface. Provides a batteries-included approach for web development.",
     features: [
@@ -388,7 +388,7 @@ const techDetails = {
   "Django REST Framework": {
     name: "Django REST Framework",
     description: "A powerful and flexible toolkit for building Web APIs in Django.",
-    logo: "/personalportfolio/tech/django-rest-framework-logo.jpg",
+    logo: "/tech/django-rest-framework-logo.jpg",
     usage:
       "Provides serialization, authentication, permissions, and viewsets for building RESTful APIs. Handles request/response parsing, content negotiation, and API documentation.",
     features: [
@@ -402,7 +402,7 @@ const techDetails = {
   PostgreSQL: {
     name: "PostgreSQL",
     description: "A powerful, open-source object-relational database system with strong ACID compliance.",
-    logo: "/personalportfolio/tech/postgresql-logo.jpg",
+    logo: "/tech/postgresql-logo.jpg",
     usage:
       "Primary relational database for storing application data with support for complex queries, transactions, and data integrity. Handles user data, relationships, and business logic.",
     features: [
@@ -416,7 +416,7 @@ const techDetails = {
   Celery: {
     name: "Celery",
     description: "A distributed task queue system for processing asynchronous jobs in Python applications.",
-    logo: "/personalportfolio/tech/celery-logo.jpg",
+    logo: "/tech/celery-logo.jpg",
     usage:
       "Handles background tasks such as email sending, report generation, data processing, and scheduled jobs. Integrates with Redis as message broker for task distribution.",
     features: [
@@ -430,7 +430,7 @@ const techDetails = {
   "Django Channels": {
     name: "Django Channels",
     description: "Extends Django to handle WebSockets, HTTP2, and other asynchronous protocols.",
-    logo: "/personalportfolio/tech/django-channels-logo.jpg",
+    logo: "/tech/django-channels-logo.jpg",
     usage:
       "Enables real-time features like chat, notifications, and live updates through WebSocket connections. Handles both HTTP and WebSocket protocols in a unified way.",
     features: [
@@ -444,7 +444,7 @@ const techDetails = {
   "AWS S3": {
     name: "AWS S3",
     description: "Amazon Simple Storage Service - scalable object storage in the cloud.",
-    logo: "/personalportfolio/tech/aws-s3-logo.jpg",
+    logo: "/tech/aws-s3-logo.jpg",
     usage:
       "Stores and serves static files, media uploads, backups, and large datasets. Provides CDN integration for fast global content delivery.",
     features: [
@@ -458,7 +458,7 @@ const techDetails = {
   "Azure Blob Storage": {
     name: "Azure Blob Storage",
     description: "Microsoft's object storage solution for the cloud, optimized for storing massive amounts of unstructured data.",
-    logo: "/personalportfolio/tech/azure-blob-logo.jpg",
+    logo: "/tech/azure-blob-logo.jpg",
     usage:
       "Alternative cloud storage for files, images, videos, and backups. Provides geo-redundancy and integration with Azure services.",
     features: [
@@ -472,7 +472,7 @@ const techDetails = {
   "Google Cloud Storage": {
     name: "Google Cloud Storage",
     description: "Unified object storage for developers and enterprises, from live applications to cloud archival.",
-    logo: "/personalportfolio/tech/helmet-logo.jpg",
+    logo: "/tech/helmet-logo.jpg",
     usage:
       "Multi-cloud storage solution for application data, media files, and analytics. Provides global edge caching and strong consistency.",
     features: [
@@ -486,7 +486,7 @@ const techDetails = {
   Docker: {
     name: "Docker",
     description: "A platform for developing, shipping, and running applications in containers.",
-    logo: "/personalportfolio/tech/jwt-logo.jpg",
+    logo: "/tech/jwt-logo.jpg",
     usage:
       "Containerizes the Django application and its dependencies for consistent deployment across development, staging, and production environments.",
     features: [
