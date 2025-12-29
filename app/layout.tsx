@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://samsontesfamichael.github.io/personal-portfolio"),
+  metadataBase: new URL("https://samsontesfamichael.github.io/personalportfolio"),
   title: {
     default: "Samson Tesfamichael | Cybersecurity Researcher",
     template: "%s | Samson Tesfamichael",
@@ -51,19 +51,19 @@ export const metadata: Metadata = {
     google: "C-7OvogeZdkeE5KpOH4nJ-sbzNcPf4JapCl5bVaHVM8",
   },
   alternates: {
-    canonical: "https://samsontesfamichael.github.io/personal-portfolio",
+    canonical: "https://samsontesfamichael.github.io/personalportfolio",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://samsontesfamichael.github.io/personal-portfolio",
+    url: "https://samsontesfamichael.github.io/personalportfolio",
     title: "Samson Tesfamichael | Cybersecurity Researcher",
     description:
       "Portfolio of Samson Tesfamichael, showcasing projects in network security, penetration testing, and threat analysis.",
     siteName: "Samson Tesfamichael Portfolio",
     images: [
       {
-        url: "/personal-portfolio/og-image.png",
+        url: "/personalportfolio/og-image.png",
         width: 1200,
         height: 630,
         alt: "Samson Tesfamichael - Cybersecurity Researcher",
@@ -113,8 +113,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Samson Tesfamichael",
-    url: "https://samsontesfamichael.github.io/personal-portfolio",
-    image: "https://samsontesfamichael.github.io/personal-portfolio/og-image.png",
+    url: "https://samsontesfamichael.github.io/personalportfolio",
+    image: "https://samsontesfamichael.github.io/personalportfolio/og-image.png",
     jobTitle: "Cybersecurity Researcher",
     description:
       "IT Graduate specializing in network security, penetration testing, and advanced threat analysis",
@@ -142,7 +142,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Samson Tesfamichael Portfolio",
-    url: "https://samsontesfamichael.github.io/personal-portfolio",
+    url: "https://samsontesfamichael.github.io/personalportfolio",
     description:
       "Portfolio showcasing cybersecurity research, projects, and professional experience",
     author: {

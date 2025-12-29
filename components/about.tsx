@@ -22,7 +22,7 @@ export default function About() {
           <div className="md:col-span-2">
             <div className="space-y-6">
               <div>
-                <p className="text-muted-foreground text-sm font-mono mb-4">📍 Bole, Addis Ababa, Ethiopia</p>
+                <p className="text-muted-foreground text-sm font-mono mb-4">📍 Mekelle, Tigray, Ethiopia</p>
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
               </div>
 
