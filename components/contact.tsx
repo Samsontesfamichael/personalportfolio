@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MapPin, Phone, MessageSquare } from "lucide-react"
+import { Mail, Linkedin, Github, MapPin, Phone, MessageSquare, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 
@@ -100,19 +100,28 @@ export default function Contact() {
           <div className="rounded-lg border border-border bg-background/50 overflow-hidden mb-12">
             <div className="p-6 flex items-center gap-3 border-b border-border">
               <MapPin className="size-6 text-accent" />
-              <p className="text-muted-foreground font-medium">Near Gerji St. Mariam Church, Bole, Addis Ababa, Ethiopia</p>
+              <p className="text-muted-foreground font-medium">Mekelle, Tigray, Ethiopia</p>
             </div>
             <div className="w-full h-64 md:h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.2891234567!2d38.7993682!3d8.9991202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85f3a6aa0aaf%3A0x4c69dfae97e0b50a!2sGerji%20St.%20Mariam%20Church!5e0!3m2!1sen!2set!4v1732722000000!5m2!1sen!2set"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.2625292416!2d39.4635962!3d13.4808505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x166afd153428efcb%3A0x20b487872920ec84!2sMekelle%20Hotel!5e0!3m2!1sen!2set!4v1735500000000!5m2!1sen!2set"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Location Map - Near Gerji St. Mariam Church, Bole, Addis Ababa, Ethiopia"
+                title="Location Map - Mekelle Hotel, Mekelle, Tigray, Ethiopia"
               />
+            </div>
+            <div className="p-4 text-center border-t border-border">
+              <Link
+                href="https://www.google.com/maps/place/Mekelle+Hotel+%E1%88%98%E1%89%90%E1%88%88+%E1%88%86%E1%89%B4%E1%88%8D/@13.4785676,39.4558808,15.07z/data=!4m9!3m8!1s0x166afd153428efcb:0x20b487872920ec84!5m2!4m1!1i2!8m2!3d13.4808505!4d39.4661711!16s%2Fg%2F11f5qswpqc?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                className="text-accent hover:underline text-sm inline-flex items-center gap-2"
+              >
+                <ExternalLink size={16} /> View on Google Maps
+              </Link>
             </div>
           </div>
 

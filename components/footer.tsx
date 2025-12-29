@@ -28,7 +28,7 @@ export default function Footer() {
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="mailto:contact@example.com" className="p-2 rounded-full bg-background border border-border hover:border-primary hover:text-primary hover:shadow-lg hover:shadow-primary/20 transition-all duration-300">
+              <Link href="mailto:samsontesfamichael11@gmail.com" className="p-2 rounded-full bg-background border border-border hover:border-primary hover:text-primary hover:shadow-lg hover:shadow-primary/20 transition-all duration-300">
                 <Mail size={20} />
                 <span className="sr-only">Email</span>
               </Link>
