@@ -111,7 +111,7 @@ export default function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Location Map - Mekelle Hotel, Mekelle, Tigray, Ethiopia"
+                title="Location Map - Near Mekelle Hotel, Mekelle, Tigray, Ethiopia"
               />
             </div>
             <div className="p-4 text-center border-t border-border">
