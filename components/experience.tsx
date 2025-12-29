@@ -14,7 +14,7 @@ const experiences = [
   {
     title: "Independent Cybersecurity Researcher",
     company: "Home Lab Project",
-    location: "Addis Ababa, Ethiopia",
+    location: "Mekelle, Tigray, Ethiopia",
     period: "May 2024 – Present",
     description:
       "Established a self-hosted cybersecurity home lab to continue practical learning while seeking full-time opportunities.",
