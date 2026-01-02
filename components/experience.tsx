@@ -26,6 +26,21 @@ const experiences = [
     ],
   },
   {
+    title: "Cybersecurity Engineer (Part Time, Voluntary)",
+    company: "Tesfay Mehari",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "June 2025 – December 2025",
+    description:
+      "Engineered secure database workflows and implemented advanced security measures for the Database Activities and Data Processing departments at Tesfay Mehari.",
+    highlights: [
+      "Engineered secure database workflows for storage, retrieval, and processing to ensure resilience and efficiency",
+      "Implemented advanced encryption protocols and role-based access controls to safeguard sensitive data assets",
+      "Conducted comprehensive vulnerability assessments of database systems and delivered actionable mitigation strategies",
+      "Established continuous monitoring mechanisms to guarantee data integrity, reliability, and compliance with standards",
+      "Successfully integrated security measures into core database operations and collaborated with technical teams",
+    ],
+  },
+  {
     title: "Security Engineer",
     company: "Kaldas Technologies",
     location: "Remote",
