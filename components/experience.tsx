@@ -26,6 +26,20 @@ const experiences = [
     ],
   },
   {
+    title: "Security Engineer",
+    company: "Kaldas Technologies",
+    location: "Remote",
+    period: "November 2024 – July 2025",
+    description:
+      "Collaborated closely with the CEO as a Security Engineer at Kaldas Technologies, focusing on vulnerability scanning, exploitation, and security testing to improve the organization's security posture.",
+    highlights: [
+      "Conducted vulnerability scanning, exploitation, and security testing of systems",
+      "Provided clear, actionable recommendations that improved the security posture of the organization",
+      "Demonstrated strong technical knowledge and a solid understanding of cybersecurity principles",
+      "Recognized for precise and careful work, dedication, and a positive attitude towards continuous learning",
+    ],
+  },
+  {
     title: "Cybersecurity Consultant",
     company: "Freelancer",
     location: "Mekelle, Tigray, Ethiopia",
