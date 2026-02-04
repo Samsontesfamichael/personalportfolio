@@ -43,7 +43,7 @@ const projects = [
     description:
       "Production deployment and administration of an e-commerce platform on cloud hosting, focusing on performance and security hardening.",
     tags: ["Linux", "Nginx/Apache", "MySQL", "SSL", "Security Hardening"],
-    period: "2024",
+    period: "2023 – Present",
     image: "/personalportfolio/web-admin.png",
     details: {
       overview:

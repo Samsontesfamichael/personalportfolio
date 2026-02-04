@@ -18,7 +18,7 @@ const experiences = [
     title: "Server Administrator / Platform Engineer",
     company: "Hostinger Cloud Hosting (Freelance)",
     location: "Remote",
-    period: "March 2024 – August 2024",
+    period: "2023 – Present",
     description:
       "Configured and deployed a full e‑commerce website for a business client, managing the hosting environment, security, and performance optimization.",
     highlights: [
