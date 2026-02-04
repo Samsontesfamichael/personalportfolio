@@ -1,11 +1,5 @@
 const certifications = [
   {
-    title: "Proxmox Virtualization & Cluster Administration",
-    issuer: "Professional Training",
-    areas: "KVM virtualization, LXC containers, Ceph storage, clustering, backup/DR, VM migration",
-    icon: "🖥️",
-  },
-  {
     title: "Hostinger Web Server Administration",
     issuer: "Professional Training",
     areas: "Apache/Nginx, DNS, SSL/TLS, Linux server admin, performance tuning, security hardening",
