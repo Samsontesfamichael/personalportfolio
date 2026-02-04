@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="border-t border-border/40 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground">
-            <p>© {currentYear} Samson Tesfamichael. All rights reserved.</p>
+            <p>© {currentYear-2} Samson Tesfamichael. All rights reserved.</p>
             <span className="hidden md:inline text-border">|</span>
             <Link href="/LICENSE.txt" target="_blank" className="hover:text-primary transition-colors">
               MIT License
