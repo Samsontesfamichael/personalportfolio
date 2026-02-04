@@ -1,5 +1,34 @@
 const experiences = [
   {
+    title: "Virtualization & Infrastructure Engineer",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "August 2024 – Present",
+    description:
+      "Designed and deployed a multi‑node Proxmox Virtual Environment (PVE) lab to simulate enterprise‑grade virtualization, clustering, storage, and high‑availability operations.",
+    highlights: [
+      "Built a production-like 3-node Proxmox cluster with Ceph distributed storage and implemented HA failover mechanisms",
+      "Configured advanced networking including Linux bridges, static IPs, and VLAN segmentation for isolated traffic",
+      "Managed full VM lifecycle for Linux (Ubuntu, CentOS) and Windows using cloud-init for automated provisioning",
+      "Implemented backup and disaster recovery workflows using Proxmox Backup Server (PBS) with scheduled snapshots",
+      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) design documentation",
+    ],
+  },
+  {
+    title: "Server Administrator / Platform Engineer",
+    company: "Hostinger Cloud Hosting (Freelance)",
+    location: "Remote",
+    period: "March 2024 – August 2024",
+    description:
+      "Configured and deployed a full e‑commerce website for a business client, managing the hosting environment, security, and performance optimization.",
+    highlights: [
+      "Managed Linux-based hosting environment including DNS management, SSL/TLS configuration, and email services",
+      "Performed server-side optimization including PHP tuning and database query optimization for improved page load speeds",
+      "Implemented security hardening measures: firewall rules, file permissions, and automated malware scanning",
+      "Ensured production uptime through proactive monitoring and troubleshooting of live traffic issues",
+    ],
+  },
+  {
     title: "Cybersecurity Engineer",
     company: "Timeless Technologies plc",
     location: "Mekelle, Tigray, Ethiopia",
