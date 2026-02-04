@@ -1,15 +1,16 @@
 const experiences = [
-  
   {
-    title: "Cybersecurity Engineer",
-    company: "Timeless Technologies plc",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "July 2023 – Present",
+    title: "Server Administrator / Platform Engineer",
+    company: "Hostinger Cloud Hosting (Freelance)",
+    location: "Remote",
+    period: "2023 – Present",
     description:
-      "Timeless Technologies plc is a technology company where I work as a Cybersecurity Engineer. Focused on vulnerability assessments, risk management, and strengthening network and software security.",
+      "Configured and deployed a full e‑commerce website for a business client, managing the hosting environment, security, and performance optimization.",
     highlights: [
-      "Conducted vulnerability assessments, risk identification, risk analysis, and risk mitigation",
-      "Strengthened both the company's network security and the security of the software we developed",
+      "Managed Linux-based hosting environment including DNS management, SSL/TLS configuration, and email services",
+      "Performed server-side optimization including PHP tuning and database query optimization for improved page load speeds",
+      "Implemented security hardening measures: firewall rules, file permissions, and automated malware scanning",
+      "Ensured production uptime through proactive monitoring and troubleshooting of live traffic issues",
     ],
   },
   {
@@ -24,6 +25,18 @@ const experiences = [
       "Conduct vulnerability testing, risk analysis, and system hardening aligned with ISO 27001 and NIST frameworks",
       "Develop Python scripts to automate security monitoring, log analysis, and penetration-testing tasks",
       "Use Splunk (SIEM), Snort (IDS/IPS), and Suricata for continuous monitoring and threat correlation",
+    ],
+  },
+  {
+    title: "Cybersecurity Engineer",
+    company: "Timeless Technologies plc",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "July 2023 – Present",
+    description:
+      "Timeless Technologies plc is a technology company where I work as a Cybersecurity Engineer. Focused on vulnerability assessments, risk management, and strengthening network and software security.",
+    highlights: [
+      "Conducted vulnerability assessments, risk identification, risk analysis, and risk mitigation",
+      "Strengthened both the company's network security and the security of the software we developed",
     ],
   },
   {
@@ -42,6 +55,21 @@ const experiences = [
     ],
   },
   {
+    title: "Virtualization & Infrastructure Engineer",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "August 2024 – October 2025",
+    description:
+      "Designed and deployed a multi‑node Proxmox Virtual Environment (PVE) lab to simulate enterprise‑grade virtualization, clustering, storage, and high‑availability operations.",
+    highlights: [
+      "Built a production-like 3-node Proxmox cluster with Ceph distributed storage and implemented HA failover mechanisms",
+      "Configured advanced networking including Linux bridges, static IPs, and VLAN segmentation for isolated traffic",
+      "Managed full VM lifecycle for Linux (Ubuntu, CentOS) and Windows using cloud-init for automated provisioning",
+      "Implemented backup and disaster recovery workflows using Proxmox Backup Server (PBS) with scheduled snapshots",
+      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) design documentation",
+    ],
+  },
+  {
     title: "Security Engineer",
     company: "Kaldas Technologies",
     location: "Remote",
@@ -53,20 +81,6 @@ const experiences = [
       "Provided clear, actionable recommendations that improved the security posture of the organization",
       "Demonstrated strong technical knowledge and a solid understanding of cybersecurity principles",
       "Recognized for precise and careful work, dedication, and a positive attitude towards continuous learning",
-    ],
-  },
-  {
-    title: "Cybersecurity Consultant",
-    company: "Freelancer",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "December 2020 – October 2022",
-    description:
-      "Provided consultancy for clients in telecom and software development sectors on network and cloud security.",
-    highlights: [
-      "Developed automation scripts in Python for vulnerability scanning and compliance reporting",
-      "Conducted penetration testing, risk assessments, and mitigation planning based on international standards",
-      "Supported small businesses in adopting secure software deployment practices",
-      "Advised clients on ISO 27001, NIST, and PCI DSS compliance frameworks",
     ],
   },
   {
@@ -96,32 +110,17 @@ const experiences = [
     ],
   },
   {
-    title: "Virtualization & Infrastructure Engineer",
-    company: "Home Lab Project",
+    title: "Cybersecurity Consultant",
+    company: "Freelancer",
     location: "Mekelle, Tigray, Ethiopia",
-    period: "August 2024 – October 2025",
+    period: "December 2020 – October 2022",
     description:
-      "Designed and deployed a multi‑node Proxmox Virtual Environment (PVE) lab to simulate enterprise‑grade virtualization, clustering, storage, and high‑availability operations.",
+      "Provided consultancy for clients in telecom and software development sectors on network and cloud security.",
     highlights: [
-      "Built a production-like 3-node Proxmox cluster with Ceph distributed storage and implemented HA failover mechanisms",
-      "Configured advanced networking including Linux bridges, static IPs, and VLAN segmentation for isolated traffic",
-      "Managed full VM lifecycle for Linux (Ubuntu, CentOS) and Windows using cloud-init for automated provisioning",
-      "Implemented backup and disaster recovery workflows using Proxmox Backup Server (PBS) with scheduled snapshots",
-      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) design documentation",
-    ],
-  },
-  {
-    title: "Server Administrator / Platform Engineer",
-    company: "Hostinger Cloud Hosting (Freelance)",
-    location: "Remote",
-    period: "2023 – Present",
-    description:
-      "Configured and deployed a full e‑commerce website for a business client, managing the hosting environment, security, and performance optimization.",
-    highlights: [
-      "Managed Linux-based hosting environment including DNS management, SSL/TLS configuration, and email services",
-      "Performed server-side optimization including PHP tuning and database query optimization for improved page load speeds",
-      "Implemented security hardening measures: firewall rules, file permissions, and automated malware scanning",
-      "Ensured production uptime through proactive monitoring and troubleshooting of live traffic issues",
+      "Developed automation scripts in Python for vulnerability scanning and compliance reporting",
+      "Conducted penetration testing, risk assessments, and mitigation planning based on international standards",
+      "Supported small businesses in adopting secure software deployment practices",
+      "Advised clients on ISO 27001, NIST, and PCI DSS compliance frameworks",
     ],
   },
 ]
