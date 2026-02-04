@@ -7,6 +7,70 @@ import { TechDetailModal } from "./tech-detail-modal"
 
 const projects = [
   {
+    title: "Proxmox Virtualization & Cluster Administration",
+    description:
+      "Enterprise-grade virtualization lab featuring a 3-node HA cluster, Ceph distributed storage, and automated backup/DR workflows.",
+    tags: ["Proxmox VE", "KVM", "LXC", "Ceph Storage", "Virtualization"],
+    period: "2024",
+    image: "/personalportfolio/proxmox-lab.png",
+    details: {
+      overview:
+        "Designed and implemented a high-availability virtualization platform using Proxmox VE. The lab simulates a production environment with clustered compute nodes and distributed storage.",
+      objectives: [
+        "Deploy a 3-node Proxmox VE cluster with high availability",
+        "Implement Ceph distributed storage for VM disk images",
+        "Configure automated backup and disaster recovery using PBS",
+        "Test live migration and failover performance",
+      ],
+      techStack: [
+        "Proxmox VE - Virtualization Management",
+        "KVM/LXC - Hypervisor technologies",
+        "Ceph - Distributed storage system",
+        "PBS - Proxmox Backup Server",
+        "Networking - Linux bridges, VLANs",
+      ],
+      outcomes: [
+        "Achieved 100% VM uptime during simulated node failures",
+        "Configured storage replication with zero data loss benchmarks",
+        "Automated backup schedules with 30-day retention policies",
+        "Documented full HLD/LLD for the infrastructure",
+      ],
+      screenshots: ["/personalportfolio/proxmox-lab.png"],
+    },
+  },
+  {
+    title: "Hostinger Web Server Administration",
+    description:
+      "Production deployment and administration of an e-commerce platform on cloud hosting, focusing on performance and security hardening.",
+    tags: ["Linux", "Nginx/Apache", "MySQL", "SSL", "Security Hardening"],
+    period: "2024",
+    image: "/personalportfolio/web-admin.png",
+    details: {
+      overview:
+        "Managed the full stack deployment of a professional e-commerce website on Hostinger Cloud. Focus was on server-side performance and multi-layer security.",
+      objectives: [
+        "Deploy and configure Linux-based web servers",
+        "Implement SSL/TLS certificates and DNS management",
+        "Optimize PHP and MySQL for high traffic performance",
+        "Hardened server security via firewalls and file permissions",
+      ],
+      techStack: [
+        "Hostinger Cloud - Infrastructure provider",
+        "Nginx/Apache - Web server software",
+        "MySQL/MariaDB - Database management",
+        "PHP - Server-side scripting",
+        "SSL/TLS - Secure communication",
+      ],
+      outcomes: [
+        "Improved page load speed by 45% through optimization",
+        "Successfully implemented automated weekly backups",
+        "Passed security audits with zero high-risk findings",
+        "Maintained 99.9% uptime during peak promotional events",
+      ],
+      screenshots: ["/personalportfolio/web-admin.png"],
+    },
+  },
+  {
     title: "Secure Network Architecture Simulation",
     description:
       "Designed and implemented a comprehensive home lab environment simulating 2G/3G/4G/5G network architectures using OpenBTS, srsRAN, and Open5GS for security research.",
