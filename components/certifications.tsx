@@ -1,5 +1,17 @@
 const certifications = [
   {
+    title: "Linux System Administrator Certification",
+    issuer: "Professional Training",
+    areas: "Linux server management, user administration, shell scripting, system monitoring, security",
+    icon: "🐧",
+  },
+  {
+    title: "Windows Server Administrator Fundamental Certification",
+    issuer: "Professional Training",
+    areas: "Windows Server, Active Directory, DHCP, DNS, Group Policy, server management",
+    icon: "🪟",
+  },
+  {
     title: "Hostinger Web Server Administration",
     issuer: "Professional Training",
     areas: "Apache/Nginx, DNS, SSL/TLS, Linux server admin, performance tuning, security hardening",
