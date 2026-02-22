@@ -10,6 +10,10 @@ import { mathSkillsData } from "@/lib/math-skills-data"
 
 const skillCategories = [
   {
+    category: "Help Desk & Support Tools",
+    skills: ["Ticketing Systems (Jira, Zendesk)", "Remote Desktop", "Active Directory", "LDAP", "Windows Server", "System Imaging", "Hardware Troubleshooting", "Software Deployment"],
+  },
+  {
     category: "Security Tools & Platforms",
     skills: ["Splunk (SIEM)", "ELK Stack", "Snort (IDS/IPS)", "Suricata", "Wazuh", "Wireshark", "OpenBTS", "srsRAN", "Open5GS"],
   },

@@ -1,16 +1,19 @@
 const experiences = [
   {
-    title: "Server Administrator / Platform Engineer",
+    title: "IT Support Specialist / Server Administrator",
     company: "Hostinger Cloud Hosting (Freelance)",
     location: "Remote",
     period: "2023 – Present",
     description:
-      "Configured and deployed a full e‑commerce website for a business client, managing the hosting environment, security, and performance optimization.",
+      "Provided end-to-end technical support for business clients, managing hosting environments, resolving account issues, and ensuring smooth website operations.",
     highlights: [
+      "Established and configured user accounts, DNS settings, SSL certificates, and email services for new clients",
+      "Resolved password and login issues, troubleshoot access problems, and guided clients through technical setup steps",
       "Managed Linux-based hosting environment including DNS management, SSL/TLS configuration, and email services",
       "Performed server-side optimization including PHP tuning and database query optimization for improved page load speeds",
       "Implemented security hardening measures: firewall rules, file permissions, and automated malware scanning",
-      "Ensured production uptime through proactive monitoring and troubleshooting of live traffic issues",
+      "Documented troubleshooting procedures and maintained support reports for recurring issues",
+      "Prioritized and managed multiple client tickets while meeting SLA response times",
     ],
   },
   {
@@ -33,9 +36,13 @@ const experiences = [
     location: "Mekelle, Tigray, Ethiopia",
     period: "July 2023 – Present",
     description:
-      "Timeless Technologies plc is a technology company where I work as a Cybersecurity Engineer. Focused on vulnerability assessments, risk management, and strengthening network and software security.",
+      "Provided technical support and security solutions for internal teams and clients, resolving software and hardware issues while implementing secure systems.",
     highlights: [
       "Conducted vulnerability assessments, risk identification, risk analysis, and risk mitigation",
+      "Supported end-users with hardware and software troubleshooting, resolving issues with desktops, laptops, and network peripherals",
+      "Established user accounts with proper access controls and assisted with password reset procedures",
+      "Maintained procedures and reports documenting technical issues and resolutions for the organization",
+      "Analyzed system logs and records to identify underlying trends and potential issues",
       "Strengthened both the company's network security and the security of the software we developed",
     ],
   },
@@ -88,12 +95,16 @@ const experiences = [
     company: "Luna Technologies Plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "September 2024 – December 2024",
-    description: "Maintained and upgraded Luna HealthCare System software used in Aman Hospital.",
+    description: "Provided technical support for Luna HealthCare System software used in Aman Hospital, troubleshooting issues and training end-users.",
     highlights: [
       "Maintained and upgraded Luna HealthCare System software used in Aman Hospital",
+      "Troubleshot and resolved software and hardware issues reported by hospital staff",
+      "Walked end-users through steps to help them resolve technical problems with the healthcare system",
+      "Established user accounts for hospital staff and assisted with password/login problems",
       "Automated backup and performance-monitoring routines using Python scripting",
       "Implemented server-side optimisations and database improvements for system stability",
       "Ensured secure API communication using Node.js, Express.js, and MongoDB",
+      "Maintained support documentation and procedures for the entire IT team",
     ],
   },
   {
@@ -101,11 +112,14 @@ const experiences = [
     company: "Vite Technologies Plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "January 2024 – April 2024",
-    description: "Designed and developed RESTful APIs and back-end modules for web-based business applications.",
+    description: "Provided technical support for internal teams and clients, resolving access issues and developing support documentation.",
     highlights: [
       "Designed and developed RESTful APIs and back-end modules for web applications",
+      "Established user accounts, managed access controls, and resolved login/authentication issues",
       "Implemented user authentication, access control, and data encryption features",
+      "Assisted colleagues with technical issues and walked them through resolution steps",
       "Assisted in automating system testing and debugging processes using Python scripts",
+      "Maintained technical documentation and support procedures",
       "Collaborated with frontend team to integrate secure backend services",
     ],
   },
@@ -115,11 +129,15 @@ const experiences = [
     location: "Mekelle, Tigray, Ethiopia",
     period: "December 2020 – October 2022",
     description:
-      "Provided consultancy for clients in telecom and software development sectors on network and cloud security.",
+      "Provided IT support and consultancy for clients in telecom and software development sectors, resolving technical issues and implementing solutions.",
     highlights: [
+      "Resolved client technical problems related to network connectivity, software deployment, and hardware configuration",
       "Developed automation scripts in Python for vulnerability scanning and compliance reporting",
       "Conducted penetration testing, risk assessments, and mitigation planning based on international standards",
       "Supported small businesses in adopting secure software deployment practices",
+      "Documented technical support procedures and maintained issue resolution reports",
+      "Analyzed system logs and records to identify trends and prevent recurring issues",
+      "Assisted clients with account setup, password recovery, and access management",
       "Advised clients on ISO 27001, NIST, and PCI DSS compliance frameworks",
     ],
   },
