@@ -125,7 +125,7 @@ Historical yield data shows an upward trend, reflecting improvements in agricult
 - Data Cleaning & Feature Engineering
 - Model Selection & Hyperparameter Tuning
 - Data Visualization & Interpretation
-- Application of ML to Agriculture & Food Systems
+- Application of ML to Agriculture
 
 ## 📝 Citation
 > **Tesfamichael, S. (2025).** *Crop Yield Prediction Using Machine Learning*. Personal Portfolio Research Project.
