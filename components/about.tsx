@@ -28,14 +28,14 @@ export default function About() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I'm <strong>Samson Tesfamichael</strong>, a recent graduate with a Bachelor of Science in Information Technology from Mekelle Institute of Technology.
-                  Experienced in Python, Java, SQL, and MATLAB, I have a strong foundation in data analysis and system automation.
-                  My background spans academic projects involving computational thinking and problem-solving, with proficiency in both Windows and Linux/UNIX environments.
+                  I'm <strong>Samson Tesfamichael</strong>, an Information Technology graduate from Mekelle Institute of Technology.
+                  Specializing in machine learning, statistical modelling, and data‑driven system analysis, I have a strong foundation in computational methods and predictive analytics.
+                  My expertise includes developing simulations and applying machine learning to complex problems, particularly in sustainable food and agricultural systems.
                 </p>
 
                 <p>
-                  My expertise includes network security, compliance frameworks (ISO 27001, NIST RMF), and security tools like Splunk and Snort.
-                  Beyond traditional IT, I am skilled in scientific tools such as Excel, ArcGIS, and Jupyter Notebooks.
+                  My technical toolkit includes Python, MATLAB, and SQL, alongside scientific tools like Excel, ArcGIS, and Jupyter Notebooks.
+                  I am driven by a passion for solving global challenges through mathematical optimization and data science.
                 </p>
 
                 <p>

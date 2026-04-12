@@ -12,13 +12,13 @@ export default function Hero() {
           Samson Tesfamichael
           <br />
           <span className="text-primary">
-            Cybersecurity Researcher
+            Machine Learning & Data‑Driven Modelling Researcher | Systems Engineer | Applied AI for Sustainability
           </span>
         </h1>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Motivated IT graduate specializing in network security, penetration testing, and advanced threat analysis.
-          Exploring cutting-edge security research through hands-on home lab projects and real-world implementations.
+          I am an Information Technology graduate specializing in machine learning, statistical modelling, and data‑driven system analysis.
+          My research interests include predictive modelling, simulation, and the application of computational methods to sustainable food and agricultural systems.
         </p>
 
 
