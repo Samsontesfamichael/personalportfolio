@@ -14,18 +14,18 @@ export default function Hero() {
           Tesfamichael
         </h1>
 
-        <div className="flex flex-col gap-4 mb-10 items-center">
-          <div className="animate-fade-in-up [animation-delay:200ms] opacity-0 [animation-fill-mode:forwards]">
-            <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold bg-primary/20 text-primary px-6 py-2 rounded-full border border-primary/30 backdrop-blur-sm">
+        <div className="flex flex-col gap-6 mb-12 items-center">
+          <div className="animate-fade-in-up">
+            <span className="text-2xl sm:text-3xl lg:text-5xl font-bold bg-primary/10 text-primary px-8 py-3 rounded-2xl border border-primary/20 backdrop-blur-md inline-block">
               Machine Learning & Data‑Driven Modelling Researcher
             </span>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:400ms] opacity-0 [animation-fill-mode:forwards]">
-            <span className="text-xl sm:text-2xl lg:text-3xl font-medium text-foreground py-1">
+          <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up">
+            <span className="text-xl sm:text-2xl lg:text-4xl font-semibold text-foreground italic">
               Systems Engineer
             </span>
-            <span className="hidden sm:inline text-xl sm:text-2xl lg:text-3xl text-muted-foreground/30">•</span>
-            <span className="text-xl sm:text-2xl lg:text-3xl font-medium text-accent py-1">
+            <span className="hidden sm:inline text-3xl text-muted-foreground/20 text-center self-center">|</span>
+            <span className="text-xl sm:text-2xl lg:text-4xl font-semibold text-accent italic">
               Applied AI for Sustainability
             </span>
           </div>
