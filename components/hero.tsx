@@ -8,13 +8,28 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 -z-10" />
 
       <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Samson Tesfamichael
+        <h1 className="text-6xl sm:text-7xl lg:text-9xl font-bold mb-8 leading-[0.9] tracking-tighter">
+          Samson
           <br />
-          <span className="text-primary">
-            Machine Learning & Data‑Driven Modelling Researcher | Systems Engineer | Applied AI for Sustainability
-          </span>
+          Tesfamichael
         </h1>
+
+        <div className="flex flex-col gap-4 mb-10 items-center">
+          <div className="animate-fade-in-up [animation-delay:200ms] opacity-0 [animation-fill-mode:forwards]">
+            <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold bg-primary/20 text-primary px-6 py-2 rounded-full border border-primary/30 backdrop-blur-sm">
+              Machine Learning & Data‑Driven Modelling Researcher
+            </span>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:400ms] opacity-0 [animation-fill-mode:forwards]">
+            <span className="text-xl sm:text-2xl lg:text-3xl font-medium text-foreground py-1">
+              Systems Engineer
+            </span>
+            <span className="hidden sm:inline text-xl sm:text-2xl lg:text-3xl text-muted-foreground/30">•</span>
+            <span className="text-xl sm:text-2xl lg:text-3xl font-medium text-accent py-1">
+              Applied AI for Sustainability
+            </span>
+          </div>
+        </div>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
           I am an Information Technology graduate specializing in machine learning, statistical modelling, and data‑driven system analysis.
