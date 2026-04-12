@@ -9,6 +9,8 @@ Year: 2025
 
 Models: Linear Regression, Random Forest, Gradient Boosting, XGBoost
 Dataset: Simulated agronomic data (FAO-style features)
+- FAOSTAT: https://www.fao.org/faostat/en/#data/QCL
+- Kaggle Reference: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 """
 
 import numpy as np

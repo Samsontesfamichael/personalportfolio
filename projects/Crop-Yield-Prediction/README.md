@@ -4,12 +4,17 @@
 
 **Research Project**  
 **Author:** Samson Tesfamichael  
-**Focus:** Food Systems Modelling & Machine Learning  
+**Focus:** Agricultural Systems Modelling & Machine Learning  
 
 ## 📌 Overview
 This project applies machine learning and statistical modelling to predict crop yield using environmental and agronomic variables. It demonstrates how data-driven approaches can support agricultural decision-making — a core theme in food systems modelling.
 
 The goal is to build a predictive model that estimates crop yield based on weather conditions, soil characteristics, rainfall, temperature, fertilizer use, and historical yield data.
+
+### 📊 Data Source
+This project uses simulated agronomic data based on real-world distributions from the following sources:
+- **[FAOSTAT - Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/QCL):** Primary source for global agricultural production data and features.
+- **[Kaggle - Crop Yield Prediction Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset):** Reference for feature structures including NPK (Nitrogen), Rainfall, and Temperature variables.
 
 ## 📄 Abstract
 Accurate crop yield prediction is essential for food security planning, resource optimization, and sustainable agricultural practices. This project develops and compares multiple machine learning models to predict crop yield (ton/ha) from environmental and agronomic features.
