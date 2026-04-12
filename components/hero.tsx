@@ -8,11 +8,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 -z-10" />
 
       <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-        <h1 className="text-6xl sm:text-7xl lg:text-9xl font-bold mb-8 leading-[0.9] tracking-tighter">
+        <h3 className="text-6xl sm:text-7xl lg:text-9xl font-bold mb-8 leading-[0.9] tracking-tighter">
           Samson
           <br />
           Tesfamichael
-        </h1>
+        </h3>
 
         <div className="flex flex-col gap-6 mb-12 items-center">
           <div className="animate-fade-in-up">
