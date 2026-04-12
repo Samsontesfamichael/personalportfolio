@@ -10,56 +10,34 @@ import { mathSkillsData } from "@/lib/math-skills-data"
 
 const skillCategories = [
   {
-    category: "Help Desk & Support Tools",
-    skills: ["Ticketing Systems (Jira, Zendesk)", "Remote Desktop", "Active Directory", "LDAP", "Windows Server", "System Imaging", "Hardware Troubleshooting", "Software Deployment"],
+    category: "Machine Learning & AI",
+    skills: ["Supervised Learning", "Unsupervised Learning", "Neural Networks", "Deep Learning", "Predictive Modelling", "Model Evaluation & Tuning", "Feature Engineering", "Scikit-learn", "TensorFlow/Keras"],
   },
   {
-    category: "Security Tools & Platforms",
-    skills: ["Splunk (SIEM)", "ELK Stack", "Snort (IDS/IPS)", "Suricata", "Wazuh", "Wireshark", "OpenBTS", "srsRAN", "Open5GS"],
-  },
-  {
-    category: "Programming & Databases",
-    skills: ["Python", "C/C++", "Java", "MATLAB", "Node.js", "Express.js", "SQL", "NoSQL", "MongoDB", "Bash Script"],
-  },
-  {
-    category: "Operating Systems",
-    skills: ["Windows", "Linux/UNIX", "MacOS"],
-  },
-  {
-    category: "Frameworks & Standards",
-    skills: ["ISO 27001", "NIST RMF", "PCI DSS", "HIPAA", "GDPR", "ISACA Risk IT"],
-  },
-  {
-    category: "Network & Infrastructure",
-    skills: [
-      "Network Architecture",
-      "2G/3G/4G/5G Networks",
-      "Network Segmentation",
-      "VPN",
-      "Firewall Configuration",
-    ],
-  },
-  {
-    category: "Scientific & Data Tools",
-    skills: ["Microsoft Excel", "Git/GitHub", "ArcGIS", "Jupyter Notebooks"],
-  },
-  {
-    category: "Core Competencies",
-    skills: [
-      "Penetration Testing",
-      "Vulnerability Assessment",
-      "Exploitation Tools",
-      "Risk Analysis",
-      "Threat Modeling",
-      "Incident Response",
-      "Compliance Audit",
-    ],
+    category: "Data Science & Modelling",
+    skills: ["Statistical Analysis", "Stochastic Processes", "System Simulation", "Data Visualization", "Pandas", "NumPy", "Jupyter Notebooks", "MATLAB", "ArcGIS"],
   },
   {
     category: "Mathematical Skills",
     // We will handle rendering differently for this category using mathSkillsData
     skills: mathSkillsData.map(s => s.title),
     isMath: true
+  },
+  {
+    category: "Programming & Frameworks",
+    skills: ["Python", "C/C++", "Java", "Node.js", "Express.js", "SQL", "NoSQL", "MongoDB", "Bash Script"],
+  },
+  {
+    category: "Systems Engineering & Infrastructure",
+    skills: ["System Optimization", "Process Automation", "Efficiency Tuning", "Linux/UNIX", "Windows Server", "Active Directory", "Network Architecture", "Virtualization (Proxmox/Ceph)"],
+  },
+  {
+    category: "System resilience & Security",
+    skills: ["Risk Analysis", "Threat Modelling", "Intrusion Detection (Snort/Suricata)", "SIEM (Splunk/ELK)", "Vulnerability Assessment", "ISO 27001", "NIST Framework"],
+  },
+  {
+    category: "Operating Systems",
+    skills: ["Linux/UNIX", "Windows", "MacOS"],
   },
   {
     category: "Languages",
