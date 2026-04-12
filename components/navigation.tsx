@@ -32,7 +32,7 @@ export default function Navigation() {
               |
             </span>
             <span className="text-sm font-medium text-foreground/80">
-              Cybersecurity Researcher
+              ML & Data‑Driven Researcher
             </span>
           </Link>
 
