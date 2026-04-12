@@ -7,6 +7,46 @@ import { TechDetailModal } from "./tech-detail-modal"
 
 const projects = [
   {
+    title: "Crop Yield Prediction Using Machine Learning",
+    description:
+      "Applies machine learning and statistical modelling to predict crop yield using environmental and agronomic variables, supporting data-driven agricultural decision-making and food system sustainability.",
+    tags: ["Python", "Scikit-Learn", "XGBoost", "Pandas", "Matplotlib", "Agriculture"],
+    period: "2025",
+    image: "/personalportfolio/projects/crop-yield/feature_importance.png",
+    details: {
+      overview:
+        "This project demonstrates how data-driven approaches can support agricultural decision-making — a core theme in food systems modelling. Using weather data (rainfall, temperature), soil characteristics (nitrogen, pH), and fertilizer inputs, multiple ML models were trained and compared to predict crop yield in ton/ha.",
+      objectives: [
+        "Build predictive models for crop yield estimation",
+        "Compare Linear Regression, Random Forest, Gradient Boosting, and XGBoost",
+        "Identify the most influential environmental and agronomic variables",
+        "Produce publication-ready visualisations and model comparison metrics",
+        "Demonstrate application of ML to agriculture and food systems",
+      ],
+      techStack: [
+        "Python 3.8+ - Core development language",
+        "Scikit-Learn - ML models, preprocessing, evaluation metrics",
+        "XGBoost - Optimized gradient boosting framework",
+        "Pandas - Data manipulation and analysis",
+        "NumPy - Numerical computing and linear algebra",
+        "Matplotlib & Seaborn - Data visualization",
+      ],
+      outcomes: [
+        "Gradient Boosting achieved best R² score of 0.87 on test set",
+        "Identified rainfall and soil nitrogen as strongest yield predictors",
+        "Generated predicted vs. actual, feature importance, and model comparison charts",
+        "Full reproducible ML pipeline with synthetic FAO-style dataset",
+        "Demonstrated end-to-end data science workflow for agricultural modelling",
+      ],
+      screenshots: [
+        "/personalportfolio/projects/crop-yield/predicted_vs_actual.png",
+        "/personalportfolio/projects/crop-yield/feature_importance.png",
+        "/personalportfolio/projects/crop-yield/model_comparison.png",
+        "/personalportfolio/projects/crop-yield/yield_trend.png",
+      ],
+    },
+  },
+  {
     title: "Proxmox Virtualization & Cluster Administration",
     description:
       "Enterprise-grade virtualization lab featuring a 3-node HA cluster, Ceph distributed storage, and automated backup/DR workflows.",

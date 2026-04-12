@@ -104,6 +104,54 @@ export default function Publication() {
                         </div>
                     </div>
 
+                    {/* Crop Yield Prediction Research Card */}
+                    <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-1 hover:bg-card/60 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 overflow-hidden">
+                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-transparent to-green-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                        <div className="relative p-8 h-full flex flex-col">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="p-2.5 bg-emerald-500/20 rounded-xl text-foreground ring-1 ring-emerald-500/50">
+                                    <BookOpen size={24} />
+                                </div>
+                                <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-foreground text-sm font-semibold border border-emerald-500/20">
+                                    Research Project
+                                </span>
+                                <span className="text-muted-foreground text-sm flex items-center gap-1">
+                                    <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
+                                    2025
+                                </span>
+                            </div>
+
+                            <Link href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction#readme" target="_blank" className="block group/title">
+                                <h3 className="text-2xl font-bold mb-3 text-foreground group-hover/title:text-emerald-400 transition-colors">
+                                    🌾 Crop Yield Prediction Using Machine Learning
+                                </h3>
+                                <div className="h-1 w-20 bg-gradient-to-r from-emerald-500 to-green-400 rounded-full mt-2 group-hover/title:w-32 transition-all duration-300"></div>
+                            </Link>
+
+                            <p className="text-muted-foreground text-base leading-relaxed mt-4 mb-6 flex-1">
+                                Applies ML and statistical modelling to predict crop yield using environmental and agronomic variables. Trained <span className="text-foreground font-semibold">Linear Regression, Random Forest, Gradient Boosting, and XGBoost</span> models. The Gradient Boosting model achieved an <span className="text-foreground font-semibold">R² score of 0.87</span>. Rainfall and soil nitrogen were identified as the most influential predictors.
+                            </p>
+
+                            <div className="flex flex-wrap gap-3">
+                                <Link
+                                    href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction"
+                                    target="_blank"
+                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5"
+                                >
+                                    <Github size={18} /> View Code & README
+                                </Link>
+                                <Link
+                                    href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction#readme"
+                                    target="_blank"
+                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-card border border-border hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all hover:-translate-y-0.5"
+                                >
+                                    <ExternalLink size={18} /> Full Documentation
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Technical Report Card */}
                     <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-8 hover:bg-card/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                         <div className="flex items-start justify-between mb-6">
