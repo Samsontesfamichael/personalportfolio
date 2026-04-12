@@ -9,13 +9,13 @@ const projects = [
   {
     title: "Crop Yield Prediction Using Machine Learning",
     description:
-      "Applies machine learning and statistical modelling to predict crop yield using environmental and agronomic variables, supporting data-driven agricultural decision-making and food system sustainability.",
+      "Predicts crop yield (ton/ha) from weather, soil, and fertilizer data using Linear Regression, Random Forest, Gradient Boosting, and XGBoost. The best model achieved an R² of 0.87.",
     tags: ["Python", "Scikit-Learn", "XGBoost", "Pandas", "Matplotlib", "Agriculture"],
     period: "2025",
     image: "/personalportfolio/projects/crop-yield/feature_importance.png",
     details: {
       overview:
-        "This project demonstrates how data-driven approaches can support agricultural decision-making — a core theme in food systems modelling. Using weather data (rainfall, temperature), soil characteristics (nitrogen, pH), and fertilizer inputs, multiple ML models were trained and compared to predict crop yield in ton/ha.",
+        "This project uses machine learning to predict crop yield from environmental and agronomic variables. Using weather data (rainfall, temperature), soil characteristics (nitrogen, pH), and fertilizer inputs, I trained and compared four ML models. The Gradient Boosting model achieved the best R² score of 0.87. Feature importance analysis identified rainfall and soil nitrogen as the strongest yield predictors.",
       objectives: [
         "Build predictive models for crop yield estimation",
         "Compare Linear Regression, Random Forest, Gradient Boosting, and XGBoost",

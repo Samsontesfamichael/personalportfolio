@@ -105,15 +105,15 @@ export default function Publication() {
                     </div>
 
                     {/* Crop Yield Prediction Research Card */}
-                    <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-1 hover:bg-card/60 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/20 overflow-hidden">
-                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-transparent to-green-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <div className="group relative bg-card/40 backdrop-blur-md rounded-2xl border border-white/10 p-1 hover:bg-card/60 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 overflow-hidden">
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                         <div className="relative p-8 h-full flex flex-col">
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="p-2.5 bg-emerald-500/20 rounded-xl text-foreground ring-1 ring-emerald-500/50">
+                                <div className="p-2.5 bg-primary/20 rounded-xl text-foreground ring-1 ring-primary/50">
                                     <BookOpen size={24} />
                                 </div>
-                                <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-foreground text-sm font-semibold border border-emerald-500/20">
+                                <span className="px-3 py-1 rounded-full bg-primary/10 text-foreground text-sm font-semibold border border-primary/20">
                                     Research Project
                                 </span>
                                 <span className="text-muted-foreground text-sm flex items-center gap-1">
@@ -123,28 +123,28 @@ export default function Publication() {
                             </div>
 
                             <Link href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction#readme" target="_blank" className="block group/title">
-                                <h3 className="text-2xl font-bold mb-3 text-foreground group-hover/title:text-emerald-400 transition-colors">
+                                <h3 className="text-2xl font-bold mb-3 text-foreground group-hover/title:text-primary transition-colors">
                                     🌾 Crop Yield Prediction Using Machine Learning
                                 </h3>
-                                <div className="h-1 w-20 bg-gradient-to-r from-emerald-500 to-green-400 rounded-full mt-2 group-hover/title:w-32 transition-all duration-300"></div>
+                                <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full mt-2 group-hover/title:w-32 transition-all duration-300"></div>
                             </Link>
 
                             <p className="text-muted-foreground text-base leading-relaxed mt-4 mb-6 flex-1">
-                                Applies ML and statistical modelling to predict crop yield using environmental and agronomic variables. Trained <span className="text-foreground font-semibold">Linear Regression, Random Forest, Gradient Boosting, and XGBoost</span> models. The Gradient Boosting model achieved an <span className="text-foreground font-semibold">R² score of 0.87</span>. Rainfall and soil nitrogen were identified as the most influential predictors.
+                                This project predicts crop yield (ton/ha) from weather, soil, and fertilizer data using multiple machine learning models. I trained <span className="text-foreground font-semibold">Linear Regression, Random Forest, Gradient Boosting, and XGBoost</span> on features including rainfall, temperature, soil nitrogen, soil pH, and fertilizer input. The <span className="text-foreground font-semibold">Gradient Boosting model achieved the best R² of 0.87</span>. Feature importance analysis revealed that <span className="text-foreground font-semibold">rainfall and soil nitrogen</span> are the strongest predictors, while temperature variability had a moderate effect on yield.
                             </p>
 
                             <div className="flex flex-wrap gap-3">
                                 <Link
                                     href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction"
                                     target="_blank"
-                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5"
+                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5"
                                 >
                                     <Github size={18} /> View Code & README
                                 </Link>
                                 <Link
                                     href="https://github.com/Samsontesfamichael/personalportfolio/tree/main/projects/Crop-Yield-Prediction#readme"
                                     target="_blank"
-                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-card border border-border hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all hover:-translate-y-0.5"
+                                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-card border border-border hover:border-primary/50 hover:bg-accent/5 transition-all hover:-translate-y-0.5"
                                 >
                                     <ExternalLink size={18} /> Full Documentation
                                 </Link>
