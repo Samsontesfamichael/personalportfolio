@@ -13,7 +13,7 @@ export default function Footer() {
               Samson Tesfamichael
             </h3>
             <p className="text-muted-foreground max-w-sm">
-              Cybersecurity Researcher & IT Graduate specializing in Network Security, Penetration Testing, and Advanced Threat Analysis.
+              Information Technology graduate specializing in Machine Learning, Statistical Modelling, and Applied AI for Sustainability.
             </p>
           </div>
 
