@@ -28,19 +28,41 @@ export default function About() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I'm <strong>Samson Tesfamichael</strong>, an Information Technology graduate from Mekelle Institute of Technology.
-                  Specializing in machine learning, statistical modelling, and data‑driven system analysis, I have a strong foundation in computational methods and predictive analytics.
-                  My expertise includes developing simulations and applying machine learning to complex problems, particularly in sustainable food and agricultural systems.
+                  I&apos;m <strong>Samson Tesfamichael</strong>, an Information Technology graduate from{" "}
+                  <strong>Mekelle Institute of Technology</strong> specializing in declarative infrastructure
+                  automation, enterprise-grade virtualization, and high-availability systems engineering.
+                  I combine a strong foundation in Linux systems administration with hands-on expertise building
+                  self-hosted Proxmox clusters, cloud-init automated workflows, and robust Python/Bash
+                  automation toolsets.
                 </p>
 
                 <p>
-                  My technical toolkit includes Python, MATLAB, and SQL, alongside scientific tools like Excel, ArcGIS, and Jupyter Notebooks.
-                  I am driven by a passion for solving global challenges through mathematical optimization and data science.
+                  My core work centres on orchestrating multi-node hypervisor environments — from provisioning
+                  3-node Proxmox/Ceph clusters to configuring software-defined networking via Linux VLAN bridges
+                  and automating VM lifecycle management. I am driven by a passion for turning manual,
+                  error-prone infrastructure tasks into reproducible, auditable automation pipelines.
                 </p>
 
                 <p>
-                  I bring a versatile skillset ranging from system administration to data analysis, driven by a passion for solving complex problems through technology.
+                  I bring a versatile engineering skillset spanning bare-metal Linux administration, network
+                  hardening (UFW/Iptables, DNS, SSL/TLS), and production server-side optimisation — all
+                  underpinned by a methodical, documentation-first approach that translates directly into
+                  enterprise cloud and DevOps workflows.
                 </p>
+
+                {/* Anabin Recognition Badge */}
+                <div className="mt-4 p-4 rounded-lg bg-accent/10 border border-accent/30 flex items-start gap-3">
+                  <span className="text-accent text-xl flex-shrink-0">🇩🇪</span>
+                  <div>
+                    <p className="font-semibold text-foreground text-sm">
+                      Mekelle University — Anabin H+ Equivalence
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-0.5">
+                      BSc in Information Technology formally recognised by German HR &amp; academic authorities
+                      under the Anabin H+ classification — no additional degree evaluation required.
+                    </p>
+                  </div>
+                </div>
 
                 <div className="pt-4 grid grid-cols-2 gap-4">
                   <div className="p-3 rounded-lg bg-background/50 border border-border">

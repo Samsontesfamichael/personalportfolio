@@ -10,30 +10,93 @@ import { mathSkillsData } from "@/lib/math-skills-data"
 
 const skillCategories = [
   {
-    category: "Machine Learning & AI",
-    skills: ["Supervised Learning", "Unsupervised Learning", "Neural Networks", "Deep Learning", "Predictive Modelling", "Model Evaluation & Tuning", "Feature Engineering", "Scikit-learn", "TensorFlow/Keras"],
+    category: "Cloud & Virtualization",
+    skills: [
+      "Proxmox VE",
+      "Ceph Distributed Storage",
+      "KVM / LXC Hypervisors",
+      "Cloud-Init Automation",
+      "Proxmox Backup Server (PBS)",
+      "High-Availability Clustering",
+      "Software-Defined Networking (SDN)",
+      "VLAN Segmentation",
+    ],
   },
   {
-    category: "Data Science & Modelling",
-    skills: ["Statistical Analysis", "Stochastic Processes", "System Simulation", "Data Visualization", "Pandas", "NumPy", "Jupyter Notebooks", "MATLAB", "ArcGIS"],
+    category: "Infrastructure as Code & Automation",
+    skills: [
+      "Bash Scripting",
+      "Python Systems Automation",
+      "Ansible",
+      "Git / Version Control",
+      "Automated VM Lifecycle Orchestration",
+      "Cron Scheduling",
+      "Declarative Provisioning",
+      "Configuration Management",
+    ],
   },
   {
-    category: "Mathematical Skills",
-    // We will handle rendering differently for this category using mathSkillsData
-    skills: mathSkillsData.map(s => s.title),
-    isMath: true
+    category: "Systems & Networking",
+    skills: [
+      "Enterprise Linux / UNIX Administration",
+      "Cisco CCNA",
+      "DNS Architecture",
+      "SSL / TLS Hardening",
+      "Stateful Firewalls (UFW / Iptables)",
+      "Linux Bridges",
+      "Static IP & Routing",
+      "Network Performance Tuning",
+    ],
   },
   {
     category: "Programming & Frameworks",
     skills: ["Python", "C/C++", "Java", "Node.js", "Express.js", "SQL", "NoSQL", "MongoDB", "Bash Script"],
   },
   {
-    category: "Systems Engineering & Infrastructure",
-    skills: ["System Optimization", "Process Automation", "Efficiency Tuning", "Linux/UNIX", "Windows Server", "Active Directory", "Network Architecture", "Virtualization (Proxmox/Ceph)"],
+    category: "System Resilience & Security",
+    skills: [
+      "Risk Analysis",
+      "Threat Modelling",
+      "Intrusion Detection (Snort/Suricata)",
+      "SIEM (Splunk/ELK)",
+      "Vulnerability Assessment",
+      "ISO 27001",
+      "NIST Framework",
+    ],
   },
   {
-    category: "System resilience & Security",
-    skills: ["Risk Analysis", "Threat Modelling", "Intrusion Detection (Snort/Suricata)", "SIEM (Splunk/ELK)", "Vulnerability Assessment", "ISO 27001", "NIST Framework"],
+    category: "Machine Learning & AI",
+    skills: [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Neural Networks",
+      "Deep Learning",
+      "Predictive Modelling",
+      "Model Evaluation & Tuning",
+      "Feature Engineering",
+      "Scikit-learn",
+      "TensorFlow/Keras",
+    ],
+  },
+  {
+    category: "Data Science & Modelling",
+    skills: [
+      "Statistical Analysis",
+      "Stochastic Processes",
+      "System Simulation",
+      "Data Visualization",
+      "Pandas",
+      "NumPy",
+      "Jupyter Notebooks",
+      "MATLAB",
+      "ArcGIS",
+    ],
+  },
+  {
+    category: "Mathematical Skills",
+    // We will handle rendering differently for this category using mathSkillsData
+    skills: mathSkillsData.map((s) => s.title),
+    isMath: true,
   },
   {
     category: "Operating Systems",

@@ -7,6 +7,45 @@ import { TechDetailModal } from "./tech-detail-modal"
 
 const projects = [
   {
+    title: "Infrastructure-as-Code & Hypervisor Cluster Engineering",
+    description:
+      "Engineered a bare-metal enterprise-grade hypervisor matrix simulating mission-critical datacenter operations: 3-node HA Proxmox/Ceph cluster, automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
+    tags: ["Proxmox VE", "Ceph Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
+    period: "2024",
+    image: "/personalportfolio/proxmox-lab.png",
+    details: {
+      overview:
+        "Designed and deployed a production-grade hypervisor platform using Proxmox VE that simulates mission-critical enterprise datacenter operations. The lab demonstrates end-to-end infrastructure engineering: clustered compute with HA failover, converged Ceph distributed storage, declarative cloud-init provisioning, software-defined VLAN networking, and automated PBS backup/DR workflows — all documented with full HLD/LLD artefacts.",
+      objectives: [
+        "Provision a 3-node HA Proxmox VE cluster with automated split-brain prevention and quorum tuning",
+        "Deploy a converged Ceph Storage cluster with PG/OSD optimisation for zero-data-loss node failure",
+        "Construct immutable cloud-init metadata manifests for headless, declarative VM provisioning",
+        "Configure multi-tier Linux VLAN bridges to isolate production, replication, and storage traffic (SDN)",
+        "Automate deduplicated PBS snapshot schedules with retention policies for disaster recovery",
+        "Validate stateful high-availability (HA) failover and live migration under simulated node failure",
+        "Produce comprehensive HLD and LLD infrastructure design documentation",
+      ],
+      techStack: [
+        "Proxmox VE - Hypervisor management platform (KVM + LXC)",
+        "Ceph - Converged distributed storage with OSD/PG tuning",
+        "Cloud-Init - Declarative headless VM bootstrap & provisioning",
+        "Proxmox Backup Server (PBS) - Deduplicated snapshot DR automation",
+        "Linux VLAN Bridges - Software-defined network segmentation",
+        "Bash/Python - Infrastructure automation scripting",
+        "Ubuntu Server / CentOS - Guest OS fleet management",
+      ],
+      outcomes: [
+        "Achieved 100% VM uptime during simulated node failures — zero-downtime HA validated",
+        "Hot-swappable node loss with zero data downtime via Ceph replication and OSD self-healing",
+        "Declarative cloud-init pipelines reduced VM bootstrap from 20+ manual steps to single-command provisioning",
+        "Multi-tier VLAN topology eliminated flat-network blast radius for storage and replication traffic",
+        "Automated PBS cron schedules with 30-day deduplicated retention — RPO < 24 hours",
+        "Full HLD/LLD documentation produced — infrastructure is fully reproducible and audit-ready",
+      ],
+      screenshots: ["/personalportfolio/proxmox-lab.png"],
+    },
+  },
+  {
     title: "Crop Yield Prediction Using Machine Learning",
     description:
       "Predicts crop yield (ton/ha) from weather, soil, and fertilizer data using Linear Regression, Random Forest, Gradient Boosting, and XGBoost. The best model achieved an R² of 0.87.",
@@ -612,7 +651,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/30">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12">Research & Projects</h2>
+        <h2 className="text-4xl font-bold mb-12">Infrastructure Labs & Projects</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, index) => (

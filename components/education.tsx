@@ -1,9 +1,9 @@
 export default function Education() {
   const achievements = [
-    { icon: "🎓", label: "IT Graduate", description: "Bachelor of Science in Information Technology" },
-    { icon: "🔬", label: "Research Focus", description: "Advanced cybersecurity research projects" },
-    { icon: "🏠", label: "Home Lab", description: "Self-hosted cybersecurity environment" },
-    { icon: "🌐", label: "Network Expert", description: "Specialized in 2G/3G/4G/5G architectures" },
+    { icon: "🎓", label: "IT Graduate", description: "BSc Information Technology — Anabin H+ Recognised" },
+    { icon: "🖥️", label: "Virtualization Lab", description: "Self-hosted Proxmox/Ceph enterprise cluster" },
+    { icon: "⚙️", label: "DevOps Practitioner", description: "Infrastructure automation & IaC workflows" },
+    { icon: "🌐", label: "Network Engineer", description: "CCNA, DNS, SSL/TLS, UFW/Iptables hardening" },
   ]
 
   const coursework = [
@@ -24,10 +24,13 @@ export default function Education() {
           <div className="p-8 rounded-lg border-2 border-accent/30 bg-card/50 hover:border-accent/60 transition-colors">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">
+                <h3 className="text-2xl font-bold text-foreground mb-1">
                   Bachelor of Science in Information Technology
                 </h3>
                 <p className="text-lg font-semibold text-accent">Mekelle Institute of Technology</p>
+                <span className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 text-xs font-semibold text-emerald-700 bg-emerald-100 border border-emerald-300 rounded-full">
+                  🇩🇪 Anabin H+ — Formally Recognised in Germany
+                </span>
               </div>
               <span className="text-sm text-muted-foreground bg-primary/10 px-4 py-2 rounded-full whitespace-nowrap">
                 2017 – 2024
@@ -73,19 +76,19 @@ export default function Education() {
               <ul className="space-y-2 grid md:grid-cols-2 gap-3">
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>
-                  <span>Comprehensive IT program with cybersecurity specialization focus</span>
+                  <span>Comprehensive IT programme with systems engineering and infrastructure specialisation</span>
                 </li>
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>
-                  <span>Developed security research projects aligned with industry best practices</span>
+                  <span>Built and documented enterprise-grade Proxmox/Ceph virtualization lab with HLD/LLD artefacts</span>
                 </li>
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>
-                  <span>Excellence in network design and infrastructure security principles</span>
+                  <span>Engineered high-performance analytics platform using custom Linux daemons and data processing pipelines for thesis research</span>
                 </li>
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>
-                  <span>Hands-on experience through professional roles and self-directed research</span>
+                  <span>Excellence in network design, Linux administration, and declarative infrastructure automation</span>
                 </li>
               </ul>
             </div>

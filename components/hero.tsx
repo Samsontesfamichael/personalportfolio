@@ -8,42 +8,51 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 -z-10" />
 
       <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-        <h3 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[0.95] tracking-tighter">
+
+        {/* Availability Badge */}
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-medium text-emerald-400 bg-emerald-950/50 border border-emerald-800/60 rounded-full w-fit mb-8 mx-auto">
+          <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+          Available for DevOps / Cloud Engineering Roles — Germany
+        </div>
+
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[0.95] tracking-tighter">
           Samson
           <br />
           Tesfamichael
-        </h3>
+        </h1>
 
         <div className="flex flex-col gap-6 mb-12 items-center">
           <div className="animate-fade-in-up">
             <span className="text-xl sm:text-2xl lg:text-4xl font-bold bg-primary/10 text-primary px-8 py-3 rounded-2xl border border-primary/20 backdrop-blur-md inline-block">
-              Machine Learning & Data‑Driven Modelling Researcher
+              Cloud Platform &amp; DevOps Engineer
             </span>
           </div>
           <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up">
             <span className="text-lg sm:text-xl lg:text-3xl font-semibold text-foreground italic">
-              Systems Engineer
+              Hypervisor Virtualization
             </span>
             <span className="hidden sm:inline text-2xl text-muted-foreground/20 text-center self-center">|</span>
             <span className="text-lg sm:text-xl lg:text-3xl font-semibold text-accent italic">
-              Applied AI for Sustainability
+              Infrastructure Automation Specialist
             </span>
           </div>
         </div>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          I am an Information Technology graduate specializing in machine learning, statistical modelling, and data‑driven system analysis.
-          My research interests include predictive modelling, simulation, and the application of computational methods to sustainable food and agricultural systems.
+          Information Technology graduate from{" "}
+          <strong className="text-foreground">Mekelle Institute of Technology</strong>{" "}
+          (Anabin H+ Recognised). Specializing in declarative infrastructure automation,
+          enterprise-grade virtualization, and high-availability systems engineering.
+          Proven track record of orchestrating multi-node Proxmox/Ceph clusters, writing
+          system-level Bash/Python automation tools, and hardening production Linux environments.
         </p>
-
-
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <Link
             href="#projects"
             className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors flex items-center gap-2"
           >
-            View My Work <ArrowRight size={20} />
+            View Infrastructure Labs <ArrowRight size={20} />
           </Link>
           <Link
             href="#contact"

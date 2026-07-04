@@ -32,7 +32,7 @@ export default function Navigation() {
               |
             </span>
             <span className="text-sm font-medium text-foreground/80">
-              ML & Data‑Driven Researcher
+              Cloud Platform &amp; DevOps Engineer
             </span>
           </Link>
 

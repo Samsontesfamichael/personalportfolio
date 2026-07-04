@@ -1,33 +1,33 @@
 const experiences = [
   {
+    title: "Virtualization & Infrastructure Engineer",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "August 2024 – October 2025",
+    description:
+      "Engineered a bare-metal hypervisor matrix simulating mission-critical datacenter operations, stateful storage virtualization, and disaster recovery workflows — demonstrating enterprise-grade cloud infrastructure competencies.",
+    highlights: [
+      "Provisioned a 3-node high-availability (HA) Proxmox VE cluster with automated split-brain prevention and quorum tuning for zero-downtime failover",
+      "Deployed a converged Ceph Storage cluster across all nodes, optimizing placement groups (PGs) and OSDs to support hot-swappable node loss with zero data downtime",
+      "Constructed immutable cloud-init metadata and user-data manifests to bootstrap headless Linux targets programmatically with embedded SSH authority and fixed network interfaces",
+      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from back-end intra-cluster replication and storage heartbeats (Software-Defined Networking)",
+      "Scripted deduplicated cron-scheduled PBS snapshots with strict retention management rules for automated disaster recovery",
+      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) infrastructure design documentation",
+    ],
+  },
+  {
     title: "IT Support Specialist / Server Administrator",
     company: "Hostinger Cloud Hosting (Freelance)",
     location: "Remote",
     period: "2023 – Present",
     description:
-      "Provided end-to-end technical support for business clients, managing hosting environments, resolving account issues, and ensuring smooth website operations.",
+      "Administered Linux-based cloud hosting environments for business clients, automating deployment workflows and hardening production server configurations.",
     highlights: [
-      "Established and configured user accounts, DNS settings, SSL certificates, and email services for new clients",
-      "Resolved password and login issues, troubleshoot access problems, and guided clients through technical setup steps",
-      "Managed Linux-based hosting environment including DNS management, SSL/TLS configuration, and email services",
-      "Performed server-side optimization including PHP tuning and database query optimization for improved page load speeds",
-      "Implemented security hardening measures: firewall rules, file permissions, and automated malware scanning",
-      "Documented troubleshooting procedures and maintained support reports for recurring issues",
-      "Prioritized and managed multiple client tickets while meeting SLA response times",
-    ],
-  },
-  {
-    title: "Systems & Security Modelling Researcher",
-    company: "Home Lab Project",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "May 2024 – Present",
-    description:
-      "Developing and simulating computational models for secure systems, focusing on network behavior analysis and stochastic modelling of potential threats.",
-    highlights: [
-      "Designed and simulated complex network architectures for 4G/5G systems using Open5GS and srsRAN to study system resilience",
-      "Modelled traffic patterns and behavioral anomalies, conducting data-driven risk analysis and mitigation simulations",
-      "Developed Python-based modelling tools to automate data processing, log analysis, and system behavior monitoring",
-      "Analyzed threat propagation using statistical methods, correlating security events within SIEM environments (Splunk/ELK)",
+      "Automated DNS provisioning, SSL/TLS certificate lifecycle, and email service configuration using custom Bash scripts",
+      "Engineered server-side performance improvements through PHP tuning, MySQL query optimisation, and Nginx configuration hardening",
+      "Implemented multi-layer security hardening: stateful firewall rules (UFW/Iptables), file permission audits, and automated malware scanning routines",
+      "Maintained 99.9% uptime SLAs by proactively scripting automated health checks and alerting pipelines",
+      "Documented all runbooks, deployment procedures, and incident resolution reports for operational continuity",
     ],
   },
   {
@@ -36,13 +36,27 @@ const experiences = [
     location: "Mekelle, Tigray, Ethiopia",
     period: "July 2023 – Present",
     description:
-      "Leading technical system analysis and optimization projects, ensuring system integrity and reliability through data-driven security frameworks.",
+      "Led infrastructure analysis and systems optimisation projects, ensuring platform integrity and reliability through automated monitoring and hardened security frameworks.",
     highlights: [
-      "Conducted comprehensive system vulnerability assessments and risk modelling to identify and mitigate structural weaknesses",
-      "Analyzed multidimensional system logs to identify underlying behavioral trends and optimize system performance",
-      "Automated access control workflows and resource allocation procedures using Python scripting",
-      "Integrated secure design principles into complex software system architectures, improving overall system resilience",
-      "Collaborated on technical system reports and performance documentation for organizational oversight",
+      "Automated access control workflows and resource allocation procedures using Python scripting, eliminating manual provisioning bottlenecks",
+      "Conducted comprehensive system vulnerability assessments and risk modelling to identify and remediate structural weaknesses",
+      "Analysed multidimensional system logs to surface behavioral trends, optimise performance, and preempt incidents",
+      "Integrated secure design principles into software system architectures, improving overall platform resilience",
+      "Produced technical system reports and performance documentation for organisational oversight",
+    ],
+  },
+  {
+    title: "Systems & Security Modelling Researcher",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "May 2024 – Present",
+    description:
+      "Built a self-hosted research environment to simulate and harden network architectures, automating traffic analysis and threat detection workflows.",
+    highlights: [
+      "Designed and deployed complex network simulations for 4G/5G systems using Open5GS and srsRAN to study infrastructure resilience",
+      "Developed Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
+      "Correlated security events within SIEM environments (Splunk/ELK) using statistical methods and scripted alert rules",
+      "Modelled traffic anomalies and conducted data-driven risk analysis to validate mitigation strategies",
     ],
   },
   {
@@ -51,27 +65,12 @@ const experiences = [
     location: "Mekelle, Tigray, Ethiopia",
     period: "June 2025 – December 2025",
     description:
-      "Optimized large-scale database architectures and data processing workflows, focusing on integrity and computational efficiency.",
+      "Optimised large-scale database architectures and data processing workflows, focusing on high-availability integrity and computational efficiency.",
     highlights: [
-      "Engineered high-performance database workflows, optimizing data retrieval and processing for large-scale assets",
+      "Engineered high-performance database workflows, optimising data retrieval and processing for large-scale asset management",
       "Developed secure data modelling protocols and role-based access architectures to ensure high-availability and integrity",
       "Conducted performance audits and vulnerability simulations on complex database ecosystems",
-      "Modelled continuous monitoring mechanisms to guarantee data reliability and compliance with technical standards",
-    ],
-  },
-  {
-    title: "Virtualization & Infrastructure Engineer",
-    company: "Home Lab Project",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "August 2024 – October 2025",
-    description:
-      "Designed and deployed a multi‑node Proxmox Virtual Environment (PVE) lab to simulate enterprise‑grade virtualization, clustering, storage, and high‑availability operations.",
-    highlights: [
-      "Built a production-like 3-node Proxmox cluster with Ceph distributed storage and implemented HA failover mechanisms",
-      "Configured advanced networking including Linux bridges, static IPs, and VLAN segmentation for isolated traffic",
-      "Managed full VM lifecycle for Linux (Ubuntu, CentOS) and Windows using cloud-init for automated provisioning",
-      "Implemented backup and disaster recovery workflows using Proxmox Backup Server (PBS) with scheduled snapshots",
-      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) design documentation",
+      "Scripted continuous monitoring mechanisms to guarantee data reliability and compliance with technical standards",
     ],
   },
   {
@@ -80,12 +79,12 @@ const experiences = [
     location: "Remote",
     period: "November 2024 – July 2025",
     description:
-      "Collaborated closely with the CEO as a Security Engineer at Kaldas Technologies, focusing on vulnerability scanning, exploitation, and security testing to improve the organization's security posture.",
+      "Collaborated with the CEO as a Security Engineer, conducting systematic vulnerability assessments and security testing to strengthen organisational security posture.",
     highlights: [
-      "Conducted vulnerability scanning, exploitation, and security testing of systems",
-      "Provided clear, actionable recommendations that improved the security posture of the organization",
-      "Demonstrated strong technical knowledge and a solid understanding of cybersecurity principles",
-      "Recognized for precise and careful work, dedication, and a positive attitude towards continuous learning",
+      "Executed vulnerability scanning, exploitation testing, and security hardening of production systems",
+      "Delivered clear, actionable remediation recommendations that demonstrably improved the organisation's security posture",
+      "Applied solid cybersecurity principles across infrastructure and application layers",
+      "Recognised for precision, diligence, and a commitment to continuous technical learning",
     ],
   },
   {
@@ -93,16 +92,15 @@ const experiences = [
     company: "Luna Technologies Plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "September 2024 – December 2024",
-    description: "Provided technical support for Luna HealthCare System software used in Aman Hospital, troubleshooting issues and training end-users.",
+    description:
+      "Maintained and optimised the Luna HealthCare System at Aman Hospital, automating deployment workflows and implementing server-side stability improvements.",
     highlights: [
-      "Maintained and upgraded Luna HealthCare System software used in Aman Hospital",
-      "Troubleshot and resolved software and hardware issues reported by hospital staff",
-      "Walked end-users through steps to help them resolve technical problems with the healthcare system",
-      "Established user accounts for hospital staff and assisted with password/login problems",
-      "Automated backup and performance-monitoring routines using Python scripting",
-      "Implemented server-side optimisations and database improvements for system stability",
-      "Ensured secure API communication using Node.js, Express.js, and MongoDB",
-      "Maintained support documentation and procedures for the entire IT team",
+      "Automated backup and performance-monitoring routines using Python scripting, replacing manual processes and reducing operational overhead",
+      "Optimised database query performance and implemented server-side stability improvements to sustain reliable system operation",
+      "Maintained server-side stability using custom automated scripts for health checks, log rotation, and dependency management",
+      "Hardened secure API communication channels using Node.js, Express.js, and MongoDB",
+      "Established and managed user accounts, access controls, and authentication pipelines for hospital staff",
+      "Maintained comprehensive support documentation and runbooks for the IT team",
     ],
   },
   {
@@ -110,15 +108,15 @@ const experiences = [
     company: "Vite Technologies Plc",
     location: "Mekelle, Tigray, Ethiopia",
     period: "January 2024 – April 2024",
-    description: "Provided technical support for internal teams and clients, resolving access issues and developing support documentation.",
+    description:
+      "Supported the back-end engineering team in automating deployment workflows, optimising database performance, and maintaining server-side stability.",
     highlights: [
-      "Designed and developed RESTful APIs and back-end modules for web applications",
-      "Established user accounts, managed access controls, and resolved login/authentication issues",
-      "Implemented user authentication, access control, and data encryption features",
-      "Assisted colleagues with technical issues and walked them through resolution steps",
-      "Assisted in automating system testing and debugging processes using Python scripts",
-      "Maintained technical documentation and support procedures",
-      "Collaborated with frontend team to integrate secure backend services",
+      "Automated deployment workflows and system testing pipelines using Python scripts, reducing manual intervention in release cycles",
+      "Optimised database performance through query tuning and schema improvements for improved application response times",
+      "Maintained server-side stability by scripting dependency checks, error handlers, and automated recovery procedures",
+      "Implemented user authentication, role-based access control, and data encryption features",
+      "Collaborated with the frontend team to integrate and harden secure backend services",
+      "Maintained technical documentation and support procedures for the engineering team",
     ],
   },
   {
@@ -127,16 +125,13 @@ const experiences = [
     location: "Mekelle, Tigray, Ethiopia",
     period: "December 2020 – October 2022",
     description:
-      "Provided IT support and consultancy for clients in telecom and software development sectors, resolving technical issues and implementing solutions.",
+      "Provided IT infrastructure consultancy and security services for clients in telecom and software development sectors.",
     highlights: [
-      "Resolved client technical problems related to network connectivity, software deployment, and hardware configuration",
-      "Developed automation scripts in Python for vulnerability scanning and compliance reporting",
-      "Conducted penetration testing, risk assessments, and mitigation planning based on international standards",
-      "Supported small businesses in adopting secure software deployment practices",
-      "Documented technical support procedures and maintained issue resolution reports",
-      "Analyzed system logs and records to identify trends and prevent recurring issues",
-      "Assisted clients with account setup, password recovery, and access management",
-      "Advised clients on ISO 27001, NIST, and PCI DSS compliance frameworks",
+      "Developed Python automation scripts for vulnerability scanning, compliance reporting, and system log analysis",
+      "Conducted penetration testing, risk assessments, and mitigation planning aligned with ISO 27001, NIST, and PCI DSS frameworks",
+      "Supported clients in adopting secure software deployment practices and infrastructure hardening",
+      "Resolved client network connectivity, software deployment, and hardware configuration issues",
+      "Documented all technical support procedures and maintained incident resolution reports",
     ],
   },
 ]
