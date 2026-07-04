@@ -1,4 +1,4 @@
-const experiences = [
+const professionalExperiences = [
   {
     title: "Systems & Infrastructure Integration Engineer",
     company: "Symbol Technologies P.L.C.",
@@ -14,41 +14,10 @@ const experiences = [
     ],
   },
   {
-    title: "Virtualization & Infrastructure Engineer",
-    company: "Home Lab Project",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "August 2024 – October 2025",
-    description:
-      "Engineered a bare-metal hypervisor matrix simulating mission-critical datacenter operations, stateful storage virtualization, and disaster recovery workflows — demonstrating enterprise-grade cloud infrastructure competencies.",
-    highlights: [
-      "Provisioned a 3-node high-availability (HA) Proxmox VE cluster with automated split-brain prevention and quorum tuning for zero-downtime failover",
-      "Deployed a converged Ceph Storage cluster across all nodes, optimizing placement groups (PGs) and OSDs to support hot-swappable node loss with zero data downtime",
-      "Constructed immutable cloud-init metadata and user-data manifests to bootstrap headless Linux targets programmatically with embedded SSH authority and fixed network interfaces",
-      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from back-end intra-cluster replication and storage heartbeats (Software-Defined Networking)",
-      "Scripted deduplicated cron-scheduled PBS snapshots with strict retention management rules for automated disaster recovery",
-      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) infrastructure design documentation",
-    ],
-  },
-  {
-    title: "IT Support Specialist / Server Administrator",
-    company: "Hostinger Cloud Hosting (Freelance)",
-    location: "Remote",
-    period: "2023 – Present",
-    description:
-      "Administered Linux-based cloud hosting environments for business clients, automating deployment workflows and hardening production server configurations.",
-    highlights: [
-      "Automated DNS provisioning, SSL/TLS certificate lifecycle, and email service configuration using custom Bash scripts",
-      "Engineered server-side performance improvements through PHP tuning, MySQL query optimisation, and Nginx configuration hardening",
-      "Implemented multi-layer security hardening: stateful firewall rules (UFW/Iptables), file permission audits, and automated malware scanning routines",
-      "Maintained 99.9% uptime SLAs by proactively scripting automated health checks and alerting pipelines",
-      "Documented all runbooks, deployment procedures, and incident resolution reports for operational continuity",
-    ],
-  },
-  {
     title: "Systems Engineering & Security Specialist",
     company: "Timeless Technologies plc",
     location: "Mekelle, Tigray, Ethiopia",
-    period: "July 2023 – Present",
+    period: "July 2023 – February 2026",
     description:
       "Led infrastructure analysis and systems optimisation projects, ensuring platform integrity and reliability through automated monitoring and hardened security frameworks.",
     highlights: [
@@ -60,17 +29,18 @@ const experiences = [
     ],
   },
   {
-    title: "Systems & Security Modelling Researcher",
-    company: "Home Lab Project",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "May 2024 – Present",
+    title: "Cloud Infrastructure Consultant (Freelance)",
+    company: "Hostinger Cloud Hosting",
+    location: "Remote / Freelance",
+    period: "2023 – February 2026",
     description:
-      "Built a self-hosted research environment to simulate and harden network architectures, automating traffic analysis and threat detection workflows.",
+      "Administered Linux-based cloud hosting environments for business clients, automating deployment workflows and hardening production server configurations on an occasional side-engagement basis.",
     highlights: [
-      "Designed and deployed complex network simulations for 4G/5G systems using Open5GS and srsRAN to study infrastructure resilience",
-      "Developed Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
-      "Correlated security events within SIEM environments (Splunk/ELK) using statistical methods and scripted alert rules",
-      "Modelled traffic anomalies and conducted data-driven risk analysis to validate mitigation strategies",
+      "Automated DNS provisioning, SSL/TLS certificate lifecycle, and email service configuration using custom Bash scripts",
+      "Engineered server-side performance improvements through PHP tuning, MySQL query optimisation, and Nginx configuration hardening",
+      "Implemented multi-layer security hardening: stateful firewall rules (UFW/Iptables), file permission audits, and automated malware scanning routines",
+      "Maintained 99.9% uptime SLAs by proactively scripting automated health checks and alerting pipelines",
+      "Documented all runbooks, deployment procedures, and incident resolution reports for operational continuity",
     ],
   },
   {
@@ -97,40 +67,22 @@ const experiences = [
     highlights: [
       "Executed vulnerability scanning, exploitation testing, and security hardening of production systems",
       "Delivered clear, actionable remediation recommendations that demonstrably improved the organisation's security posture",
-      "Applied solid cybersecurity principles across infrastructure and application layers",
+      "Apply cybersecurity principles across infrastructure and application layers",
       "Recognised for precision, diligence, and a commitment to continuous technical learning",
     ],
   },
   {
-    title: "Software Engineer",
-    company: "Luna Technologies Plc",
+    title: "University Technical Engagements & Internships",
+    company: "Luna Technologies Plc / Vite Technologies Plc",
     location: "Mekelle, Tigray, Ethiopia",
-    period: "September 2024 – December 2024",
+    period: "January 2024 – December 2024",
     description:
-      "Maintained and optimised the Luna HealthCare System at Aman Hospital, automating deployment workflows and implementing server-side stability improvements.",
+      "Gained foundational industry experience in software engineering and systems operation during university studies, building secure backend APIs and automating system maintenance.",
     highlights: [
       "Automated backup and performance-monitoring routines using Python scripting, replacing manual processes and reducing operational overhead",
-      "Optimised database query performance and implemented server-side stability improvements to sustain reliable system operation",
+      "Optimised database query performance and schema design for Luna HealthCare and Vite platforms to improve response times",
       "Maintained server-side stability using custom automated scripts for health checks, log rotation, and dependency management",
-      "Hardened secure API communication channels using Node.js, Express.js, and MongoDB",
-      "Established and managed user accounts, access controls, and authentication pipelines for hospital staff",
-      "Maintained comprehensive support documentation and runbooks for the IT team",
-    ],
-  },
-  {
-    title: "Back-end Developer (Intern)",
-    company: "Vite Technologies Plc",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "January 2024 – April 2024",
-    description:
-      "Supported the back-end engineering team in automating deployment workflows, optimising database performance, and maintaining server-side stability.",
-    highlights: [
-      "Automated deployment workflows and system testing pipelines using Python scripts, reducing manual intervention in release cycles",
-      "Optimised database performance through query tuning and schema improvements for improved application response times",
-      "Maintained server-side stability by scripting dependency checks, error handlers, and automated recovery procedures",
-      "Implemented user authentication, role-based access control, and data encryption features",
-      "Collaborated with the frontend team to integrate and harden secure backend services",
-      "Maintained technical documentation and support procedures for the engineering team",
+      "Hardened secure API communication channels using Node.js, Express.js, and MongoDB, integrating role-based authentication",
     ],
   },
   {
@@ -150,40 +102,122 @@ const experiences = [
   },
 ]
 
+const labProjects = [
+  {
+    title: "Virtualization & Infrastructure Engineer",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "August 2024 – October 2025",
+    description:
+      "Engineered a bare-metal hypervisor matrix simulating mission-critical datacenter operations, stateful storage virtualization, and disaster recovery workflows — demonstrating enterprise-grade cloud infrastructure competencies.",
+    highlights: [
+      "Provisioned a 3-node high-availability (HA) Proxmox VE cluster with automated split-brain prevention and quorum tuning for zero-downtime failover",
+      "Deployed a converged Ceph Storage cluster across all nodes, optimizing placement groups (PGs) and OSDs to support hot-swappable node loss with zero data downtime",
+      "Constructed immutable cloud-init metadata and user-data manifests to bootstrap headless Linux targets programmatically with embedded SSH authority and fixed network interfaces",
+      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from back-end intra-cluster replication and storage heartbeats (Software-Defined Networking)",
+      "Scripted deduplicated cron-scheduled PBS snapshots with strict retention management rules for automated disaster recovery",
+      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) infrastructure design documentation",
+    ],
+  },
+  {
+    title: "Systems & Security Modelling Researcher",
+    company: "Home Lab Project",
+    location: "Mekelle, Tigray, Ethiopia",
+    period: "May 2024 – Present",
+    description:
+      "Built a self-hosted research environment to simulate and harden network architectures, automating traffic analysis and threat detection workflows.",
+    highlights: [
+      "Designed and deployed complex network simulations for 4G/5G systems using Open5GS and srsRAN to study infrastructure resilience",
+      "Developer Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
+      "Correlated security events within SIEM environments (Splunk/ELK) using statistical methods and scripted alert rules",
+      "Modelled traffic anomalies and conducted data-driven risk analysis to validate mitigation strategies",
+    ],
+  },
+]
+
 export default function Experience() {
   return (
     <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12">Experience</h2>
+        <h2 className="text-4xl font-bold mb-4">Experience</h2>
+        <p className="text-muted-foreground mb-12 max-w-3xl">
+          My professional career history, freelance consulting, and independent deep-tech research environments.
+        </p>
 
-        <div className="space-y-8">
-          {experiences.map((exp, index) => (
-            <div
-              key={index}
-              className="p-6 rounded-lg border border-border hover:border-primary/50 transition-colors bg-card/40"
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-bold text-foreground">{exp.title}</h3>
-                  <p className="text-accent font-semibold">{exp.company}</p>
+        {/* Professional Experience Section */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-8 text-foreground flex items-center gap-2 pb-2 border-b border-border/60">
+            💼 Professional Experience
+          </h3>
+          <div className="space-y-8">
+            {professionalExperiences.map((exp, index) => (
+              <div
+                key={index}
+                className="p-6 rounded-lg border border-border hover:border-primary/50 transition-colors bg-card/40"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground">{exp.title}</h4>
+                    <p className="text-accent font-semibold">{exp.company}</p>
+                  </div>
+                  <span className="text-sm text-foreground bg-primary/20 px-3 py-1.5 rounded-full font-semibold border border-primary/40 whitespace-nowrap">
+                    {exp.period}
+                  </span>
                 </div>
-                <span className="text-sm text-foreground bg-primary/20 px-3 py-1.5 rounded-full font-semibold border border-primary/40 whitespace-nowrap">{exp.period}</span>
+
+                <p className="text-sm text-muted-foreground mb-4 flex items-center gap-2">📍 {exp.location}</p>
+
+                <p className="text-muted-foreground mb-4 text-sm sm:text-base">{exp.description}</p>
+
+                <ul className="space-y-2">
+                  {exp.highlights.map((highlight, i) => (
+                    <li key={i} className="text-sm text-foreground/80 flex gap-3">
+                      <span className="text-accent font-bold">▸</span>
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
               </div>
+            ))}
+          </div>
+        </div>
 
-              <p className="text-sm text-muted-foreground mb-4 flex items-center gap-2">📍 {exp.location}</p>
+        {/* Deep-Tech Infrastructure Labs Section */}
+        <div>
+          <h3 className="text-2xl font-bold mb-8 text-foreground flex items-center gap-2 pb-2 border-b border-border/60">
+            🧪 Deep-Tech Infrastructure Labs &amp; Research
+          </h3>
+          <div className="space-y-8">
+            {labProjects.map((exp, index) => (
+              <div
+                key={index}
+                className="p-6 rounded-lg border border-border hover:border-primary/50 transition-colors bg-card/40"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground">{exp.title}</h4>
+                    <p className="text-accent font-semibold">{exp.company}</p>
+                  </div>
+                  <span className="text-sm text-foreground bg-primary/20 px-3 py-1.5 rounded-full font-semibold border border-primary/40 whitespace-nowrap">
+                    {exp.period}
+                  </span>
+                </div>
 
-              <p className="text-muted-foreground mb-4">{exp.description}</p>
+                <p className="text-sm text-muted-foreground mb-4 flex items-center gap-2">📍 {exp.location}</p>
 
-              <ul className="space-y-2">
-                {exp.highlights.map((highlight, i) => (
-                  <li key={i} className="text-sm text-foreground/80 flex gap-3">
-                    <span className="text-accent font-bold">▸</span>
-                    {highlight}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+                <p className="text-muted-foreground mb-4 text-sm sm:text-base">{exp.description}</p>
+
+                <ul className="space-y-2">
+                  {exp.highlights.map((highlight, i) => (
+                    <li key={i} className="text-sm text-foreground/80 flex gap-3">
+                      <span className="text-accent font-bold">▸</span>
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
