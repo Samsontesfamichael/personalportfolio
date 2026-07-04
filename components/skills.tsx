@@ -10,29 +10,18 @@ import { mathSkillsData } from "@/lib/math-skills-data"
 
 const skillCategories = [
   {
-    category: "Cloud & Virtualization",
+    category: "Virtualization, IaC & Cluster Engineering",
     skills: [
-      "Proxmox VE",
-      "Ceph Distributed Storage",
-      "KVM / LXC Hypervisors",
-      "Cloud-Init Automation",
-      "Proxmox Backup Server (PBS)",
+      "Proxmox VE & KVM / LXC Hypervisors",
       "High-Availability Clustering",
-      "Software-Defined Networking (SDN)",
-      "VLAN Segmentation",
-    ],
-  },
-  {
-    category: "Infrastructure as Code & Automation",
-    skills: [
-      "Bash Scripting",
-      "Python Systems Automation",
-      "Ansible",
-      "Git / Version Control",
+      "Ceph Distributed Storage",
+      "Software-Defined Networking (SDN) & VLAN Segmentation",
+      "Proxmox Backup Server (PBS)",
+      "Cloud-Init Automation",
+      "Ansible & Declarative Provisioning",
+      "Bash & Python Systems Automation",
       "Automated VM Lifecycle Orchestration",
-      "Cron Scheduling",
-      "Declarative Provisioning",
-      "Configuration Management",
+      "Configuration Management & Git",
     ],
   },
   {
