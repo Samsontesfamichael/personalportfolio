@@ -86,38 +86,6 @@ const projects = [
     },
   },
   {
-    title: "Proxmox Virtualization & Cluster Administration",
-    description:
-      "Enterprise-grade virtualization lab featuring a 3-node HA cluster, Ceph distributed storage, and automated backup/DR workflows.",
-    tags: ["Proxmox VE", "KVM", "LXC", "Ceph Storage", "Virtualization"],
-    period: "2024",
-    image: "/personalportfolio/proxmox-lab.png",
-    details: {
-      overview:
-        "Designed and implemented a high-availability virtualization platform using Proxmox VE. The lab simulates a production environment with clustered compute nodes and distributed storage.",
-      objectives: [
-        "Deploy a 3-node Proxmox VE cluster with high availability",
-        "Implement Ceph distributed storage for VM disk images",
-        "Configure automated backup and disaster recovery using PBS",
-        "Test live migration and failover performance",
-      ],
-      techStack: [
-        "Proxmox VE - Virtualization Management",
-        "KVM/LXC - Hypervisor technologies",
-        "Ceph - Distributed storage system",
-        "PBS - Proxmox Backup Server",
-        "Networking - Linux bridges, VLANs",
-      ],
-      outcomes: [
-        "Achieved 100% VM uptime during simulated node failures",
-        "Configured storage replication with zero data loss benchmarks",
-        "Automated backup schedules with 30-day retention policies",
-        "Documented full HLD/LLD for the infrastructure",
-      ],
-      screenshots: ["/personalportfolio/proxmox-lab.png"],
-    },
-  },
-  {
     title: "Hostinger Web Server Administration",
     description:
       "Production deployment and administration of an e-commerce platform on cloud hosting, focusing on performance and security hardening.",
