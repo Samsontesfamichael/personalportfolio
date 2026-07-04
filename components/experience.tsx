@@ -1,5 +1,19 @@
 const experiences = [
   {
+    title: "Systems & Infrastructure Integration Engineer",
+    company: "Symbol Technologies P.L.C.",
+    location: "Addis Ababa, Ethiopia",
+    period: "March 15, 2026 – Present",
+    description:
+      "Orchestrate full-stack enterprise data center architectures, hyper-converged infrastructure (HCI), and virtualization clusters for tier-1 financial institutions and public sector networks.",
+    highlights: [
+      "Architect and deploy high-availability private cloud topologies leveraging VMware vSphere/ESXi and hyper-converged architectures (HCI), mirroring modern multi-zone public cloud paradigms",
+      "Engineered centralized security telemetry matrices (such as FortiSIEM), configuring structured log correlation streams and handling edge-network host hardening",
+      "Provision multi-tier storage arrays (SAN/NAS via HPE/Dell) and configure complex Layer-2/Layer-3 software-defined networking protocols to segregate secure operational zones",
+      "Spearhead the migration of legacy 3-tier monolithic server frameworks into modern containerized and orchestrated private cloud compute partitions",
+    ],
+  },
+  {
     title: "Virtualization & Infrastructure Engineer",
     company: "Home Lab Project",
     location: "Mekelle, Tigray, Ethiopia",
