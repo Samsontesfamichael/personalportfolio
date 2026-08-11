@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Availability Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-medium text-emerald-400 bg-emerald-950/50 border border-emerald-800/60 rounded-full w-fit mb-8 mx-auto">
           <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-          Available for DevOps / Cloud Engineering Roles
+          Available for DevOps / Cloud Engineering
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[0.95] tracking-tighter">
