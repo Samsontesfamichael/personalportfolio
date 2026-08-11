@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Availability Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-medium text-emerald-400 bg-emerald-950/50 border border-emerald-800/60 rounded-full w-fit mb-8 mx-auto">
           <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-          Available for DevOps / Cloud Engineering Roles — Germany
+          Available for DevOps / Cloud Engineering Roles
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[0.95] tracking-tighter">
@@ -40,8 +40,7 @@ export default function Hero() {
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
           Information Technology graduate from{" "}
-          <strong className="text-foreground">Mekelle Institute of Technology</strong>{" "}
-          (Anabin H+ Recognised). Specializing in declarative infrastructure automation,
+          <strong className="text-foreground">Mekelle Institute of Technology</strong>. Specializing in declarative infrastructure automation,
           enterprise-grade virtualization, and high-availability systems engineering.
           Proven track record of orchestrating multi-node Proxmox/Ceph clusters, writing
           system-level Bash/Python automation tools, and hardening production Linux environments.

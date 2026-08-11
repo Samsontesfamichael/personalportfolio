@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     "Cisco CCNA",
     "Network Engineering",
     "Mekelle University",
-    "Anabin H+ Germany",
   ],
   authors: [{ name: "Samson Tesfamichael" }],
   creator: "Samson Tesfamichael",

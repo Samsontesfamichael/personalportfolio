@@ -50,20 +50,6 @@ export default function About() {
                   enterprise cloud and DevOps workflows.
                 </p>
 
-                {/* Anabin Recognition Badge */}
-                <div className="mt-4 p-4 rounded-lg bg-accent/10 border border-accent/30 flex items-start gap-3">
-                  <span className="text-accent text-xl flex-shrink-0">🇩🇪</span>
-                  <div>
-                    <p className="font-semibold text-foreground text-sm">
-                      Mekelle University — Anabin H+ Equivalence
-                    </p>
-                    <p className="text-xs text-muted-foreground mt-0.5">
-                      BSc in Information Technology formally recognised by German HR &amp; academic authorities
-                      under the Anabin H+ classification — no additional degree evaluation required.
-                    </p>
-                  </div>
-                </div>
-
                 <div className="pt-4 grid grid-cols-2 gap-4">
                   <div className="p-3 rounded-lg bg-background/50 border border-border">
                     <p className="text-xs text-foreground/70 font-mono">Years Experience</p>

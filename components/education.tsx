@@ -1,6 +1,6 @@
 export default function Education() {
   const achievements = [
-    { icon: "🎓", label: "IT Graduate", description: "BSc Information Technology — Anabin H+ Recognised" },
+    { icon: "🎓", label: "IT Graduate", description: "BSc Information Technology" },
     { icon: "🖥️", label: "Virtualization Lab", description: "Self-hosted Proxmox/Ceph enterprise cluster" },
     { icon: "⚙️", label: "DevOps Practitioner", description: "Infrastructure automation & IaC workflows" },
     { icon: "🌐", label: "Network Engineer", description: "CCNA, DNS, SSL/TLS, UFW/Iptables hardening" },
@@ -28,9 +28,6 @@ export default function Education() {
                   Bachelor of Science in Information Technology
                 </h3>
                 <p className="text-lg font-semibold text-accent">Mekelle Institute of Technology</p>
-                <span className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 text-xs font-semibold text-emerald-700 bg-emerald-100 border border-emerald-300 rounded-full">
-                  🇩🇪 Anabin H+ — Formally Recognised in Germany
-                </span>
               </div>
               <span className="text-sm text-muted-foreground bg-primary/10 px-4 py-2 rounded-full whitespace-nowrap">
                 2017 – 2024
