@@ -30,14 +30,14 @@ export default function About() {
                 <p>
                   I&apos;m <strong>Samson Tesfamichael</strong>, an Information Technology graduate from{" "}
                   <strong>Mekelle Institute of Technology</strong> specializing in declarative infrastructure
-                  automation, enterprise-grade virtualization, and high-availability systems engineering.
+                  automation, enterprise-grade virtualization, and resilient systems engineering.
                   I combine a strong foundation in Linux systems administration with hands-on expertise building
                   self-hosted Proxmox environments, cloud-init automated workflows, and robust Python/Bash
                   automation toolsets.
                 </p>
 
                 <p>
-                  My core work centres on orchestrating single-node hypervisor environments — from provisioning
+                  My core work centres on engineering single-node hypervisor environments — from provisioning
                   single-node Proxmox VE setups to configuring software-defined networking via Linux VLAN bridges
                   and automating VM lifecycle management. I am driven by a passion for turning manual,
                   error-prone infrastructure tasks into reproducible, auditable automation pipelines.
