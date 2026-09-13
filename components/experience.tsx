@@ -5,7 +5,7 @@ const professionalExperiences = [
     location: "Addis Ababa, Ethiopia",
     period: "March 15, 2026 – Present",
     description:
-      "Orchestrate full-stack enterprise data center architectures, hyper-converged infrastructure (HCI), and virtualization clusters for tier-1 financial institutions and public sector networks.",
+      "Orchestrate full-stack enterprise data center architectures, virtualization environments, and single-node hypervisors for tier-1 financial institutions and public sector networks.",
     highlights: [
       "Architect and deploy high-availability private cloud topologies leveraging VMware vSphere/ESXi and hyper-converged architectures (HCI), mirroring modern multi-zone public cloud paradigms",
       "Engineered centralized security telemetry matrices (such as FortiSIEM), configuring structured log correlation streams and handling edge-network host hardening",
@@ -111,10 +111,10 @@ const labProjects = [
     description:
       "Engineered a bare-metal hypervisor matrix simulating mission-critical datacenter operations, stateful storage virtualization, and disaster recovery workflows — demonstrating enterprise-grade cloud infrastructure competencies.",
     highlights: [
-      "Provisioned a 3-node high-availability (HA) Proxmox VE cluster with automated split-brain prevention and quorum tuning for zero-downtime failover",
-      "Deployed a converged Ceph Storage cluster across all nodes, optimizing placement groups (PGs) and OSDs to support hot-swappable node loss with zero data downtime",
+      "Provisioned a single-node Proxmox VE hypervisor environment optimized for high-performance virtualized workloads and LXC containers",
+      "Configured local ZFS storage pools with dataset optimization, snapshots, and compression to maximize storage performance and data integrity",
       "Constructed immutable cloud-init metadata and user-data manifests to bootstrap headless Linux targets programmatically with embedded SSH authority and fixed network interfaces",
-      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from back-end intra-cluster replication and storage heartbeats (Software-Defined Networking)",
+      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from management and backup networks (Software-Defined Networking)",
       "Scripted deduplicated cron-scheduled PBS snapshots with strict retention management rules for automated disaster recovery",
       "Produced comprehensive High-Level (HLD) and Low-Level (LLD) infrastructure design documentation",
     ],

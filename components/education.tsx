@@ -1,7 +1,7 @@
 export default function Education() {
   const achievements = [
     { icon: "🎓", label: "IT Graduate", description: "BSc Information Technology" },
-    { icon: "🖥️", label: "Virtualization Lab", description: "Self-hosted Proxmox/Ceph enterprise cluster" },
+    { icon: "🖥️", label: "Virtualization Lab", description: "Self-hosted Proxmox single-node lab" },
     { icon: "⚙️", label: "DevOps Practitioner", description: "Infrastructure automation & IaC workflows" },
     { icon: "🌐", label: "Network Engineer", description: "CCNA, DNS, SSL/TLS, UFW/Iptables hardening" },
   ]
@@ -77,7 +77,7 @@ export default function Education() {
                 </li>
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>
-                  <span>Built and documented enterprise-grade Proxmox/Ceph virtualization lab with HLD/LLD artefacts</span>
+                  <span>Built and documented enterprise-grade Proxmox virtualization lab with HLD/LLD artefacts</span>
                 </li>
                 <li className="flex gap-3 text-foreground/80">
                   <span className="text-accent">▸</span>

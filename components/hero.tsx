@@ -42,7 +42,7 @@ export default function Hero() {
           Information Technology graduate from{" "}
           <strong className="text-foreground">Mekelle Institute of Technology</strong>. Specializing in declarative infrastructure automation,
           enterprise-grade virtualization, and high-availability systems engineering.
-          Proven track record of orchestrating multi-node Proxmox/Ceph clusters, writing
+          Proven track record of orchestrating single-node Proxmox environments, writing
           system-level Bash/Python automation tools, and hardening production Linux environments.
         </p>
 

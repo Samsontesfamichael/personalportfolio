@@ -10,11 +10,11 @@ import { mathSkillsData } from "@/lib/math-skills-data"
 
 const skillCategories = [
   {
-    category: "Virtualization, IaC & Cluster Engineering",
+    category: "Virtualization, IaC & Systems Engineering",
     skills: [
       "Proxmox VE & KVM / LXC Hypervisors",
-      "High-Availability Clustering",
-      "Ceph Distributed Storage",
+      "Virtualization & Hypervisor Management",
+      "ZFS Local Storage Management",
       "Software-Defined Networking (SDN) & VLAN Segmentation",
       "Proxmox Backup Server (PBS)",
       "Cloud-Init Automation",

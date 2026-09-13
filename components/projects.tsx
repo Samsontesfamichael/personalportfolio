@@ -7,27 +7,27 @@ import { TechDetailModal } from "./tech-detail-modal"
 
 const projects = [
   {
-    title: "Infrastructure-as-Code & Hypervisor Cluster Engineering",
+    title: "Infrastructure-as-Code & Hypervisor Engineering",
     description:
-      "Engineered a bare-metal enterprise-grade hypervisor matrix simulating mission-critical datacenter operations: 3-node HA Proxmox/Ceph cluster, automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
-    tags: ["Proxmox VE", "Ceph Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
+      "Engineered a bare-metal enterprise-grade hypervisor platform simulating mission-critical datacenter operations: single-node Proxmox VE setup, local ZFS storage, automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
+    tags: ["Proxmox VE", "ZFS Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
     period: "2024",
     image: "/personalportfolio/proxmox-lab.png",
     details: {
       overview:
-        "Designed and deployed a production-grade hypervisor platform using Proxmox VE that simulates mission-critical enterprise datacenter operations. The lab demonstrates end-to-end infrastructure engineering: clustered compute with HA failover, converged Ceph distributed storage, declarative cloud-init provisioning, software-defined VLAN networking, and automated PBS backup/DR workflows — all documented with full HLD/LLD artefacts.",
+        "Designed and deployed a production-grade hypervisor platform using Proxmox VE that simulates mission-critical enterprise datacenter operations. The lab demonstrates end-to-end infrastructure engineering: single-node hypervisor compute, high-performance local ZFS storage, declarative cloud-init provisioning, software-defined VLAN networking, and automated PBS backup/DR workflows — all documented with full HLD/LLD artefacts.",
       objectives: [
-        "Provision a 3-node HA Proxmox VE cluster with automated split-brain prevention and quorum tuning",
-        "Deploy a converged Ceph Storage cluster with PG/OSD optimisation for zero-data-loss node failure",
+        "Provision a single-node Proxmox VE hypervisor host optimized for virtualized compute workloads and LXC containers",
+        "Deploy local ZFS storage pools with dataset optimization, compression, and snapshot policies",
         "Construct immutable cloud-init metadata manifests for headless, declarative VM provisioning",
-        "Configure multi-tier Linux VLAN bridges to isolate production, replication, and storage traffic (SDN)",
+        "Configure multi-tier Linux VLAN bridges to isolate production, management, and backup traffic (SDN)",
         "Automate deduplicated PBS snapshot schedules with retention policies for disaster recovery",
-        "Validate stateful high-availability (HA) failover and live migration under simulated node failure",
+        "Validate VM lifecycle management, snapshot rollbacks, and disaster recovery workflows",
         "Produce comprehensive HLD and LLD infrastructure design documentation",
       ],
       techStack: [
         "Proxmox VE - Hypervisor management platform (KVM + LXC)",
-        "Ceph - Converged distributed storage with OSD/PG tuning",
+        "ZFS - High-performance local storage with dataset optimization & snapshots",
         "Cloud-Init - Declarative headless VM bootstrap & provisioning",
         "Proxmox Backup Server (PBS) - Deduplicated snapshot DR automation",
         "Linux VLAN Bridges - Software-defined network segmentation",
@@ -35,10 +35,10 @@ const projects = [
         "Ubuntu Server / CentOS - Guest OS fleet management",
       ],
       outcomes: [
-        "Achieved 100% VM uptime during simulated node failures — zero-downtime HA validated",
-        "Hot-swappable node loss with zero data downtime via Ceph replication and OSD self-healing",
+        "Achieved high-performance, stable VM compute execution with zero configuration drift",
+        "Rapid system recovery and continuous data availability via ZFS snapshots and local storage protection",
         "Declarative cloud-init pipelines reduced VM bootstrap from 20+ manual steps to single-command provisioning",
-        "Multi-tier VLAN topology eliminated flat-network blast radius for storage and replication traffic",
+        "Multi-tier VLAN topology eliminated flat-network blast radius for storage and management traffic",
         "Automated PBS cron schedules with 30-day deduplicated retention — RPO < 24 hours",
         "Full HLD/LLD documentation produced — infrastructure is fully reproducible and audit-ready",
       ],

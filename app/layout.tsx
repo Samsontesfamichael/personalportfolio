@@ -15,18 +15,18 @@ export const metadata: Metadata = {
     template: "%s | Samson Tesfamichael",
   },
   description:
-    "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox/Ceph virtualization, declarative infrastructure automation, cloud-init provisioning, and hardened Linux systems engineering.",
+    "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox virtualization, declarative infrastructure automation, cloud-init provisioning, and hardened Linux systems engineering.",
   keywords: [
     "Samson Tesfamichael",
     "Cloud Platform Engineer",
     "DevOps Engineer",
     "Proxmox VE",
-    "Ceph Distributed Storage",
+    "ZFS Storage Management",
     "KVM LXC Hypervisor",
     "Cloud-Init Automation",
     "Infrastructure as Code",
     "Linux Systems Administration",
-    "High Availability Clustering",
+    "Hypervisor Virtualization",
     "Bash Python Automation",
     "Cisco CCNA",
     "Network Engineering",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url: "https://samsontesfamichael.github.io/personalportfolio",
     title: "Samson Tesfamichael | Cloud Platform & DevOps Engineer",
     description:
-      "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox/Ceph virtualization, infrastructure automation, and hardened Linux systems engineering.",
+      "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox virtualization, infrastructure automation, and hardened Linux systems engineering.",
     siteName: "Samson Tesfamichael Portfolio",
     images: [
       {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Samson Tesfamichael | Cloud Platform & DevOps Engineer",
     description:
-      "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox/Ceph virtualization, infrastructure automation, and hardened Linux systems engineering.",
+      "Portfolio of Samson Tesfamichael, a Cloud Platform & DevOps Engineer specializing in Proxmox virtualization, infrastructure automation, and hardened Linux systems engineering.",
     creator: "@SamsonTesfamichael",
     images: ["/personal-portfolio/og-image.png"],
   },
@@ -105,14 +105,14 @@ export default function RootLayout({
     image: "https://samsontesfamichael.github.io/personalportfolio/og-image.png",
     jobTitle: "Cloud Platform & DevOps Engineer",
     description:
-      "Cloud Platform & DevOps Engineer specializing in Proxmox/Ceph virtualization, declarative infrastructure automation, cloud-init provisioning, and hardened Linux systems engineering.",
+      "Cloud Platform & DevOps Engineer specializing in Proxmox virtualization, declarative infrastructure automation, cloud-init provisioning, and hardened Linux systems engineering.",
     alumniOf: {
       "@type": "Organization",
       name: "Mekelle University",
     },
     knowsAbout: [
       "Proxmox VE",
-      "Ceph Distributed Storage",
+      "ZFS Storage Management",
       "KVM LXC Hypervisor",
       "Cloud-Init Automation",
       "Infrastructure as Code",
@@ -120,7 +120,7 @@ export default function RootLayout({
       "Python Systems Automation",
       "Linux Administration",
       "Cisco CCNA",
-      "High Availability Clustering",
+      "Hypervisor Virtualization",
     ],
     sameAs: [
       "https://github.com/Samsontesfamichael",
@@ -134,7 +134,7 @@ export default function RootLayout({
     name: "Samson Tesfamichael Portfolio",
     url: "https://samsontesfamichael.github.io/personalportfolio",
     description:
-      "Portfolio of Samson Tesfamichael, Cloud Platform & DevOps Engineer — Proxmox/Ceph virtualization, infrastructure automation, and Linux systems engineering.",
+      "Portfolio of Samson Tesfamichael, Cloud Platform & DevOps Engineer — Proxmox virtualization, infrastructure automation, and Linux systems engineering.",
     author: {
       "@type": "Person",
       name: "Samson Tesfamichael",

@@ -32,13 +32,13 @@ export default function About() {
                   <strong>Mekelle Institute of Technology</strong> specializing in declarative infrastructure
                   automation, enterprise-grade virtualization, and high-availability systems engineering.
                   I combine a strong foundation in Linux systems administration with hands-on expertise building
-                  self-hosted Proxmox clusters, cloud-init automated workflows, and robust Python/Bash
+                  self-hosted Proxmox environments, cloud-init automated workflows, and robust Python/Bash
                   automation toolsets.
                 </p>
 
                 <p>
-                  My core work centres on orchestrating multi-node hypervisor environments — from provisioning
-                  3-node Proxmox/Ceph clusters to configuring software-defined networking via Linux VLAN bridges
+                  My core work centres on orchestrating single-node hypervisor environments — from provisioning
+                  single-node Proxmox VE setups to configuring software-defined networking via Linux VLAN bridges
                   and automating VM lifecycle management. I am driven by a passion for turning manual,
                   error-prone infrastructure tasks into reproducible, auditable automation pipelines.
                 </p>
