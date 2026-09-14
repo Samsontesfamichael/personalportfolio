@@ -20,7 +20,7 @@ Welcome to my personal portfolio website! This repository showcases my engineeri
 
 ## 👨‍💻 About Me
 
-Information Technology graduate from **Mekelle Institute of Technology**. Specializing in declarative infrastructure automation, enterprise-grade virtualization, and resilient systems engineering.
+Hold a **Bachelor of Science in Information Technology** from **Mekelle University (MIT Campus)**. Specializing in declarative infrastructure automation, enterprise-grade virtualization, and resilient systems engineering.
 
 - **Current Role:** Systems & Infrastructure Integration Engineer at **Symbol Technologies P.L.C.** (Addis Ababa, Ethiopia) — supporting full-stack data center integration and VMware vSphere/ESXi topologies alongside senior leads.
 - **Hands-On Home Lab:** Self-hosted single-node Proxmox VE hypervisor environment provisioned directly on local laptop hardware to master compute isolation, KVM virtual machines, LXC containers, cloud-init user-data manifests, and Linux VLAN software-defined networking.

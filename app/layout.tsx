@@ -108,7 +108,7 @@ export default function RootLayout({
       "Cloud Platform & DevOps Engineer specializing in Proxmox virtualization, declarative infrastructure automation, cloud-init provisioning, and hardened Linux systems engineering.",
     alumniOf: {
       "@type": "Organization",
-      name: "Mekelle University",
+      name: "Mekelle University (MIT Campus)",
     },
     knowsAbout: [
       "Proxmox VE",

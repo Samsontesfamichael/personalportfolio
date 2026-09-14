@@ -28,8 +28,8 @@ export default function About() {
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I&apos;m <strong>Samson Tesfamichael</strong>, an Information Technology graduate from{" "}
-                  <strong>Mekelle Institute of Technology</strong> specializing in declarative infrastructure
+                  I&apos;m <strong>Samson Tesfamichael</strong>. I hold a <strong>Bachelor of Science in Information Technology</strong> from{" "}
+                  <strong>Mekelle University (MIT Campus)</strong>, specializing in declarative infrastructure
                   automation, enterprise-grade virtualization, and resilient systems engineering.
                   I combine a strong foundation in Linux systems administration with hands-on expertise building
                   self-hosted Proxmox environments, cloud-init automated workflows, and robust Python/Bash

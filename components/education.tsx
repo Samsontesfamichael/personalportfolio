@@ -27,7 +27,7 @@ export default function Education() {
                 <h3 className="text-2xl font-bold text-foreground mb-1">
                   Bachelor of Science in Information Technology
                 </h3>
-                <p className="text-lg font-semibold text-accent">Mekelle Institute of Technology</p>
+                <p className="text-lg font-semibold text-accent">Mekelle University (MIT Campus)</p>
               </div>
               <span className="text-sm text-muted-foreground bg-primary/10 px-4 py-2 rounded-full whitespace-nowrap">
                 2017 – 2024
