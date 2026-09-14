@@ -51,7 +51,7 @@ Supported integration and monitoring of full-stack data center architectures, ga
 
 ### 3. Secure Network Architecture Simulation
 Designed and deployed a self-hosted research environment simulating 2G/3G/4G/5G cellular network architectures (OpenBTS, srsRAN, Open5GS) to study infrastructure resilience and threat detection.
-- **Tech:** OpenBTS, srsRAN, Open5GS, Wireshark, Splunk, Linux
+- **Tech:** OpenBTS, srsRAN, Open5GS, Wireshark, Prometheus and Grafana , Linux
 
 ---
 

@@ -152,8 +152,8 @@ const projects = [
   {
     title: "SIEM & IDS/IPS Implementation",
     description:
-      "Deployed and configured Splunk SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
-    tags: ["Splunk", "Snort", "Suricata", "SIEM", "Threat Detection"],
+      "Deployed and configured Wazuh SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
+    tags: ["Wazuh", "Snort", "Suricata", "SIEM", "Threat Detection"],
     period: "2024",
     image: "/personalportfolio/siem-dashboard.jpg",
     details: {
@@ -166,7 +166,7 @@ const projects = [
         "Create automated response workflows",
       ],
       techStack: [
-        "Splunk Enterprise - SIEM platform",
+        "Wazuh - SIEM platform",
         "Snort IDS - Network intrusion detection",
         "Suricata IPS - Network intrusion prevention",
         "ELK Stack - Log aggregation",
@@ -178,7 +178,7 @@ const projects = [
         "Created 50+ custom correlation rules",
         "Achieved 99.9% system uptime",
       ],
-      screenshots: ["/personalportfolio/splunk-dashboard.jpg", "/personalportfolio/threat-alerts.jpg"],
+      screenshots: ["/personalportfolio/wazuh-dashboard.jpg", "/personalportfolio/threat-alerts.jpg"],
     },
   },
   {

@@ -127,7 +127,7 @@ const labProjects = [
     highlights: [
       "Designed and deployed complex network simulations for 4G/5G systems using Open5GS and srsRAN to study infrastructure resilience",
       "Developer Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
-      "Correlated security events within SIEM environments (Splunk/ELK) using statistical methods and scripted alert rules",
+      "Correlated security events within SIEM environments (Wazuh/ELK) using statistical methods and scripted alert rules",
       "Modelled traffic anomalies and conducted data-driven risk analysis to validate mitigation strategies",
     ],
   },

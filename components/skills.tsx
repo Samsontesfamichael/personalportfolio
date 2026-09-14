@@ -47,7 +47,7 @@ const skillCategories = [
       "Risk Analysis",
       "Threat Modelling",
       "Intrusion Detection (Snort/Suricata)",
-      "SIEM (Splunk/ELK)",
+      "SIEM (Wazuh/ELK)",
       "Vulnerability Assessment",
       "ISO 27001",
       "NIST Framework",
