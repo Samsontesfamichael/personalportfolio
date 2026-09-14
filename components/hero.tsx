@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 import Link from "next/link"
 
 export default function Hero() {
@@ -12,30 +12,41 @@ export default function Hero() {
         {/* Availability Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-medium text-emerald-400 bg-emerald-950/50 border border-emerald-800/60 rounded-full w-fit mb-8 mx-auto">
           <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-          Available for DevOps / Cloud Engineering
+          Augsburg Relocation Ready
         </div>
 
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-[0.95] tracking-tighter">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-[0.95] tracking-tighter">
           Samson
           <br />
           Tesfamichael
         </h1>
 
-        <div className="flex flex-col gap-6 mb-12 items-center">
-          <div className="animate-fade-in-up">
-            <span className="text-xl sm:text-2xl lg:text-4xl font-bold bg-primary/10 text-primary px-8 py-3 rounded-2xl border border-primary/20 backdrop-blur-md inline-block">
-              Cloud Platform &amp; DevOps Engineer
-            </span>
-          </div>
-          <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up">
-            <span className="text-lg sm:text-xl lg:text-3xl font-semibold text-foreground italic">
-              Hypervisor Virtualization
-            </span>
-            <span className="hidden sm:inline text-2xl text-muted-foreground/20 text-center self-center">|</span>
-            <span className="text-lg sm:text-xl lg:text-3xl font-semibold text-accent italic">
-              Infrastructure Automation Specialist
-            </span>
-          </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-8">
+          <span className="text-xl sm:text-2xl lg:text-3xl font-bold bg-primary/10 text-primary px-6 py-2.5 rounded-2xl border border-primary/20 backdrop-blur-md inline-block">
+            Systems &amp; Virtualization Associate
+          </span>
+          <span className="hidden sm:inline text-2xl text-muted-foreground/30">|</span>
+          <span className="text-lg sm:text-xl lg:text-2xl font-semibold text-accent italic">
+            DevOps Trainee Applicant
+          </span>
+        </div>
+
+        {/* Contact Strip */}
+        <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-6 text-sm sm:text-base font-mono text-muted-foreground mb-10 bg-card/60 py-3 px-6 rounded-full border border-border/80 max-w-fit mx-auto shadow-sm">
+          <a href="mailto:samsontesfamichael11@gmail.com" className="hover:text-accent transition-colors flex items-center gap-2">
+            <Mail size={16} className="text-accent" />
+            <span>samsontesfamichael11@gmail.com</span>
+          </a>
+          <span className="hidden sm:inline text-muted-foreground/30">|</span>
+          <a href="tel:+251962600752" className="hover:text-accent transition-colors flex items-center gap-2">
+            <Phone size={16} className="text-accent" />
+            <span>+251 962 600 752</span>
+          </a>
+          <span className="hidden sm:inline text-muted-foreground/30">|</span>
+          <span className="flex items-center gap-2 text-emerald-400 font-semibold">
+            <MapPin size={16} className="text-emerald-400" />
+            <span>Augsburg Relocation Ready</span>
+          </span>
         </div>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
