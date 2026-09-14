@@ -13,7 +13,7 @@ export default function Footer() {
               Samson Tesfamichael
             </h3>
             <p className="text-muted-foreground max-w-sm">
-              Cloud Platform &amp; DevOps Engineer specializing in Proxmox virtualization, declarative infrastructure automation, and hardened Linux systems engineering.
+              Systems &amp; Virtualization Associate &amp; DevOps Trainee Applicant specializing in Proxmox virtualization, declarative infrastructure automation, and hardened Linux systems engineering.
             </p>
           </div>
 
