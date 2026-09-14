@@ -3,14 +3,14 @@ const professionalExperiences = [
     title: "Systems & Infrastructure Integration Engineer",
     company: "Symbol Technologies P.L.C.",
     location: "Addis Ababa, Ethiopia",
-    period: "March 15, 2026 – Present",
+    period: "March 2026 – Present",
     description:
-      "Orchestrate full-stack enterprise data center architectures, virtualization environments, and single-node hypervisors for tier-1 financial institutions and public sector networks.",
+      "Supported the integration and monitoring of enterprise virtualization platforms alongside senior leads for tier-1 financial institutions.",
     highlights: [
-      "Architect and deploy high-availability private cloud topologies leveraging VMware vSphere/ESXi and hyper-converged architectures (HCI), mirroring modern multi-zone public cloud paradigms",
-      "Engineered centralized security telemetry matrices (such as FortiSIEM), configuring structured log correlation streams and handling edge-network host hardening",
-      "Provision multi-tier storage arrays (SAN/NAS via HPE/Dell) and configure complex Layer-2/Layer-3 software-defined networking protocols to segregate secure operational zones",
-      "Spearhead the migration of legacy 3-tier monolithic server frameworks into modern containerized and orchestrated private cloud compute partitions",
+      "Supported the integration and monitoring of full-stack enterprise data center architectures and virtualization platforms for tier-1 financial institutions.",
+      "Gained operational exposure to high-availability private cloud topologies leveraging VMware vSphere/ESXi within strictly regulated compliance paradigms.",
+      "Assisted senior engineering teams with tracking centralized security telemetry matrices (FortiSIEM) and maintaining edge-network host hardening streams.",
+      "Observed and documented the transition of legacy 3-tier monolithic system frameworks into modern containerized private cloud partitions under senior guidance.",
     ],
   },
   {
@@ -104,19 +104,17 @@ const professionalExperiences = [
 
 const labProjects = [
   {
-    title: "Virtualization & Infrastructure Engineer",
-    company: "Home Lab Project",
-    location: "Mekelle, Tigray, Ethiopia",
-    period: "August 2024 – October 2025",
+    title: "Virtualization & Infrastructure Lab",
+    company: "Self-Hosted Home Lab Project",
+    location: "Addis Ababa, Ethiopia",
+    period: "August 2024 – present",
     description:
-      "Engineered a bare-metal hypervisor matrix simulating mission-critical datacenter operations, stateful storage virtualization, and disaster recovery workflows — demonstrating enterprise-grade cloud infrastructure competencies.",
+      "Provisioned a single-node Proxmox VE hypervisor environment running directly on local laptop hardware to master virtualization, containerization, and software-defined networking concepts independently.",
     highlights: [
-      "Provisioned a single-node Proxmox VE hypervisor environment optimized for high-performance virtualized workloads and LXC containers",
-      "Configured local ZFS storage pools with dataset optimization, snapshots, and compression to maximize storage performance and data integrity",
-      "Constructed immutable cloud-init metadata and user-data manifests to bootstrap headless Linux targets programmatically with embedded SSH authority and fixed network interfaces",
-      "Configured multi-tier Linux VLAN bridges to segregate front-end production traffic from management and backup networks (Software-Defined Networking)",
-      "Scripted deduplicated cron-scheduled PBS snapshots with strict retention management rules for automated disaster recovery",
-      "Produced comprehensive High-Level (HLD) and Low-Level (LLD) infrastructure design documentation",
+      "Provisioned a bare-metal single-node Proxmox VE hypervisor environment directly on local laptop hardware to study high-performance compute isolation.",
+      "Configured test KVM virtual machines and lightweight LXC containers to simulate multi-tier application architectures.",
+      "Explored declarative system initialization by building experimental cloud-init metadata and user-data manifests to programmatically configure headless Linux targets.",
+      "Built software-defined networking segments utilizing multi-tier Linux VLAN bridges to safely segregate test environments from management traffic.",
     ],
   },
   {
