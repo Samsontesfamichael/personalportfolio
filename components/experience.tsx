@@ -3,7 +3,7 @@ const professionalExperiences = [
     title: "Systems & Infrastructure Integration Engineer",
     company: "Symbol Technologies P.L.C.",
     location: "Addis Ababa, Ethiopia",
-    period: "March 2026 – Present",
+    period: "March 2026 – November 2026",
     description:
       "Supported the integration and monitoring of enterprise virtualization platforms alongside senior leads for tier-1 financial institutions.",
     highlights: [

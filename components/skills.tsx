@@ -14,7 +14,7 @@ const skillCategories = [
     skills: [
       "Proxmox VE & KVM / LXC Hypervisors",
       "Virtualization & Hypervisor Management",
-      "ZFS Local Storage Management",
+      "LVM-Thin & Linux Storage Management",
       "Software-Defined Networking (SDN) & VLAN Segmentation",
       "Proxmox Backup Server (PBS)",
       "Cloud-Init Automation",
@@ -28,7 +28,7 @@ const skillCategories = [
     category: "Systems & Networking",
     skills: [
       "Enterprise Linux / UNIX Administration",
-      "Cisco CCNA",
+      "Cisco Routing & Switching (CCNA Level)",
       "DNS Architecture",
       "SSL / TLS Hardening",
       "Stateful Firewalls (UFW / Iptables)",

@@ -162,8 +162,8 @@ export default function Education() {
               <div className="flex gap-3 p-4 rounded-lg bg-background/50 border border-primary/30 hover:border-primary/60 hover:bg-primary/5 transition-all">
                 <span className="text-primary text-xl flex-shrink-0">✓</span>
                 <div>
-                  <p className="font-semibold text-foreground">CCNA Certification</p>
-                  <p className="text-sm text-muted-foreground">Cisco Certified Network Associate</p>
+                  <p className="font-semibold text-foreground">CCNA Networking & Routing Training</p>
+                  <p className="text-sm text-muted-foreground">The DiĀital Adda</p>
                   <p className="text-xs text-accent/70 mt-1 font-mono">Certification ID : DA/NRS/24/1346</p>
                   <a
                     href="https://drive.google.com/file/d/1DC0sFHx6kCWSit7xsWARkJIgjzOkZrGC/view"

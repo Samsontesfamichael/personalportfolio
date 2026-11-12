@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Linux Systems Administration",
     "Hypervisor Virtualization",
     "Bash Python Automation",
-    "Cisco CCNA",
+    "Cisco Routing & Switching (CCNA Level)",
     "Network Engineering",
     "Mekelle University",
   ],
@@ -119,7 +119,7 @@ export default function RootLayout({
       "Bash Scripting",
       "Python Systems Automation",
       "Linux Administration",
-      "Cisco CCNA",
+      "Cisco Routing & Switching (CCNA Level)",
       "Hypervisor Virtualization",
     ],
     sameAs: [

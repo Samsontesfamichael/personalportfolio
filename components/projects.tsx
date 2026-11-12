@@ -7,10 +7,38 @@ import { TechDetailModal } from "./tech-detail-modal"
 
 const projects = [
   {
+    title: "Terraform + Ansible + K3s Proxmox Lab",
+    description:
+      "Automates a Proxmox-hosted Kubernetes lab with Terraform, Ansible, and K3s.",
+    tags: ["Terraform", "Ansible", "K3s", "Proxmox VE", "Kubernetes"],
+    period: "2026",
+    image: "/personalportfolio/proxmox-lab.png",
+    repositoryUrl: "https://github.com/Samsontesfamichael/devops-proxmox-k3s-lab",
+    details: {
+      overview:
+        "A Terraform and Ansible repository for provisioning a K3s Kubernetes lab on Proxmox.",
+      objectives: [
+        "Provision the Proxmox lab infrastructure with Terraform",
+        "Automate host and cluster configuration with Ansible",
+        "Deploy a lightweight Kubernetes cluster using K3s",
+      ],
+      techStack: [
+        "Terraform - Infrastructure provisioning",
+        "Ansible - Configuration management",
+        "K3s - Lightweight Kubernetes distribution",
+        "Proxmox VE - Virtualization platform",
+      ],
+      outcomes: [
+        "Infrastructure and configuration automation maintained in a dedicated repository",
+      ],
+      screenshots: ["/personalportfolio/proxmox-lab.png"],
+    },
+  },
+  {
     title: "Infrastructure-as-Code & Hypervisor Engineering",
     description:
-      "Engineered a bare-metal enterprise-grade hypervisor platform simulating mission-critical datacenter operations: single-node Proxmox VE setup, local ZFS storage, automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
-    tags: ["Proxmox VE", "ZFS Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
+      "Engineered a bare-metal enterprise-grade hypervisor platform simulating mission-critical datacenter operations: single-node Proxmox VE setup, LVM-Thin storage (local-lvm), automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
+    tags: ["Proxmox VE", "LVM-Thin Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
     period: "2024",
     image: "/personalportfolio/proxmox-lab.png",
     details: {
@@ -669,9 +697,21 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <button className="mt-4 w-full py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors">
-                  View Details →
-                </button>
+                {project.repositoryUrl ? (
+                  <a
+                    href={project.repositoryUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(event) => event.stopPropagation()}
+                    className="mt-4 block w-full py-2 text-center text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors"
+                  >
+                    View GitHub Repository →
+                  </a>
+                ) : (
+                  <button className="mt-4 w-full py-2 text-sm font-medium text-accent border border-accent/30 rounded hover:bg-accent/10 transition-colors">
+                    View Details →
+                  </button>
+                )}
               </div>
             </div>
           ))}

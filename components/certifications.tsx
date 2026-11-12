@@ -26,8 +26,8 @@ const certifications = [
     icon: "🎓",
   },
   {
-    title: "CCNA Certification",
-    issuer: "Cisco Certified Network Associate",
+    title: "CCNA Networking & Routing Training",
+    issuer: "The DiĀital Adda",
     areas: "Enterprise Network Design and Implementation",
     icon: "🌐",
   },
