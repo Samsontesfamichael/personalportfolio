@@ -623,7 +623,9 @@ export default function Projects() {
                         alt={`${selectedProject.title} screenshot ${i + 1}`}
                         width={500}
                         height={300}
-                        className="w-full h-full object-cover"
+                        className={`w-full h-full object-cover ${
+                          screenshot.endsWith("proxmox-k3s-cluster.png") ? "object-top" : ""
+                        }`}
                       />
                     </div>
                   ))}
