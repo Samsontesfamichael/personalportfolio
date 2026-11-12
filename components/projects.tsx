@@ -35,45 +35,6 @@ const projects = [
     },
   },
   {
-    title: "Infrastructure-as-Code & Hypervisor Engineering",
-    description:
-      "Engineered a bare-metal enterprise-grade hypervisor platform simulating mission-critical datacenter operations: single-node Proxmox VE setup, LVM-Thin storage (local-lvm), automated cloud-init provisioning, SDN VLAN bridges, and deduplicated PBS disaster recovery.",
-    tags: ["Proxmox VE", "LVM-Thin Storage", "KVM/LXC", "Cloud-Init", "PBS", "SDN/VLAN", "Linux", "Bash"],
-    period: "2024",
-    image: "/personalportfolio/proxmox-lab.png",
-    details: {
-      overview:
-        "Designed and deployed a production-grade hypervisor platform using Proxmox VE that simulates mission-critical enterprise datacenter operations. The lab demonstrates end-to-end infrastructure engineering: single-node hypervisor compute, high-performance local ZFS storage, declarative cloud-init provisioning, software-defined VLAN networking, and automated PBS backup/DR workflows — all documented with full HLD/LLD artefacts.",
-      objectives: [
-        "Provision a single-node Proxmox VE hypervisor host optimized for virtualized compute workloads and LXC containers",
-        "Deploy local ZFS storage pools with dataset optimization, compression, and snapshot policies",
-        "Construct immutable cloud-init metadata manifests for headless, declarative VM provisioning",
-        "Configure multi-tier Linux VLAN bridges to isolate production, management, and backup traffic (SDN)",
-        "Automate deduplicated PBS snapshot schedules with retention policies for disaster recovery",
-        "Validate VM lifecycle management, snapshot rollbacks, and disaster recovery workflows",
-        "Produce comprehensive HLD and LLD infrastructure design documentation",
-      ],
-      techStack: [
-        "Proxmox VE - Hypervisor management platform (KVM + LXC)",
-        "ZFS - High-performance local storage with dataset optimization & snapshots",
-        "Cloud-Init - Declarative headless VM bootstrap & provisioning",
-        "Proxmox Backup Server (PBS) - Deduplicated snapshot DR automation",
-        "Linux VLAN Bridges - Software-defined network segmentation",
-        "Bash/Python - Infrastructure automation scripting",
-        "Ubuntu Server / CentOS - Guest OS fleet management",
-      ],
-      outcomes: [
-        "Achieved high-performance, stable VM compute execution with zero configuration drift",
-        "Rapid system recovery and continuous data availability via ZFS snapshots and local storage protection",
-        "Declarative cloud-init pipelines reduced VM bootstrap from 20+ manual steps to single-command provisioning",
-        "Multi-tier VLAN topology eliminated flat-network blast radius for storage and management traffic",
-        "Automated PBS cron schedules with 30-day deduplicated retention — RPO < 24 hours",
-        "Full HLD/LLD documentation produced — infrastructure is fully reproducible and audit-ready",
-      ],
-      screenshots: ["/personalportfolio/proxmox-lab.png"],
-    },
-  },
-  {
     title: "Crop Yield Prediction Using Machine Learning",
     description:
       "Predicts crop yield (ton/ha) from weather, soil, and fertilizer data using Linear Regression, Random Forest, Gradient Boosting, and XGBoost. The best model achieved an R² of 0.87.",
