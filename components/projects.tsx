@@ -31,7 +31,10 @@ const projects = [
       outcomes: [
         "Infrastructure and configuration automation maintained in a dedicated repository",
       ],
-      screenshots: ["/personalportfolio/proxmox-k3s-lab.png"],
+      screenshots: [
+        "/personalportfolio/proxmox-k3s-lab.png",
+        "/personalportfolio/proxmox-k3s-cluster.png",
+      ],
     },
   },
   {
