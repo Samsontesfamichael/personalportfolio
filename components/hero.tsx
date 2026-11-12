@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-8">
-          <span className="text-xl sm:text-2xl lg:text-3xl font-bold bg-primary/10 text-primary px-6 py-2.5 rounded-2xl border border-primary/20 backdrop-blur-md inline-block">
+          <span className="max-w-full min-w-0 text-lg sm:text-2xl lg:text-3xl font-bold bg-primary/20 text-foreground px-4 sm:px-6 py-2.5 rounded-2xl border border-primary/40 backdrop-blur-md inline-block">
             Systems &amp; Virtualization Associate
           </span>
           <span className="hidden sm:inline text-2xl text-muted-foreground/30">|</span>
