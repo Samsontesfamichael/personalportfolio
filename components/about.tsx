@@ -22,7 +22,7 @@ export default function About() {
           <div className="md:col-span-2">
             <div className="space-y-6">
               <div>
-                <p className="text-muted-foreground text-sm font-mono mb-4">📍 Mekelle, Tigray, Ethiopia</p>
+                <p className="text-muted-foreground text-sm font-mono mb-4">📍 Addis Ababa, Ethiopia</p>
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
               </div>
 
@@ -37,9 +37,9 @@ export default function About() {
                 </p>
 
                 <p>
-                  My core work centres on engineering single-node hypervisor environments — from provisioning
-                  single-node Proxmox VE setups to configuring software-defined networking via Linux VLAN bridges
-                  and automating VM lifecycle management. I am driven by a passion for turning manual,
+                  My core work centres on running a 3-node K3s cluster and self-hosted Gitea on a standalone
+                  Proxmox VE host, configuring software-defined networking via Linux VLAN bridges and
+                  automating VM lifecycle management. I am driven by a passion for turning manual,
                   error-prone infrastructure tasks into reproducible, auditable automation pipelines.
                 </p>
 

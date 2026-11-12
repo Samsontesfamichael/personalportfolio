@@ -93,7 +93,7 @@ const skillCategories = [
   },
   {
     category: "Languages",
-    skills: ["Tigrigna (Native)", "Amharic ", "English "],
+    skills: ["Tigrigna (Native)", "Amharic ", "English ", "German (A1 - Learning)"],
   },
 ]
 

@@ -109,9 +109,9 @@ const labProjects = [
     location: "Addis Ababa, Ethiopia",
     period: "August 2024 – present",
     description:
-      "Provisioned a single-node Proxmox VE hypervisor environment running directly on local laptop hardware to master virtualization, containerization, and software-defined networking concepts independently.",
+      "Built a 3-node K3s cluster and self-hosted Gitea on a standalone Proxmox VE host to develop hands-on virtualization, containerization, and software-defined networking experience.",
     highlights: [
-      "Provisioned a bare-metal single-node Proxmox VE hypervisor environment directly on local laptop hardware to study high-performance compute isolation.",
+      "Hosted a 3-node K3s cluster and Gitea on a standalone Proxmox VE host.",
       "Configured test KVM virtual machines and lightweight LXC containers to simulate multi-tier application architectures.",
       "Explored declarative system initialization by building experimental cloud-init metadata and user-data manifests to programmatically configure headless Linux targets.",
       "Built software-defined networking segments utilizing multi-tier Linux VLAN bridges to safely segregate test environments from management traffic.",
@@ -126,7 +126,7 @@ const labProjects = [
       "Built a self-hosted research environment to simulate and harden network architectures, automating traffic analysis and threat detection workflows.",
     highlights: [
       "Designed and deployed complex network simulations for 4G/5G systems using Open5GS and srsRAN to study infrastructure resilience",
-      "Developer Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
+      "Developed Python-based automation tools for data processing pipelines, log analysis, and system behaviour monitoring",
       "Correlated security events within SIEM environments (Wazuh/ELK) using statistical methods and scripted alert rules",
       "Modelled traffic anomalies and conducted data-driven risk analysis to validate mitigation strategies",
     ],

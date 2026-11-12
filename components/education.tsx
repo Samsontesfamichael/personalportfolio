@@ -1,7 +1,7 @@
 export default function Education() {
   const achievements = [
     { icon: "🎓", label: "IT Graduate", description: "BSc Information Technology" },
-    { icon: "🖥️", label: "Virtualization Lab", description: "Self-hosted Proxmox single-node lab" },
+    { icon: "🖥️", label: "Virtualization Lab", description: "3-node K3s & Gitea on standalone Proxmox VE" },
     { icon: "⚙️", label: "DevOps Practitioner", description: "Infrastructure automation & IaC workflows" },
     { icon: "🌐", label: "Network Engineer", description: "CCNA, DNS, SSL/TLS, UFW/Iptables hardening" },
   ]

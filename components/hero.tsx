@@ -53,7 +53,7 @@ export default function Hero() {
           Hold a <strong className="text-foreground">Bachelor of Science in Information Technology</strong> from{" "}
           <strong className="text-foreground">Mekelle University (MIT Campus)</strong>. Specializing in declarative infrastructure automation,
           enterprise-grade virtualization, and resilient systems engineering.
-          Proven track record of engineering single-node Proxmox VE environments, writing
+          Proven track record of building a 3-node K3s cluster and self-hosted Gitea on a standalone Proxmox VE host, writing
           system-level Bash/Python automation tools, and hardening production Linux environments.
         </p>
 
