@@ -139,38 +139,6 @@ const projects = [
     },
   },
   {
-    title: "SIEM & IDS/IPS Implementation",
-    description:
-      "Deployed and configured Wazuh SIEM with Snort and Suricata IDS/IPS systems for continuous network monitoring, threat detection, and security event correlation.",
-    tags: ["Wazuh", "Snort", "Suricata", "SIEM", "Threat Detection"],
-    period: "2024",
-    image: "/personalportfolio/siem-dashboard.jpg",
-    details: {
-      overview:
-        "Enterprise-grade security monitoring infrastructure with real-time threat detection and incident response capabilities.",
-      objectives: [
-        "Implement centralized security monitoring",
-        "Deploy multi-layer threat detection",
-        "Enable real-time alert correlation",
-        "Create automated response workflows",
-      ],
-      techStack: [
-        "Wazuh - SIEM platform",
-        "Snort IDS - Network intrusion detection",
-        "Suricata IPS - Network intrusion prevention",
-        "ELK Stack - Log aggregation",
-        "Python - Custom alert rules",
-      ],
-      outcomes: [
-        "Reduced MTTR from 4 hours to 15 minutes",
-        "Detected and blocked 500+ suspicious activities",
-        "Created 50+ custom correlation rules",
-        "Achieved 99.9% system uptime",
-      ],
-      screenshots: ["/personalportfolio/wazuh-dashboard.jpg", "/personalportfolio/threat-alerts.jpg"],
-    },
-  },
-  {
     title: "Automated Vulnerability Assessment Tool",
     description:
       "Developed Python-based automation scripts for comprehensive vulnerability scanning, compliance reporting, and security monitoring across enterprise environments.",
@@ -232,38 +200,6 @@ const projects = [
         "Reduced security risk by 85%",
       ],
       screenshots: ["/personalportfolio/security-audit-report.jpg", "/personalportfolio/compliance-checklist.jpg"],
-    },
-  },
-  {
-    title: "Cloud Security Consulting",
-    description:
-      "Provided security consulting services to telecom and software development firms on cloud infrastructure hardening, network segmentation, and threat mitigation strategies.",
-    tags: ["Cloud Security", "Risk Management", "Network Security", "Consulting"],
-    period: "2021-2024",
-    image: "/personalportfolio/cloud-security-consulting.jpg",
-    details: {
-      overview:
-        "Strategic security consulting across multiple organizations focusing on cloud infrastructure security and risk management.",
-      objectives: [
-        "Assess cloud security posture",
-        "Design secure architectures",
-        "Implement threat mitigation",
-        "Train security teams",
-      ],
-      techStack: [
-        "AWS - Cloud infrastructure",
-        "Azure - Cloud services",
-        "GCP - Cloud platform",
-        "Terraform - Infrastructure as code",
-        "Docker/Kubernetes - Container security",
-      ],
-      outcomes: [
-        "Consulted for 15+ organizations",
-        "Reduced cloud incidents by 60%",
-        "Implemented security best practices",
-        "Trained 100+ security professionals",
-      ],
-      screenshots: ["/personalportfolio/cloud-architecture.jpg", "/personalportfolio/security-framework.jpg"],
     },
   },
   {
@@ -332,9 +268,6 @@ const projects = [
         "Celery - Distributed task queue system",
         "Redis - In-memory caching and message broker",
         "Django Channels - WebSocket and async support",
-        "AWS S3 - Cloud object storage",
-        "Azure Blob Storage - Microsoft cloud storage",
-        "Google Cloud Storage - GCP storage solution",
         "Docker - Containerization platform",
       ],
       outcomes: [
