@@ -27,7 +27,7 @@ const certifications = [
   },
   {
     title: "CCNA Networking & Routing Training",
-    issuer: "The DiĀital Adda",
+    issuer: "The Digital Adda",
     areas: "Enterprise Network Design and Implementation",
     icon: "🌐",
   },

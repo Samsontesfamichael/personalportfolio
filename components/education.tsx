@@ -163,7 +163,7 @@ export default function Education() {
                 <span className="text-primary text-xl flex-shrink-0">✓</span>
                 <div>
                   <p className="font-semibold text-foreground">CCNA Networking & Routing Training</p>
-                  <p className="text-sm text-muted-foreground">The DiĀital Adda</p>
+                  <p className="text-sm text-muted-foreground">The Digital Adda</p>
                   <p className="text-xs text-accent/70 mt-1 font-mono">Certification ID : DA/NRS/24/1346</p>
                   <a
                     href="https://drive.google.com/file/d/1DC0sFHx6kCWSit7xsWARkJIgjzOkZrGC/view"
